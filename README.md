@@ -1,4 +1,4 @@
-# MeiliSearch SDKs
+# MeiliSearch integrations and SDKs guide
 
 Fully maintained:
 
@@ -6,8 +6,30 @@ Fully maintained:
 - [Python](https://github.com/meilisearch/meilisearch-python)
 - [Ruby](https://github.com/meilisearch/meilisearch-ruby)
 - [Golang](https://github.com/meilisearch/meilisearch-go)
+- [Swift](https://github.com/meilisearch/meilisearch-swift)
 - [PHP](https://github.com/meilisearch/meilisearch-php)
 
 Work in progress:
 
 - [Java](https://github.com/meilisearch/meilisearch-java)
+
+This repository aims to centralize all information about the different SDKs & integrations that are built around MeiliSearch.
+
+## Documentation
+
+Here is the [MeiliSearch documentation](https://docs.meilisearch.com).
+There is no documentation for the different SDKs except the dedicated READMEs. There is a [discussion about it](https://github.com/meilisearch/sdks/issues/3).
+
+## Building an integration
+
+If you want to build an integration for MeiliSearch, you are more than welcome to and we would be happy to help you :)
+
+Here are some guidelines that you should follow though, if we want to guarantee consistency across the differents integrations and technical quality for the different MeiliSearch users.
+
+#### About testing
+
+If you want to start writing tests you can read what the [PHP SDK](https://github.com/meilisearch/meilisearch-php) is testing to get an overview of minimum viable tests that your SDK should support. The [JS](https://github.com/meilisearch/meilisearch-js) and the [Ruby](https://github.com/meilisearch/meilisearch-ruby) SDKs are also good examples of deeper tests.
+
+#### README
+
+All the README should follow the same patterns. This repository should hold the README template and at some point, we might want to automatically update all the readmes from here. 
