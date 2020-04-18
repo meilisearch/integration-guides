@@ -33,18 +33,20 @@ Here are some guidelines that you should follow though, if we want to guarantee 
 
 All the README should follow the same patterns. This repository should hold the README template and at some point, we might want to automatically update all the readmes from here.
 
-Since we don't provide a official template in this repository, here are the minimum part that the README must contain:
+Since we don't provide an official template in this repository, here are the minimum part that the README must contain:
 
 - A well-explained `Getting Started` part: the user should be able to copy/paste the code and command examples and everything should work as expected.
 - Basic code examples
 - A `Development Workflow` part so that everyone can easily contribute
 
-We recommand to check out the READMEs of our SDKs repositories 🙂
+We recommend to check out the READMEs of our SDKs repositories 🙂
 
 #### Tests
 
 If you want to start writing tests you can read what the [PHP SDK](https://github.com/meilisearch/meilisearch-php) is testing to get an overview of minimum viable tests that your SDK should support. The [JS](https://github.com/meilisearch/meilisearch-js) and the [Ruby](https://github.com/meilisearch/meilisearch-ruby) SDKs are also good examples of deeper tests.
 
-#### Linter
+#### Linter and Style
 
 A linter should be added to optimize contributions.
+
+We also recommend to add a `.editorconfig` file so that everyone can follow minimal style rules.
