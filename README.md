@@ -25,7 +25,7 @@ There is no documentation for the different SDKs except the dedicated READMEs. T
 
 If you want to build an integration for MeiliSearch, you are more than welcome to and we would be happy to help you :)
 
-We are proud to say that some of our libraries was done and still maintained by external contributors!
+We are proud that some of our libraries were developed and are still maintained by external contributors ❤️
 
 Here are some guidelines that you should follow though, if we want to guarantee consistency across the differents integrations and technical quality for the different MeiliSearch users.
 
