@@ -47,6 +47,6 @@ If you want to start writing tests you can read what the [PHP SDK](https://githu
 
 #### Linter and Style
 
-A linter should be added to optimize contributions.
+A linter should be added to ease contributions and maintainers work.
 
 We also recommend to add a `.editorconfig` file so that everyone can follow minimal styling rules.
