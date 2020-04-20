@@ -36,8 +36,8 @@ All READMEs should follow the same pattern. This repository should hold the READ
 Since we don't provide an official template in this repository, here are the minimum part that the README must contain:
 
 - A well-explained `Getting Started` part: the user should be able to copy/paste the code and command examples and everything should work as expected.
-- Basic code examples for the most common actions
-- A `Development Workflow` part so that everyone can easily contribute
+- Basic code examples for the most common actions.
+- A `Development Workflow` part so that everyone can easily contribute.
 
 We recommend to check out the READMEs of our SDKs repositories 🙂
 
