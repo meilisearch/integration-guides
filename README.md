@@ -31,7 +31,7 @@ Here are some guidelines that you should follow though, if we want to guarantee 
 
 #### README
 
-All the README should follow the same patterns. This repository should hold the README template and at some point, we might want to automatically update all the readmes from here.
+All READMEs should follow the same pattern. This repository should hold the README template and at some point, we might want to automatically update all the READMEs from here.
 
 Since we don't provide an official template in this repository, here are the minimum part that the README must contain:
 
