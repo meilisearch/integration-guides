@@ -2,13 +2,13 @@
 
 Fully maintained:
 
-- [Javascript](https://github.com/meilisearch/meilisearch-js)
+- [Golang](https://github.com/meilisearch/meilisearch-go)
+- [JavaScript](https://github.com/meilisearch/meilisearch-js)
+- [Laravel Scout](https://github.com/meilisearch/meilisearch-laravel-scout)
+- [PHP](https://github.com/meilisearch/meilisearch-php)
 - [Python](https://github.com/meilisearch/meilisearch-python)
 - [Ruby](https://github.com/meilisearch/meilisearch-ruby)
-- [Golang](https://github.com/meilisearch/meilisearch-go)
 - [Swift](https://github.com/meilisearch/meilisearch-swift)
-- [PHP](https://github.com/meilisearch/meilisearch-php)
-- [Laravel Scout](https://github.com/meilisearch/meilisearch-laravel-scout)
 
 Work in progress:
 
