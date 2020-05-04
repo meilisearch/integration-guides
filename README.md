@@ -53,4 +53,4 @@ We also recommend to add a `.editorconfig` file so that everyone can follow mini
 
 #### About Publishing
 
-We ask our contributors to **not** publish the package into the official platform since we have not moved the work to the MeiliSearch organization. The SDKs and Integration team will take the charge of this part 😉
+We ask external contributors to **not** publish the package on the official platforms before we move the work to the MeiliSearch organization. Meili team will handle this part since we will automate it 😉
