@@ -50,3 +50,7 @@ If you want to start writing tests you can read what the [PHP SDK](https://githu
 A linter should be added to ease contributions and maintainers work.
 
 We also recommend to add a `.editorconfig` file so that everyone can follow minimal styling rules.
+
+#### About Publishing
+
+We ask our contributors to **not** publish the package into the official platform since we have not moved the work to the MeiliSearch organization. The SDKs and Integration team will take the charge of this part 😉
