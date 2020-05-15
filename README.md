@@ -1,6 +1,8 @@
-# MeiliSearch integrations and SDKs guide
+# MeiliSearch Integrations and SDKs Guide
 
-Fully maintained:
+This repository aims to centralize all information about the different SDKs & integrations that are built around MeiliSearch.
+
+### SDKs
 
 - [Golang](https://github.com/meilisearch/meilisearch-go)
 - [JavaScript](https://github.com/meilisearch/meilisearch-js)
@@ -14,7 +16,15 @@ Work in progress:
 
 - [Java](https://github.com/meilisearch/meilisearch-java)
 
-This repository aims to centralize all information about the different SDKs & integrations that are built around MeiliSearch.
+### Front-End Integrations
+
+- [Vuepress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch)
+- [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
+
+### Misc
+
+- [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
+- [meilisearch-digital-ocean](https://github.com/meilisearch/meilisearch-digital-ocean): how to deploy a MeiliSearch instance on DigitalOcean
 
 ## Documentation
 
