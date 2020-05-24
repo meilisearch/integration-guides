@@ -18,7 +18,7 @@ Work in progress:
 
 ### Front-End Integrations
 
-- [Vuepress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch)
+- [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch)
 - [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 
 ### Other integration tools
