@@ -34,6 +34,7 @@
 ## <img src="assets/icons/wip.png" width="20"> Work in progress:
 
 - [Java](https://github.com/meilisearch/meilisearch-java)
+- [.Net](https://github.com/meilisearch/meilisearch-dotnet)
 
 ## <img src="assets/icons/front.png" width="20"> Front-End Integrations
 
