@@ -124,6 +124,6 @@ We don't follow any other convention, but if you want to use one, we recommend [
 Some points about GitHub PR:
 - [Convert your PR as a draft](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request) if your changes are a work in progress: no one will review it until you pass your PR as ready for review.
 - The branch related to the PR must be **up-to-date with `master`** before merging.
-- All PRs must be reviewed and approved by at least one member.
+- All PRs must be reviewed and approved by at least one maintainer.
 - All PRs have to be **squashed and merged**.
 - The PR title should be accurate and descriptive of the changes. The title of the PR will be indeed automatically added to the next [release changlogs](https://github.com/meilisearch/XXX/releases/).
