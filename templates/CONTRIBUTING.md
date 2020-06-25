@@ -4,7 +4,7 @@
 
 COMMENT TO REMOVE
 
-Be aware of XXX in sentences and links: they need to be replaced by the name of the repository.
+Be aware of XXX in sentences and links: they need to be replaced by the name of the actual repository.
 
 ---
 
@@ -127,4 +127,3 @@ Some points about GitHub PR:
 - All PRs must be reviewed and approved by at least one member.
 - All PRs have to be **squashed and merged**.
 - The PR title should be accurate and descriptive of the changes. The title of the PR will be indeed automatically added to the next [release changlogs](https://github.com/meilisearch/XXX/releases/).
-
