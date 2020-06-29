@@ -91,7 +91,7 @@ About this automation:
 
 #### How to Publish the Release
 
-You must do a PR modifying the file `[<Add file name here>]`(\<Add relative path to the file here\>) with the right version.
+Make a PR modifying the file `[<Add file name here>]`(\<Add relative path to the file here\>) with the right version.
 
 ```<Add the language here>
 <Add the line to change, e.g.: "version": X.X.X>
