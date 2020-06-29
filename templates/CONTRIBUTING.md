@@ -83,7 +83,7 @@ The draft release description is therefore generated and corresponds to all the 
 
 About this automation:
 - As the draft release description is generated on every push on `master`, don't change it manually until the final release publishment.
-- If you don't want a PR to appear in the release changelogs: set the label `skip-changelog`. We used to remove PRs updating the README or the CI (except for big changes).
+- If you don't want a PR to appear in the release changelogs: add the label `skip-changelog`. We suggest removing PRs updating the README or the CI (except for big changes).
 - If the changes you are doing in the PR are breaking: set the label `breaking-change`. In the release tag, the minor will be increased instead of the patch. The major will never be changed until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
 - If you did any mistake, for example the PR is already closed but you forgot to add a label or you misnamed your PR, don't panic: change what you want in the closed PR and run the job again.
 
