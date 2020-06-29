@@ -111,7 +111,7 @@ We do not enforce any branch naming style, but please use something descriptive 
 
 ### Git Commits
 
-As a minimal requirement, we ask the commit message:
+As minimal requirements, your commit message should be:
 - to be capitalized
 - not to finish by a dot or any other punctuation character (!,?)
 - to start with a verb so that we can read your commit message this way: "This commmit will ..." where "..." is the commit message.
