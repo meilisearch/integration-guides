@@ -107,7 +107,7 @@ A GitHub Action will be triggered and push the package on [\<Add the platform na
 ### Git Branches
 
 All changes must be made in a branch and submitted as PR.
-We do not adopt any type of branch naming style, but please use something descriptive of your changes.
+We do not enforce any branch naming style, but please use something descriptive of your changes.
 
 ### Git Commits
 
