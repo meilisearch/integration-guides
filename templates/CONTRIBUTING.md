@@ -110,10 +110,10 @@ We do not enforce any branch naming style, but please use something descriptive 
 
 ### Git Commits
 
-As minimal requirements, your commit message should be:
-- to be capitalized
-- not to finish by a dot or any other punctuation character (!,?)
-- to start with a verb so that we can read your commit message this way: "This commmit will ..." where "..." is the commit message.
+As minimal requirements, your commit message should:
+- be capitalized
+- not finish by a dot or any other punctuation character (!,?)
+- start with a verb so that we can read your commit message this way: "This commmit will ..." where "..." is the commit message.
   e.g.: "Fix the home page button" or "Add more tests for create_index method"
 
 We don't follow any other convention, but if you want to use one, we recommend [this one](https://chris.beams.io/posts/git-commit/).
