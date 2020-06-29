@@ -77,7 +77,7 @@ MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org
 
 #### Automated Changelogs
 
-For each PR merged on `master`, a GitHub Action is running and updates the next release description as a draft release in the [GitHub interface](https://github.com/meilisearch/XXX/releases). If you don't have the permission to this repository, you will not be able to see the draft release until the release will be published.
+For each PR merged on `master`, a GitHub Action is running and updates the next release description as a draft release in the [GitHub interface](https://github.com/meilisearch/XXX/releases). If you don't have the right access to this repository, you will not be able to see the draft release until the release is published.
 
 The draft release description is therefore generated and corresponds to all the PRs titles since the previous release. This means each PR should only do one change and the title should be desriptive of this change.
 
