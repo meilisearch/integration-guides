@@ -81,7 +81,7 @@ For each PR merged on `master`, a GitHub Action is running and updates the next 
 
 The draft release description is therefore generated and corresponds to all the PRs titles since the previous release. This means each PR should only do one change and the title should be desriptive of this change.
 
-Some points about this automatization:
+About this automation:
 - As the draft release description is generated on every push on `master`, don't change it manually until the final release publishment.
 - If you don't want a PR to appear in the release changelogs: set the label `skip-changelog`. We used to remove PRs updating the README or the CI (except for big changes).
 - If the changes you are doing in the PR are breaking: set the label `breaking-change`. In the release tag, the minor will be increased instead of the patch. The major will never be changed until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
