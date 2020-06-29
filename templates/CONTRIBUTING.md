@@ -87,7 +87,7 @@ About this automation:
 - If the changes you are doing in the PR are breaking: set the label `breaking-change`. In the release tag, the minor will be increased instead of the patch. The major will never be changed until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
 - If you did any mistake, for example the PR is already closed but you forgot to add a label or you misnamed your PR, don't panic: change what you want in the closed PR and run the job again.
 
-*More information about [release drafter](https://github.com/release-drafter/release-drafter) we use to automatize these steps.*
+*More information about [release drafter](https://github.com/release-drafter/release-drafter), used to automate these steps.*
 
 #### How to Publish the Release
 
