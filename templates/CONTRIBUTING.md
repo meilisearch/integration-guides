@@ -28,7 +28,7 @@ First of all, thank you for contributing to MeiliSearch! The goal of this docume
 ## How to Contribute
 
 1. Make sure that the contribution you want to make is explained or detailed in a GitHub issue! Find an [existing issue](https://github.com/meilisearch/XXX/issues/) or [open a new one](https://github.com/meilisearch/XXX/issues/new).
-2. Once approved, [fork the XXX repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) in your own GitHub account.
+2. Once done, [fork the XXX repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) in your own GitHub account. Ask a maintainer if you want your issue to be checked before making a PR.
 3. [Create a new Git branch](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository).
 4. Review the [Development Workflow](#workflow) section that describes the steps to maintain the repository.
 5. Make your changes.
