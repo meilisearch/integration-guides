@@ -74,9 +74,12 @@ Since for now we don't provide an official template in this repository, here are
 
 - A well-explained `Getting Started` section: the user should be able to copy/paste the code and command examples and everything should work as expected.
 - Basic code examples for the most common actions.
-- A `Development Workflow` part so that everyone can easily contribute.
 
-We recommend to check out the READMEs of our SDKs repositories 🙂
+We recommend checking out the READMEs of our SDKs repositories 🙂
+
+### CONTRIBUTING.md
+
+The repository should contain a CONTRIBUTING.md. The [template is here](/templates/CONTRIBUTING.md) and needs to be filled according to the repository context.
 
 ### Tests
 
