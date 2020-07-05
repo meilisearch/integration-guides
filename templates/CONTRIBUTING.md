@@ -99,7 +99,7 @@ Make a PR modifying the file `[<Add file name here>]`(\<Add relative path to the
 
 Once the changes are merged on `master`, you can publish the current draft release via the [GitHub interface](https://github.com/meilisearch/XXX/releases).
 
-A GitHub Action will be triggered and push the package on [\<Add the platform name here, e.g. npm>](\<Add URL to the platform here\>).
+A GitHub Action will be triggered and push the package to [\<Add the platform name here, e.g. npm>](\<Add URL to the platform here\>).
 
 ## Git Guidelines
 
