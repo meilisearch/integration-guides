@@ -35,6 +35,7 @@
 
 - [Java](https://github.com/meilisearch/meilisearch-java)
 - [.Net](https://github.com/meilisearch/meilisearch-dotnet)
+- [Symfony](https://github.com/meilisearch/meilisearch-symfony)
 
 ## <img src="assets/icons/front.png" width="20"> Front-End Integrations
 
