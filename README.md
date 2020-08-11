@@ -40,7 +40,10 @@
 
 ## <img src="assets/icons/front.png" width="20"> Front-End Integrations
 
+- [React](https://github.com/meilisearch/meilisearch-react)
+- [Vue](https://github.com/meilisearch/meilisearch-vue)
 - [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch)
+- [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch): a plugin to establish the communication between MeiliSearch and the open-source [InstantSearch](https://github.com/algolia/instantsearch.js) tools (powered by Algolia) for your front-end application.
 - [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 
 ## <img src="assets/icons/other.png" width="20"> Other integration tools
