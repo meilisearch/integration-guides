@@ -29,13 +29,13 @@
 - [PHP](https://github.com/meilisearch/meilisearch-php)
 - [Python](https://github.com/meilisearch/meilisearch-python)
 - [Ruby](https://github.com/meilisearch/meilisearch-ruby)
+- [Rust](https://github.com/meilisearch/meilisearch-rust)
 - [Swift](https://github.com/meilisearch/meilisearch-swift)
 
 ## <img src="assets/icons/wip.png" width="20"> Work in progress:
 
 - [Java](https://github.com/meilisearch/meilisearch-java)
 - [.Net](https://github.com/meilisearch/meilisearch-dotnet)
-- [Rust](https://github.com/meilisearch/meilisearch-rust)
 - [Symfony](https://github.com/meilisearch/meilisearch-symfony)
 
 ## <img src="assets/icons/front.png" width="20"> Front-End Integrations
