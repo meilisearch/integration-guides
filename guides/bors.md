@@ -10,6 +10,7 @@ The only proper way to keep the Git history clear is to rebase the branch origin
 It became tedious to always ask the contributors to rebase their branch when their branch was not up-to-date with `master` because:
 - It forces everyone to wait again before the merge
 - It is not always easy to successfully apply a rebase without any issue
+- Sometimes there are several PRs ready to be merged, which introduces complexity in coordination
 
 ### But why rebasing?
 
