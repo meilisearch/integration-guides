@@ -14,7 +14,7 @@ It became tedious to always ask the contributors to rebase their branch when the
 ### But why rebasing?
 
 The goal of a rebase is to move the commits (from the PR branch) right after the last commit on `master`.<br>
-Therefore, rebasing lets your Git history clear and consistent with the order of your PR merges.
+Therefore, rebasing keeps your Git history clear and consistent with the order in which you have merged your PRs.
 
 But most of all rebasing is the only way to guarantee that the work that is going to be merged fits exactly the current work in production. If the tests pass on an up-to-date branch, you ensure the tests will pass once merged into `master`, so your production work will not be broken.
 
