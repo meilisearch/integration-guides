@@ -16,7 +16,7 @@ It became tedious to always ask the contributors to rebase their branch when the
 The goal of a rebase is to move the commits (from the PR branch) right after the last commit on `master`.<br>
 Therefore, rebasing keeps your Git history clear and consistent with the order in which you have merged your PRs.
 
-But most of all rebasing is the only way to guarantee that the work that is going to be merged fits exactly the current work in production. If the tests pass on an up-to-date branch, you ensure the tests will pass once merged into `master`, so your production work will not be broken.
+But most of all rebasing is the only way to guarantee that the work that is going to be merged fits the current work in production. If the tests pass on an up-to-date branch, it ensures the tests will pass once merged into `master`, assuring your production branch will not break.
 
 ## How does Bors work?
 
