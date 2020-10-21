@@ -1,4 +1,4 @@
-# Bors: our Merge Bot for PRs
+# Bors: a Merge Bot for PRs
 
 [Bors](https://github.com/bors-ng/bors-ng) is a tool that helps us manage pull requests (PR) merging.
 
