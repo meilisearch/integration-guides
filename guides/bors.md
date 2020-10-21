@@ -21,7 +21,7 @@ But most of all, rebasing is the only way to guarantee that the work that is goi
 
 ## How does Bors work?
 
-Bors is a bot that automatically applies a rebase before passing the tests and merging.<br>
+Bors is a bot that automatically applies a rebase before running the tests and finally merging if they succeed.<br>
 This allows us to _automatically maintain a repository of code that always passes all the tests__ (cf [this article](https://graydon2.dreamwidth.org/1597.html) by the creator of Bors)
 
 ### Usage
