@@ -8,8 +8,8 @@ One of our requirements to merge a PR is the branch has to be up-to-date with th
 The only proper way to keep the Git history clear is to rebase the branch of the PR.
 
 It became tedious to always ask the contributors to rebase their branch when their branch was not up-to-date with `master` because:
-- it forces everyone to wait again before the merge
-- it is not always easy to successfully apply a rebase without any issue
+- It forces everyone to wait again before the merge
+- It is not always easy to successfully apply a rebase without any issue
 
 ### But why rebasing?
 
