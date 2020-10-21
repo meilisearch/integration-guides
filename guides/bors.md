@@ -54,7 +54,7 @@ Bors is going to check the PR passes the tests when up-to-date with `master` and
 
 💡 Bors is also able to manage multiple merging PRs at the same time. Each PR is added to a queue and will be checked with the last version on `master`.
 
-### More details
+### More Details
 
 In fact, Bors does not concretely rebase the branch of the PR: it merges the commits of the PR into another branch that is already up-to-date with `master`:
 
