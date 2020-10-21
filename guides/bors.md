@@ -4,7 +4,7 @@
 
 ## Motivations
 
-One of our requirements to merge a PR is the branch has to be up-to-date with the `master` branch.<br>
+One of our requirements to merge a PR is that a contributor branch has to be up-to-date with the upstream `master` branch.<br>
 The only proper way to keep the Git history clear is to rebase the branch of the PR.
 
 It became tedious to always ask the contributors to rebase their branch when their branch was not up-to-date with `master` because:
