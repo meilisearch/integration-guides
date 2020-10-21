@@ -25,7 +25,7 @@ This allows us to _automatically maintain a repository of code that always passe
 
 ### Usage
 
-All the Bors commands have to be written as a comment of the PR.
+All the Bors commands have to be given through comments in the PR.
 
 #### Simple Check
 
