@@ -22,7 +22,7 @@ Keeping in mind that the Git history is important, rebasing is the only way to g
 ## How does Bors work?
 
 Bors is a bot that automatically applies a rebase before running the tests and finally merging if they succeed.<br>
-This allows us to _automatically maintain a repository of code that always passes all the tests__ (cf [this article](https://graydon2.dreamwidth.org/1597.html) by the creator of Bors)
+This allows us to _automatically maintain a repository of code that always passes all the tests_ (cf [this article](https://graydon2.dreamwidth.org/1597.html) by the creator of Bors)
 
 ### Usage
 
