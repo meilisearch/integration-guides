@@ -20,7 +20,7 @@ The draft release description is therefore generated and corresponds to all the 
 
 If you don't want a PR to appear in the release changelogs: add the label `skip-changelog`.
 
-We suggest removing PRs updating the README or the CI. Indeed, the users don't need this kind of information when updating the package.
+We suggest removing PRs updating the README or the CI. Users don't need this kind of information when updating the package.
 
 ### The PR implies breaking changes
 
