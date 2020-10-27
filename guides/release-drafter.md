@@ -4,7 +4,7 @@ The [release-drafter](https://github.com/release-drafter/release-drafter/) tool 
 
 ## Motivations
 
-We maintain a lot of packages and plugins than imply several releases we have to publish regularly.<br>
+We maintain a lot of packages and plugins implying several releases that we have to publish regularly.<br>
 Our users need to know exactly and clearly what changed in the new release. That's why the changelogs are important and must be accurate.
 
 Of course, it is tedious to manually write the changelogs without any omissions, and this task can easily be automated.
