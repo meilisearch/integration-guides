@@ -26,7 +26,7 @@ We suggest removing PRs updating the README or the CI. Users don't need this kin
 
 If the changes you are doing in the PR are breaking: add the label `breaking-change`.
 
-In the release tag, the minor will be increased instead of the patch. The major will never be changed until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
+MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). In the release tag, the minor will be increased instead of the patch. The major will never be changed until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
 
 ### Other Recommendations
 
