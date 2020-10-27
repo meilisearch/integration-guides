@@ -11,7 +11,7 @@ Of course, it is tedious to manually write the changelogs without any omissions,
 
 ## How does the Release-Drafter work?
 
-For each PR merged on `master`, a GitHub Action is running and updates the next release description as a draft release in the [GitHub interface](https://github.com/meilisearch/meilisearch-ruby/releases).<br>
+For each PR merged on `master`, a GitHub Action is run: it updates the next release description as a draft release in the [GitHub interface](https://github.com/meilisearch/meilisearch-ruby/releases).<br>
 If you don't have the right access to this repository, you will not be able to see the draft release until the release is published.
 
 The draft release description is therefore generated and corresponds to all the PRs titles since the previous release. **This means each PR should only do one change, and the title should be descriptive of this change**.
