@@ -22,21 +22,19 @@
   <a href="https://github.com/meilisearch/MeiliSearch/discussions" alt="Discussions"><img src="https://img.shields.io/badge/github-discussions-red" /></a>
 </p>
 
-## <img src="assets/icons/dev.png" width="20"> Language SDKs
+## <img src="assets/icons/dev.png" width="20"> SDKs for MeiliSearch API
 
 - [Golang](https://github.com/meilisearch/meilisearch-go)
 - [JavaScript](https://github.com/meilisearch/meilisearch-js)
-- [Laravel Scout](https://github.com/meilisearch/meilisearch-laravel-scout)
 - [PHP](https://github.com/meilisearch/meilisearch-php)
 - [Python](https://github.com/meilisearch/meilisearch-python)
 - [Ruby](https://github.com/meilisearch/meilisearch-ruby)
 - [Rust](https://github.com/meilisearch/meilisearch-rust)
 - [Swift](https://github.com/meilisearch/meilisearch-swift)
 
-## <img src="assets/icons/wip.png" width="20"> Work in progress:
+## 🏗 Framework Integrations
 
-- [Java](https://github.com/meilisearch/meilisearch-java)
-- [.Net](https://github.com/meilisearch/meilisearch-dotnet)
+- [Laravel Scout](https://github.com/meilisearch/meilisearch-laravel-scout)
 - [Symfony](https://github.com/meilisearch/meilisearch-symfony)
 
 ## <img src="assets/icons/front.png" width="20"> Front-End Integrations
@@ -47,11 +45,20 @@
 - [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch): a plugin to establish the communication between MeiliSearch and the open-source [InstantSearch](https://github.com/algolia/instantsearch.js) tools (powered by Algolia) for your front-end application.
 - [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 
-## <img src="assets/icons/other.png" width="20"> Other integration tools
+## 🐳 DevOps Tools
 
-- [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
 - [meilisearch-digital-ocean](https://github.com/meilisearch/meilisearch-digital-ocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/resources/howtos/digitalocean_droplet.html) to use it.
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): how to deploy a MeiliSearch instance on Kubernetes.
+
+## <img src="assets/icons/other.png" width="20"> Misc
+
+- [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
+
+
+## 🧑‍🔧 Work In Progress
+
+- [Java](https://github.com/meilisearch/meilisearch-java)
+- [.Net](https://github.com/meilisearch/meilisearch-dotnet)
 
 # Roadmap, discussions and work in progress
 
