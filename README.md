@@ -25,6 +25,7 @@
 ## <img src="assets/icons/dev.png" width="20"> SDKs for MeiliSearch API
 
 - [Golang](https://github.com/meilisearch/meilisearch-go)
+- [Java](https://github.com/meilisearch/meilisearch-java)
 - [JavaScript](https://github.com/meilisearch/meilisearch-js)
 - [PHP](https://github.com/meilisearch/meilisearch-php)
 - [Python](https://github.com/meilisearch/meilisearch-python)
@@ -57,7 +58,6 @@
 
 ## 🧑‍🔧 Work In Progress
 
-- [Java](https://github.com/meilisearch/meilisearch-java)
 - [.Net](https://github.com/meilisearch/meilisearch-dotnet)
 
 # Roadmap, discussions and work in progress
