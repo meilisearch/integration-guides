@@ -48,7 +48,7 @@
 
 ## 🐳 DevOps Tools
 
-- [meilisearch-digital-ocean](https://github.com/meilisearch/meilisearch-digital-ocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/resources/howtos/digitalocean_droplet.html) to use it.
+- [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/resources/howtos/digitalocean_droplet.html) to use it.
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): how to deploy a MeiliSearch instance on Kubernetes.
 
 ## <img src="assets/icons/other.png" width="20"> Misc
