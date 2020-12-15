@@ -4,7 +4,7 @@ Here are the different guides for the Integration team.
 
 ## ⚙️ Processes
 
-- The Pre-Release Week
+- The [Pre-Release Week](./pre-release-week.md)
 - Releasing an integration tool
 
 ## 🔧 Tools
