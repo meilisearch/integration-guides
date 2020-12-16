@@ -59,6 +59,7 @@
 ## 🧑‍🔧 Work In Progress
 
 - [.Net](https://github.com/meilisearch/meilisearch-dotnet)
+- [Dart](https://github.com/meilisearch/meilisearch-dart)
 
 # Roadmap, discussions and work in progress
 
