@@ -49,20 +49,18 @@ For each implementation or fix:
 If they don't pass all, please explain the reason: another PR concerning other changes might indeed be needed.
 - **Ask for reviews**.
 - **Merge the PR** with the `Squash and Merge` button once you get an approval.<br>
-Don't use Bors: this tool would not run the tests against the RC so will not merge your PR.
-- Once the PR is merged into `bump-meilisearch-v*.*.*`, **update the main PR description** (the draft PR to merge `bump-meilisearch-v*.*.*` into `master`) with the topic of the just-merged PR.<br>
+Don't use Bors: this tool would not run the tests against the RC so will not merge your PR.<br>
 Some tests still might fail on this main PR until the new release of MeiliSearch is out.
 
 ## 🥳 After the MeiliSearch official release
 
 - Close the PR originating the `bump-meilisearch-v*.*.*-test` branch in [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean/pulls).
 - Merge all the PRs in the repositories that **don't** depend on other integration packages (e.g. do **not** merge meilisearch-laravel-scout or docs-scraper):
-- Make a;; the PRs ready for review (change the draft status).
-- Run the tests with the `bors try` command.
-- Ask for or/and do a final reviews.
-- Merge the PRs with Bors (`bors merge`).
+  - Make the PRs ready for review (change the draft status).
+  - Run the tests with the `bors try` command.
+  - Ask for or/and do a final reviews.
+  - Merge the PRs with Bors (`bors merge`).
 - Release the just-modified packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
-- For the repositories depending on other integration packages: upgrade the dependency, commit to `bump-meiliserch-v*.*.*` and merge the PR.
+- For the repositories depending on other integration packages: upgrade the dependency, commit to `bump-meiliserch-v*.*.*` and merge the PR with the same process than above.
 - Release these packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
-- Close the related issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues) if all the different points have been integrated into all the repositories.
-- If some features have not been integrated into one or several integration tools, issues about the implementation must be opened in the concerned repositories.
+- Close the related issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues). If some features have not been integrated into one or several integration tools, issues about the implementations must be opened in the concerned repositories before closing the main issue in integration-guides.
