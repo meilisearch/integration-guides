@@ -22,7 +22,7 @@ Before any MeiliSearch release, and during the pre-release week, the following t
 
 > 💡 Use [this script](https://github.com/meilisearch/integration-scripts/tree/main/release-pr-creator) (only available internally) to automate the following steps. *(WIP: this tool should handle the different points and the exceptions with a detailed guide to follow. For the moment only @curquiza will do this section.)*
 
-- In each integration repository, create a draft PR modifying the old version of MeiliSearch into the future release version. The branch name originating this PR should be `bump-meilisearch-v*.*.*`. In most cases, only the `[README.md](http://readme.md)` file changes.
+- In each integration repository, create a draft PR modifying the old version of MeiliSearch into the future release version. The branch name originating this PR should be `bump-meilisearch-v*.*.*`. In most cases, only the `README.md` file changes.
 
 - Create a draft PR in the [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean) repository modifying the old MeiliSearch version **into the RC version**. This branch originating the PR should be named `bump-meilisearch-v*.*.*-test`. This branch is only created for test purposes and will be closed at the end of the pre-release week.
 
