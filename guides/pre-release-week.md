@@ -55,12 +55,12 @@ Some tests still might fail on this main PR until the new release of MeiliSearch
 ## 🥳 After the MeiliSearch official release
 
 - Close the PR originating the `bump-meilisearch-v*.*.*-test` branch in [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean/pulls).
-- Merge all the PRs in the repositories that **don't** depend on other integration packages (e.g. do **not** merge meilisearch-laravel-scout or docs-scraper):
+- Merge all the PRs in the repositories that **don't** depend on other integration packages (e.g. do **not** merge meilisearch-laravel-scout or instant-meilisearch first):
   - Make the PRs ready for review (change the draft status).
   - Run the tests with the `bors try` command.
   - Ask for or/and do a final reviews.
   - Merge the PRs with Bors (`bors merge`).
 - Release the just-modified packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
-- For the repositories depending on other integration packages: upgrade the dependency, commit to `bump-meiliserch-v*.*.*` and merge the PR with the same process than above.
+- For the repositories depending on other integration packages (like meilisearch-laravel-scout or instant-meilisearch): upgrade the dependency, commit to `bump-meiliserch-v*.*.*` and merge the PR with the same process than above.
 - Release these packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
 - Close the related issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues). If some features have not been integrated into one or several integration tools, issues about the implementations must be opened in the concerned repositories before closing the main issue in integration-guides.
