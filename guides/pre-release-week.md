@@ -24,7 +24,7 @@ Before any MeiliSearch release, and during the pre-release week, the following t
 
 - In each integration repository, create a draft PR modifying the old version of MeiliSearch into the future release version. The branch name originating this PR should be `bump-meilisearch-v*.*.*`. In most cases, only the `README.md` file changes.
 
-- Create a draft PR in the [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean) repository modifying the old MeiliSearch version **into the RC version**. This branch originating the PR should be named `bump-meilisearch-v*.*.*-test`. This branch is only created for test purposes and will be closed at the end of the pre-release week.
+- Create a draft PR in the [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean) repository modifying the old MeiliSearch version **into the RC version**. This branch originating the PR should be named `bump-meilisearch-v*.*.*-rc`. This branch is only created for test purposes and will be closed at the end of the pre-release week.
 
 ## 🧪 Testing
 
@@ -54,8 +54,8 @@ Some tests still might fail on this main PR until the new release of MeiliSearch
 
 ## 🥳 After the MeiliSearch official release
 
-- Close the PR originating the `bump-meilisearch-v*.*.*-test` branch in [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean/pulls).
-- Merge all the PRs in the repositories that **don't** depend on other integration packages (e.g. do **not** merge meilisearch-laravel-scout or instant-meilisearch first):
+- Remove the `bump-meilisearch-v*.*.*-rc` branch from [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean/branches).
+- Merge all the PRs in the repositories that **don't** depend on other integration packages (e.g. do **not** merge meilisearch-laravel-scout or docs-scraper):
   - Make the PRs ready for review (change the draft status).
   - Run the tests with the `bors try` command.
   - Ask for or/and do a final reviews.
