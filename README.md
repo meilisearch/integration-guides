@@ -55,7 +55,6 @@
 
 - [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
 
-
 ## 🧑‍🔧 Work In Progress
 
 - [.Net](https://github.com/meilisearch/meilisearch-dotnet)
