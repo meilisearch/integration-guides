@@ -10,17 +10,27 @@
 
 Before any MeiliSearch release, and during the pre-release week, the following tasks should be done:
 
+- [💬 Discussing](#-discussing)
 - [📌 First Preparations](#-first-preparations)
 - [🧪 Testing](#-testing)
-- [💬 Discussing](#-discussing)
 - [💻 Coding](#-coding)
 - [🥳 After the MeiliSearch official release](#-after-the-meilisearch-official-release)
+
+## 💬 Discussing
+
+> 💡 This step can be done before the beginning of the pre-release week by actively following the MeiliSearch's Milestones and issues.
+
+- **Open a new issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues/new)** (labeled `MeiliSearch bump`) about the changes in the next release of MeiliSearch that will impact one or several integration tools. See [an issue example](https://github.com/meilisearch/integration-guides/issues/52).<br>
+Based on the [MeiliSearch milestones](https://github.com/meilisearch/MeiliSearch/milestones), this issue should be divided into sub-sections for each feature/fix. These sub-sections explain in a concise way how the change impacts the integration tool(s) and how to fix/implement it if necessary.<br>
+If a change involves a huge implementation in the integration tools, a separated issue can be created and linked to the main issue.
+
+- **Discuss and approve the issue**. All the Integration team members are requested. The 🚀 emoji means approval.
 
 ## 📌 First Preparations
 
 > ⚠️ All the following steps in this section should be done with the [meili-bot](https://github.com/meili-bot) credentials.
 
-> 💡 Use [this script](https://github.com/meilisearch/integration-scripts/tree/main/release-pr-creator) (only available internally) to automate the following steps. *(WIP: this tool should handle the different points and the exceptions with a detailed guide to follow. For the moment only @curquiza will do this section.)*
+> 💡 Use [this script](https://github.com/meilisearch/integration-scripts/tree/main/pre-release-script) (only available internally) to automate the following steps. *(WIP: this tool should handle the different points and the exceptions with a detailed guide to follow. For the moment only @curquiza will do this section.)*
 
 - In each integration repository, create a draft PR modifying the old version of MeiliSearch into the future release version. The branch name originating this PR should be `bump-meilisearch-v*.*.*`. In most cases, only the `README.md` file changes.
 
@@ -31,14 +41,6 @@ Before any MeiliSearch release, and during the pre-release week, the following t
 - **Test manually the RC** with a Core team member or on your own. Should be done by all the Integration team members.
 - **Run all the SDKs automatic test suites against the RC** thanks to [this script](https://github.com/meilisearch/integration-scripts/tree/main/sdks-tests). If tests are not green, these should be justified.
 - **Test manually the DO image with the RC** on the `bump-meilisearch-v*.*.*-test` branch by following the [testing process steps](https://github.com/meilisearch/meilisearch-digitalocean/blob/master/CONTRIBUTING.md#test-before-releasing) **without merging the branch or submitting the image.**
-
-## 💬 Discussing
-
-- **Open a new issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues/new)** (labeled `MeiliSearch bump`) about the changes in the next release of MeiliSearch that will impact one or several integration tools. See [an issue example](https://github.com/meilisearch/integration-guides/issues/52).<br>
-Based on the [MeiliSearch milestones](https://github.com/meilisearch/MeiliSearch/milestones), this issue should be divided into sub-sections for each feature/fix. These sub-sections explain in a concise way how the change impacts the integration tool(s) and how to fix/implement it if necessary.<br>
-If a change involves a huge implementation in the integration tools, a separated issue can be created and linked to the main issue.
-
-- **Discuss and approve the issue**. All the Integration team members are requested. The 🚀 emoji means approval.
 
 ## 💻 Coding
 
