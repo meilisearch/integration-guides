@@ -60,6 +60,9 @@
 
 - [.Net](https://github.com/meilisearch/meilisearch-dotnet)
 - [Dart](https://github.com/meilisearch/meilisearch-dart)
+- [meilisearch-wordpress](https://github.com/meilisearch/meilisearch-wordpress)
+- [Cloud Scripts](https://github.com/meilisearch/cloud-scripts)
+- [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws) _Private for the moment_
 
 # Roadmap, discussions and work in progress
 
