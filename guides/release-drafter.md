@@ -32,3 +32,9 @@ MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org
 
 - As the draft release description is generated on every push on `master`, don't change it manually until the final release publishment. Otherwise, your manual changes are going to be overwritten.
 - If you made any mistake (for example, the PR is already closed, but you forgot to add a label or you misnamed your PR), don't panic: change what you want in the closed PR and run the job again.
+
+> 💡 How to re-run the "Release Drafter" job? 
+> - Go to the `Action` tab.
+> - Click on the left sidebar `Release Drafter`.
+> - Select the latest action.
+> - At the top right part of the screen click on `Re-run all jobs`.

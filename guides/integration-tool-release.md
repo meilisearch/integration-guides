@@ -30,4 +30,10 @@ Also, when writing the final changelogs, you might notice some inconsistencies, 
 - Add the missing label (`breaking-change` or `skip-changelog`).
 - Re-run the last `Release Drafter` job in the `Actions` tab of the repository.
 
+> 💡 How to re-run the "Release Drafter" job? 
+> - Go to the `Action` tab.
+> - Click on the left sidebar `Release Drafter`.
+> - Select the latest action.
+> - At the top right part of the screen click on `Re-run all jobs`.
+
 **This keeps consistency between the PRs history and the release changelogs**.
