@@ -28,19 +28,18 @@ If a change involves a huge implementation in the integration tools, a separated
 
 ## 📌 First Preparations
 
-> ⚠️ All the following steps in this section should be done with the [meili-bot](https://github.com/meili-bot) credentials.
+> 💡 Use [this script](https://github.com/meilisearch/integration-scripts/tree/main/pre-release-script) (only available internally) to automate the following steps. Please read carefully the README of this tool before applying any changes.
 
-> 💡 Use [this script](https://github.com/meilisearch/integration-scripts/tree/main/pre-release-script) (only available internally) to automate the following steps. *(WIP: this tool should handle the different points and the exceptions with a detailed guide to follow. For the moment only @curquiza will do this section.)*
+The script automates the following tasks:
 
 - In each integration repository, create a draft PR modifying the old version of MeiliSearch into the future release version. The branch name originating this PR should be `bump-meilisearch-v*.*.*`. In most cases, only the `README.md` file changes.
-
-- Create a draft PR in the [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean) repository modifying the old MeiliSearch version **into the RC version**. This branch originating the PR should be named `bump-meilisearch-v*.*.*-rc`. This branch is only created for test purposes and will be closed at the end of the pre-release week.
+- In the [cloud-scripts](https://github.com/meilisearch/cloud-scripts) repository, create a branch named `bump-meilisearch-v*.*.*-rc` where the old version of MeiliSearch is changed **into the RC version**. Also, create a tag named `v*.*.*-rc` on this commit and push it.
 
 ## 🧪 Testing
 
 - **Test manually the RC** with a Core team member or on your own. Should be done by all the Integration team members.
 - **Run all the SDKs automatic test suites against the RC** thanks to [this script](https://github.com/meilisearch/integration-scripts/tree/main/sdks-tests). If tests are not green, these should be justified.
-- **Test manually the DO image with the RC** on the `bump-meilisearch-v*.*.*-test` branch by following the [testing process steps](https://github.com/meilisearch/meilisearch-digitalocean/blob/master/CONTRIBUTING.md#test-before-releasing) **without merging the branch or submitting the image.**
+- **Test manually the DO image with the RC** on the `bump-meilisearch-v*.*.*-rc` branch by following the [testing process steps](https://github.com/meilisearch/meilisearch-digitalocean/blob/master/CONTRIBUTING.md#test-before-releasing) **without merging the branch or submitting the image.**
 
 ## 💻 Coding
 
@@ -56,7 +55,7 @@ Some tests still might fail on this main PR until the new release of MeiliSearch
 
 ## 🥳 After the MeiliSearch official release
 
-- Remove the `bump-meilisearch-v*.*.*-rc` branch from [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean/branches).
+- Remove the `bump-meilisearch-v*.*.*-rc` branch and the `v*.*.*-rc` tag from the [cloud-scripts](https://github.com/meilisearch/cloud-scripts) repository.
 - Merge all the PRs in the repositories that **don't** depend on other integration packages (e.g. do **not** merge meilisearch-laravel-scout or docs-scraper):
   - Make the PRs ready for review (change the draft status).
   - Run the tests with the `bors try` command.
