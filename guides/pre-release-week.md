@@ -32,20 +32,20 @@ If a change involves a huge implementation in the integration tools, a separated
 
 The script automates the following tasks:
 
-- In each integration repository, create a draft PR modifying the old version of MeiliSearch into the future release version. The branch name originating this PR should be `bump-meilisearch-v*.*.*`. In most cases, only the `README.md` file changes.
-- In the [cloud-scripts](https://github.com/meilisearch/cloud-scripts) repository, create a branch named `bump-meilisearch-v*.*.*-rc` where the old version of MeiliSearch is changed **into the RC version**. Also, create a tag named `v*.*.*-rc` on this commit and push it.
+- In each integration repository, create a draft PR modifying the old version of MeiliSearch into the future release version. The branch name originating this PR should be `bump-meilisearch-vX.X.X`. In most cases, only the `README.md` file changes.
+- In the [cloud-scripts](https://github.com/meilisearch/cloud-scripts) repository, create a branch named `bump-meilisearch-vX.X.X-rc` where the old version of MeiliSearch is changed **into the RC version**. Also, create a tag named `vX.X.X-rc` on this commit and push it.
 
 ## 🧪 Testing
 
 - **Test manually the RC** with a Core team member or on your own. Should be done by all the Integration team members.
 - **Run all the SDKs automatic test suites against the RC** thanks to [this script](https://github.com/meilisearch/integration-scripts/tree/main/sdks-tests). If tests are not green, these should be justified.
-- **Test manually the DO image with the RC** on the `bump-meilisearch-v*.*.*-rc` branch by following the [testing process steps](https://github.com/meilisearch/meilisearch-digitalocean/blob/master/CONTRIBUTING.md#test-before-releasing) **without merging the branch or submitting the image.**
+- **Test manually the DO image with the RC** on the `bump-meilisearch-vX.X.X-rc` branch by following the [testing process steps](https://github.com/meilisearch/meilisearch-digitalocean/blob/master/CONTRIBUTING.md#test-before-releasing) **without merging the branch or submitting the image.**
 
 ## 💻 Coding
 
 For each implementation or fix:
 
-- **Create a PR** up-to-date with `bump-meilisearch-v*.*.*` and pointing to `bump-meilisearch-v*.*.*` with all the changes.
+- **Create a PR** up-to-date with `bump-meilisearch-vX.X.X` and pointing to `bump-meilisearch-vX.X.X` with all the changes.
 - **Make all the tests green**: the tests are running against the RC and not the latest stable version of MeiliSearch.<br>
 If they don't pass all, please explain the reason: another PR concerning other changes might indeed be needed.
 - **Ask for reviews**.
@@ -55,13 +55,13 @@ Some tests still might fail on this main PR until the new release of MeiliSearch
 
 ## 🥳 After the MeiliSearch official release
 
-- Remove the `bump-meilisearch-v*.*.*-rc` branch and the `v*.*.*-rc` tag from the [cloud-scripts](https://github.com/meilisearch/cloud-scripts) repository.
+- Remove the `bump-meilisearch-vX.X.X-rc` branch and the `vX.X.X-rc` tag from the [cloud-scripts](https://github.com/meilisearch/cloud-scripts) repository.
 - Merge all the PRs in the repositories that **don't** depend on other integration packages (e.g. do **not** merge meilisearch-laravel-scout or docs-scraper):
   - Make the PRs ready for review (change the draft status).
   - Run the tests with the `bors try` command.
   - Ask for or/and do a final reviews.
   - Merge the PRs with Bors (`bors merge`).
 - Release the just-modified packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
-- For the repositories depending on other integration packages (like meilisearch-laravel-scout or instant-meilisearch): upgrade the dependency, commit to `bump-meiliserch-v*.*.*` and merge the PR with the same process than above.
+- For the repositories depending on other integration packages (like meilisearch-laravel-scout or instant-meilisearch): upgrade the dependency, commit to `bump-meiliserch-vX.X.X` and merge the PR with the same process than above.
 - Release these packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
 - Close the related issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues). If some features have not been integrated into one or several integration tools, issues about the implementations must be opened in the concerned repositories before closing the main issue in integration-guides.
