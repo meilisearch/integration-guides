@@ -55,7 +55,7 @@ Some tests still might fail on this main PR until the new release of MeiliSearch
 
 ## 🥳 After the MeiliSearch official release
 
-- Remove the `bump-meilisearch-vX.X.X-rc` branch and the `vX.X.X-rc` tag from the [cloud-scripts](https://github.com/meilisearch/cloud-scripts) repository.
+- Remove the `bump-meilisearch-vX.X.X-rc` branch and the `vX.X.X-rc` tag from the [cloud-scripts](https://github.com/meilisearch/cloud-scripts) repository. Both removals can be done via the GitHub interface for every Integration team member.
 - Merge all the PRs in the repositories that **don't** depend on other integration packages (e.g. do **not** merge meilisearch-laravel-scout or docs-scraper):
   - Make the PRs ready for review (change the draft status).
   - Run the tests with the `bors try` command.
