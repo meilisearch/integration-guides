@@ -12,9 +12,9 @@
   <a href="https://docs.meilisearch.com">Documentation</a> |
   <a href="https://slack.meilisearch.com">Slack</a> |
   <a href="https://www.meilisearch.com">Website</a> |
-  <a href="https://blog.meilisearch.com">Blog</a> | 
-  <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> | 
-  <a href="https://twitter.com/meilisearch">Twitter</a> |  
+  <a href="https://blog.meilisearch.com">Blog</a> |
+  <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> |
+  <a href="https://twitter.com/meilisearch">Twitter</a> |
   <a href="https://docs.meilisearch.com/faq/">FAQ</a>
 </h4>
 
@@ -49,7 +49,7 @@
 
 ## 🐳 DevOps Tools
 
-- [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/resources/howtos/digitalocean_droplet.html) to use it.
+- [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/create/how_to/digitalocean_droplet.html) to use it.
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): how to deploy a MeiliSearch instance on Kubernetes.
 
 ## <img src="assets/icons/other.png" width="20"> Misc
