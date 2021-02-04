@@ -1,4 +1,4 @@
-# Contributing
+# Contributing <!-- omit in toc -->
 
 ---
 
@@ -10,21 +10,17 @@ Be aware of XXX in sentences and links: they need to be replaced by the name of 
 
 First of all, thank you for contributing to MeiliSearch! The goal of this document is to provide everything you need to know in order to contribute to MeiliSearch and its different integrations.
 
-<!-- MarkdownTOC autolink="true" style="ordered" indent="   " -->
-
 - [Assumptions](#assumptions)
 - [How to Contribute](#how-to-contribute)
 - [Development Workflow](#development-workflow)
 - [Git Guidelines](#git-guidelines)
 - [Release Process (for internal team only)](#release-process-for-internal-team-only)
 
-<!-- /MarkdownTOC -->
-
 ## Assumptions
 
 1. **You're familiar with [GitHub](https://github.com) and the [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)(PR) workflow.**
 2. **You've read the MeiliSearch [documentation](https://docs.meilisearch.com) and the [README](/README.md).**
-3. **You know about the [MeiliSearch community](https://docs.meilisearch.com/resources/contact.html). Please use this for help.**
+3. **You know about the [MeiliSearch community](https://docs.meilisearch.com/learn/what_is_meilisearch/contact.html). Please use this for help.**
 
 ## How to Contribute
 
@@ -52,13 +48,13 @@ This section should be filled according to the repository and should contain:
 
 ---
 
-### Setup
+### Setup <!-- omit in toc -->
 
 ```bash
 $ <Add the right command here>
 ```
 
-### Tests and Linter
+### Tests and Linter <!-- omit in toc -->
 
 Each PR should pass the tests and the linter to be accepted.
 
@@ -74,12 +70,12 @@ $ <Add the right command here>
 
 ## Git Guidelines
 
-### Git Branches
+### Git Branches <!-- omit in toc -->
 
 All changes must be made in a branch and submitted as PR.
 We do not enforce any branch naming style, but please use something descriptive of your changes.
 
-### Git Commits
+### Git Commits <!-- omit in toc -->
 
 As minimal requirements, your commit message should:
 - be capitalized
@@ -89,7 +85,7 @@ As minimal requirements, your commit message should:
 
 We don't follow any other convention, but if you want to use one, we recommend [this one](https://chris.beams.io/posts/git-commit/).
 
-### GitHub Pull Requests
+### GitHub Pull Requests <!-- omit in toc -->
 
 Some notes on GitHub PRs:
 
@@ -103,17 +99,17 @@ Some notes on GitHub PRs:
 
 MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/).
 
-### Automation to Rebase and Merge the PRs
+### Automation to Rebase and Merge the PRs <!-- omit in toc -->
 
 This project integrates a bot that helps us manage pull requests merging.<br>
 _[Read more about this](https://github.com/meilisearch/integration-guides/blob/master/guides/bors.md)._
 
-### Automated Changelogs
+### Automated Changelogs <!-- omit in toc -->
 
 This project integrates a tool to create automated changelogs.<br>
 _[Read more about this](https://github.com/meilisearch/integration-guides/blob/master/guides/release-drafter.md)._
 
-### How to Publish the Release
+### How to Publish the Release <!-- omit in toc -->
 
 ⚠️ Before doing anything, make sure you got through the guide about [Releasing an Integration Tool](https://github.com/meilisearch/integration-guides/blob/master/guides/integration-tool-release.md).
 
