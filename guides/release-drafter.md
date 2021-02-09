@@ -11,7 +11,7 @@ Of course, it is tedious to manually write the changelogs without any omissions,
 
 ## How does the Release-Drafter work?
 
-For each PR merged on `master`, a GitHub Action is run: it updates the next release description as a draft release in the [GitHub interface](https://github.com/meilisearch/meilisearch-ruby/releases).<br>
+For each PR merged on `main`, a GitHub Action is run: it updates the next release description as a draft release in the [GitHub interface](https://github.com/meilisearch/meilisearch-ruby/releases).<br>
 If you don't have the right access to this repository, you will not be able to see the draft release until the release is published.
 
 The draft release description is therefore generated and corresponds to all the PRs titles since the previous release. **This means each PR should only do one change, and the title should be descriptive of this change**.
@@ -30,10 +30,10 @@ MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org
 
 ### Other Recommendations
 
-- As the draft release description is generated on every push on `master`, don't change it manually until the final release publishment. Otherwise, your manual changes are going to be overwritten.
+- As the draft release description is generated on every push on `main`, don't change it manually until the final release publishment. Otherwise, your manual changes are going to be overwritten.
 - If you made any mistake (for example, the PR is already closed, but you forgot to add a label or you misnamed your PR), don't panic: change what you want in the closed PR and run the job again.
 
-> 💡 How to re-run the "Release Drafter" job? 
+> 💡 How to re-run the "Release Drafter" job?
 > - Go to the `Action` tab.
 > - Click on the left sidebar `Release Drafter`.
 > - Select the latest action.
