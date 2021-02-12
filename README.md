@@ -41,6 +41,7 @@
 
 ## <img src="assets/icons/front.png" width="20"> Front-End Integrations
 
+- [Angular](https://github.com/meilisearch/meilisearch-angular)
 - [React](https://github.com/meilisearch/meilisearch-react)
 - [Vue](https://github.com/meilisearch/meilisearch-vue)
 - [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch)
