@@ -29,7 +29,7 @@ The minimal routes/behavior an integration should handle are:
 - the [search](https://docs.meilisearch.com/reference/api/search.html) with and without [search paramters](https://docs.meilisearch.com/reference/features/search_parameters.html).
 - a basic error handler that wraps and throws the [MeiliSearch errors](https://docs.meilisearch.com/reference/api/#errors-status-code).
 
-All the other routes that are not handled by the package yet should be clearly put as an issue in the repository.
+⚠️ All the other routes that are not handled by the package yet should be clearly put as an issue in the repository.
 
 ## 5. Tests
 
