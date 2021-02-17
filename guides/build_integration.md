@@ -2,13 +2,13 @@
 
 Here are some guidelines that you should follow, as we want to guarantee consistency and coherence across the different integrations, as well as technical quality for the different MeiliSearch users.
 
-### 1. Main Principle: User Experience First
+## 1. Main Principle: User Experience First
 
 The provided package should take into account the user experience: it should be easy to use by the user and as intuitive as possible. The customization is important, but the basic usage of the plugin should be accessible.
 
 Feel free to [contact us](https://docs.meilisearch.com/learn/what_is_meilisearch/contact.html#contact-us) if you hesitate about an implementation choice.
 
-### 2. README
+## 2. README
 
 Here are the minimum structure that the README must contain:
 
@@ -17,11 +17,11 @@ Here are the minimum structure that the README must contain:
 
 We recommend checking out the READMEs of our other integration repositories.
 
-### 3. CONTRIBUTING.md
+## 3. CONTRIBUTING.md
 
 The repository should contain a CONTRIBUTING.md. The [template is here](/templates/CONTRIBUTING.md) and needs to be filled according to the repository context.
 
-### 4. Minimal Provided Methods
+## 4. Minimal Provided Methods
 
 The minimal routes/behavior an integration should handle are:
 
@@ -31,7 +31,7 @@ The minimal routes/behavior an integration should handle are:
 
 All the other routes that are not handled by the package yet should be clearly put as an issue in the repository.
 
-### 5. Tests
+## 5. Tests
 
 Each method provided should be tested against the MeiliSearch instance.
 
@@ -39,13 +39,13 @@ Mocking tests are accepted but should not be prioritized.
 
 If you want to start writing tests you can checkout the tests in our several repositories like [this one](https://github.com/meilisearch/meilisearch-php/).
 
-### 6. Linter and Style
+## 6. Linter and Style
 
 A linter should be added to ease contributions and maintainers work.
 
 We also recommend to add a [`.editorconfig` file](https://editorconfig.org/) so that everyone can follow minimal styling rules.
 
-### 7. CIs
+## 7. CIs
 
 A CI must run before merging into the main branch and should check:
 
@@ -54,7 +54,7 @@ A CI must run before merging into the main branch and should check:
 
 This guarantees the quality of the package and helps welcoming contributions.
 
-### 8. About Publishing
+## 8. About Publishing
 
 The release versioning should follow the (Semantic Versioning Convention)[https://docs.meilisearch.com/reference/api/#errors-status-code] and should have clear changelogs (in a CHANGELOG.md or in the GitHub release description [as we do in our repositories](https://github.com/meilisearch/meilisearch-ruby/releases)).
 

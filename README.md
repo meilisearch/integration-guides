@@ -3,8 +3,8 @@
 </p>
 
 
-<h1 align="center">MeiliSearch Integrations and SDKs</h1>
-<h5 align="center">This repository is the central reference for developing and maintaining SDKs & integrations tools for <a href="https://github.com/meilisearch/MeiliSearch">MeiliSearch</a>.
+<h1 align="center">MeiliSearch Integrations</h1>
+<h5 align="center">This repository is the central reference for developing and maintaining integrations for <a href="https://github.com/meilisearch/MeiliSearch">MeiliSearch</a>.
 </h5>
 
 <h4 align="center">
@@ -22,17 +22,20 @@
   <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-MeiliSearch-blue.svg?logo=slack" alt="Slack"></a>
 </p>
 
-The Integration Team owns all the repositories and tools that help the users integrate MeiliSearch in their project.
+**The Integration Team owns all the repositories and tools that help the users integrate MeiliSearch in their project.**
+
+## 🛠 Our Integrations
 
 Here are the different groups of integrations:
+
 - the **SDKs**: the *devkits* that help the devs to use MeiliSearch with their favorite language.
 - the **Front-End Integrations**: to integrate a smooth search experience in the front-end of the projects.
 - the **Web Framework Integrations**: to connect the web frameworks with MeiliSearch.
 - the **DevOps Tools**: to make the deployement of MeiliSearch easier.
 
-The exhaustive list of the maintained repositories by the team is available here.
+The exhaustive list of the maintained repositories by the team is available below.
 
-## <img src="assets/icons/dev.png" width="20"> SDKs for MeiliSearch API
+### <img src="assets/icons/dev.png" width="20"> SDKs for MeiliSearch API
 
 - [Golang](https://github.com/meilisearch/meilisearch-go)
 - [Java](https://github.com/meilisearch/meilisearch-java)
@@ -43,12 +46,12 @@ The exhaustive list of the maintained repositories by the team is available here
 - [Rust](https://github.com/meilisearch/meilisearch-rust)
 - [Swift](https://github.com/meilisearch/meilisearch-swift)
 
-## 🏗 Framework Integrations
+### 🏗 Framework Integrations
 
 - [Laravel Scout](https://github.com/meilisearch/meilisearch-laravel-scout)
 - [Symfony](https://github.com/meilisearch/meilisearch-symfony)
 
-## <img src="assets/icons/front.png" width="20"> Front-End Integrations
+### <img src="assets/icons/front.png" width="20"> Front-End Integrations
 
 - [Angular](https://github.com/meilisearch/meilisearch-angular)
 - [React](https://github.com/meilisearch/meilisearch-react)
@@ -57,36 +60,34 @@ The exhaustive list of the maintained repositories by the team is available here
 - [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch): a plugin to establish the communication between MeiliSearch and the open-source [InstantSearch](https://github.com/algolia/instantsearch.js) tools (powered by Algolia) for your front-end application.
 - [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 
-## 🐳 DevOps Tools
+### 🐳 DevOps Tools
 
 - [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/create/how_to/digitalocean_droplet.html) to use it.
 - [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws): how to deploy a MeiliSearch instance on AWS. See this [dedicated page](https://docs.meilisearch.com/create/how_to/aws.html) to use it.
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): how to deploy a MeiliSearch instance on Kubernetes.
 - [Cloud Scripts](https://github.com/meilisearch/cloud-scripts): centralize all the configurations to help our DevOps tool handle MeiliSearch.
 
-## <img src="assets/icons/other.png" width="20"> Misc
+### <img src="assets/icons/other.png" width="20"> Misc
 
 - [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
 
-## 🧑‍🔧 Work In Progress
+### 🧑‍🔧 Work In Progress
 
 - [.Net](https://github.com/meilisearch/meilisearch-dotnet)
 - [Dart](https://github.com/meilisearch/meilisearch-dart)
 - [meilisearch-wordpress](https://github.com/meilisearch/meilisearch-wordpress)
 
-# Roadmap, discussions and work in progress
+## 📍 Roadmap, Discussions and Work in Progress
 
-You can track current issues and work in progress in our [Integrations and SDKs github project](https://github.com/orgs/meilisearch/projects/3)
+You can track current issues and work in progress in our [Integrations and SDKs github project](https://github.com/orgs/meilisearch/projects/3).
 
-Feel free to take part of our current discussions, or [create a new issue](https://github.com/meilisearch/integration-guides/issues/new)
+Feel free to take part of our current discussions, or [create a new issue](https://github.com/meilisearch/integration-guides/issues/new).
 
-# Documentation
+## 📖 Documentation
 
 [MeiliSearch docs](https://docs.meilisearch.com) is the official documentation project for MeiliSearch.
 
-Currently, there is no specific documentation for every SDK or integration, other than the dedicated READMEs on each repository. We are also integrating code samples for each SDK in the official documentation. There is a discussion about SDK documentation, you can follow it or participate [here](https://github.com/meilisearch/sdks/issues/3).
-
-# 🚀 Building an Integration
+## 🚀 Building an Integration
 
 If you want to build an integration for MeiliSearch, you are more than welcome to! And we would be more than happy to help you in the process :)
 
