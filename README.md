@@ -86,39 +86,10 @@ Feel free to take part of our current discussions, or [create a new issue](https
 
 Currently, there is no specific documentation for every SDK or integration, other than the dedicated READMEs on each repository. We are also integrating code samples for each SDK in the official documentation. There is a discussion about SDK documentation, you can follow it or participate [here](https://github.com/meilisearch/sdks/issues/3).
 
-# Building an integration
+# 🚀 Building an Integration
 
 If you want to build an integration for MeiliSearch, you are more than welcome to! And we would be more than happy to help you in the process :)
 
 We are proud that some of our libraries were developed and are still maintained by external contributors ❤️
 
-Here are some guidelines that you should follow, as we want to guarantee consistency and coherence across the different integrations, as well as technical quality for the different MeiliSearch users.
-
-### README
-
-All READMEs should follow the same pattern. This repository should hold a README template and, at some point, we might want to automatically update all the READMEs from here.
-
-Since for now we don't provide an official template in this repository, here are the minimum structure that the README must contain:
-
-- A well-explained `Getting Started` section: the user should be able to copy/paste the code and command examples and everything should work as expected.
-- Basic code examples for the most common actions.
-
-We recommend checking out the READMEs of our SDKs repositories 🙂
-
-### CONTRIBUTING.md
-
-The repository should contain a CONTRIBUTING.md. The [template is here](/templates/CONTRIBUTING.md) and needs to be filled according to the repository context.
-
-### Tests
-
-If you want to start writing tests you can read what the [PHP SDK](https://github.com/meilisearch/meilisearch-php) is testing to get an overview of minimum viable tests that your SDK should support. The [JS](https://github.com/meilisearch/meilisearch-js) and the [Ruby](https://github.com/meilisearch/meilisearch-ruby) SDKs are also good examples of deeper tests.
-
-### Linter and Style
-
-A linter should be added to ease contributions and maintainers work.
-
-We also recommend to add a `.editorconfig` file so that everyone can follow minimal styling rules.
-
-### About Publishing
-
-We ask external contributors **not** to publish the package on the official platforms before we move the work to the MeiliSearch organization. Meili team will handle this part since we will automate it 😉
+Here are [some guidelines](./guides/build_integration.md) that you should follow, as we want to guarantee consistency and coherence across the different integrations, as well as technical quality for the different MeiliSearch users.
