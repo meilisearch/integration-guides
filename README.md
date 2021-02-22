@@ -23,6 +23,16 @@
   <a href="https://github.com/meilisearch/MeiliSearch/discussions" alt="Discussions"><img src="https://img.shields.io/badge/github-discussions-red" /></a>
 </p>
 
+The Integration Team owns all the repositories and tools that help the users integrate MeiliSearch in their project.
+
+Here are the different groups of integrations:
+- the **SDKs**: the *devkits* that help the devs to use MeiliSearch with their favorite language.
+- the **Front-End Integrations**: to integrate a smooth search experience in the front-end of the projects.
+- the **Web Framework Integrations**: to connect the web frameworks with MeiliSearch.
+- the **DevOps Tools**: to make the deployement of MeiliSearch easier.
+
+The exhaustive list of the maintained repositories by the team is available here.
+
 ## <img src="assets/icons/dev.png" width="20"> SDKs for MeiliSearch API
 
 - [Golang](https://github.com/meilisearch/meilisearch-go)
