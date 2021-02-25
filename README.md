@@ -61,7 +61,9 @@ The exhaustive list of the maintained repositories by the team is available here
 ## 🐳 DevOps Tools
 
 - [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/create/how_to/digitalocean_droplet.html) to use it.
+- [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/create/how_to/aws.html) to use it.
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): how to deploy a MeiliSearch instance on Kubernetes.
+- [Cloud Scripts](https://github.com/meilisearch/cloud-scripts): centralize all the configurations to help our DevOps tool handle MeiliSearch.
 
 ## <img src="assets/icons/other.png" width="20"> Misc
 
@@ -72,8 +74,6 @@ The exhaustive list of the maintained repositories by the team is available here
 - [.Net](https://github.com/meilisearch/meilisearch-dotnet)
 - [Dart](https://github.com/meilisearch/meilisearch-dart)
 - [meilisearch-wordpress](https://github.com/meilisearch/meilisearch-wordpress)
-- [Cloud Scripts](https://github.com/meilisearch/cloud-scripts)
-- [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws) _Private for the moment_
 
 # Roadmap, discussions and work in progress
 
