@@ -33,7 +33,7 @@ The minimal routes/behaviors an integration should handle are:
 
 ## 5. Tests
 
-Each method provided should be tested against the MeiliSearch instance.
+Each public method (so the exposed part of the tool) should be tested against the MeiliSearch instance.
 
 Mocking tests are accepted but should not be prioritized.
 
