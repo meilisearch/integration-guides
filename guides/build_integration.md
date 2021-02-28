@@ -56,6 +56,6 @@ This guarantees the quality of the package and provides a welcoming environment 
 
 ## 8. About Publishing
 
-The release versioning should follow the (Semantic Versioning Convention)[https://docs.meilisearch.com/reference/api/#errors-status-code] and should have clear changelogs (in a CHANGELOG.md or in the GitHub release description [as we do in our repositories](https://github.com/meilisearch/meilisearch-ruby/releases)).
+The release versioning should follow the [Semantic Versioning Convention](https://docs.meilisearch.com/reference/api/#errors-status-code) and should have clear changelogs (in a CHANGELOG.md or in the GitHub release description [as we do in our repositories](https://github.com/meilisearch/meilisearch-ruby/releases)).
 
 The publishement of each new release should be as smooth as possible to do quick updates after bug fixes or feature introductions.
