@@ -23,7 +23,7 @@ The repository should contain a CONTRIBUTING.md. The [template is here](/templat
 
 ## 4. Minimal Provided Methods
 
-The minimal routes/behavior an integration should handle are:
+The minimal routes/behaviors an integration should handle are:
 
 - the [documents manipulation](https://docs.meilisearch.com/reference/api/documents.html).
 - the [search](https://docs.meilisearch.com/reference/api/search.html) with and without [search paramters](https://docs.meilisearch.com/reference/features/search_parameters.html).
