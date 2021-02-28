@@ -52,7 +52,7 @@ A CI must run before merging into the main branch and should check:
 - the tests run against the latest version of MeiliSearch. No need to support older version of MeiliSearch since MeiliSearch is not stable.
 - the linter does not throw any error.
 
-This guarantees the quality of the package and helps welcoming contributions.
+This guarantees the quality of the package and provides a welcoming environment for contributions.
 
 ## 8. About Publishing
 
