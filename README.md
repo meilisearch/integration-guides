@@ -20,7 +20,6 @@
 
 <p align="center">
   <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-MeiliSearch-blue.svg?logo=slack" alt="Slack"></a>
-  <a href="https://github.com/meilisearch/MeiliSearch/discussions" alt="Discussions"><img src="https://img.shields.io/badge/github-discussions-red" /></a>
 </p>
 
 The Integration Team owns all the repositories and tools that help the users integrate MeiliSearch in their project.
