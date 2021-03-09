@@ -45,7 +45,7 @@ A linter should be added to ease contributions and maintainers work.
 
 We also recommend to add a [`.editorconfig` file](https://editorconfig.org/) so that everyone can follow minimal styling rules.
 
-## 7. CIs
+## 7. Continuous Integration (CI)
 
 A CI must run before merging into the main branch and should check:
 
