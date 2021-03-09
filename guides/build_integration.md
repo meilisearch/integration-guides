@@ -35,7 +35,7 @@ The minimal routes/behaviors an integration should handle are:
 
 Each public method (so the exposed part of the tool) should be tested against the MeiliSearch instance. This ensures the provided methods work at any time.
 
-Mocking tests are accepted but should not be prioritized since it would involve updating regularly the mocked server: MeiliSearch is indeed not stable yet.
+Mocking tests are accepted but should not be prioritized since it would involve updating regularly the mocked server: until v1 of MeiliSearch, most new versions introduce breaking changes.
 
 If you want to start writing tests you can checkout the tests in our several repositories like [this one](https://github.com/meilisearch/meilisearch-php/).
 
