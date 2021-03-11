@@ -51,7 +51,7 @@ This section should be filled according to the repository and should contain:
 ### Setup <!-- omit in toc -->
 
 ```bash
-$ <Add the right command here>
+<Add the right command here>
 ```
 
 ### Tests and Linter <!-- omit in toc -->
@@ -60,12 +60,12 @@ Each PR should pass the tests and the linter to be accepted.
 
 ```bash
 # Tests
-$ <Add Docker command to run MeiliSearch here>
-$ <Add the right command here>
+<Add Docker command to run MeiliSearch here>
+<Add the right command here>
 # Linter
-$ <Add the right command here>
+<Add the right command here>
 # Linter with fixing
-$ <Add the right command here>
+<Add the right command here>
 ```
 
 ## Git Guidelines
