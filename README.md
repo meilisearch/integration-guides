@@ -61,6 +61,7 @@ The exhaustive list of the maintained repositories by the team is available here
 
 - [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/create/how_to/digitalocean_droplet.html) to use it.
 - [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws): how to deploy a MeiliSearch instance on AWS. See this [dedicated page](https://docs.meilisearch.com/create/how_to/aws.html) to use it.
+- [meilisearch-gcp](https://github.com/meilisearch/meilisearch-gcp): how to deploy a MeiliSearch instance on GCP.
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): how to deploy a MeiliSearch instance on Kubernetes.
 - [Cloud Scripts](https://github.com/meilisearch/cloud-scripts): centralize all the configurations to help our DevOps tool handle MeiliSearch.
 
