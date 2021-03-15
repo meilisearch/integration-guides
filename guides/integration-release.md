@@ -1,8 +1,8 @@
-# Releasing an Integration Tool
+# Releasing an Integration
 
-This guide is about releasing integration tools and has nothing to do with MeiliSearch releases that are handled during the [pre-release week](./pre-release-week.md).
+This guide is about releasing integrations and has nothing to do with MeiliSearch releases that are handled during the [pre-release week](./pre-release-week.md).
 
-> ⚠️ Integration tool releases are public and are certainly among our most consulted contents with the READMEs.<br>
+> ⚠️ Integration releases are public and are certainly among our most consulted contents with the READMEs.<br>
 > Indeed, users reading the release changelogs are mostly users wanting to upgrade their dependencies, so they might consult the release description really carefully.
 >
 > **The Integration team should keep this in mind during the release process.**
