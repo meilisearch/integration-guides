@@ -47,7 +47,7 @@ We also recommend to add a [`.editorconfig` file](https://editorconfig.org/) so 
 
 ## 7. Continuous Integration (CI)
 
-A CI must run before merging into the main branch and should check:
+All integration repositories should run a CI workflow before merging into the main branch. It should ensure that:
 
 - the tests are successful with the latest version of MeiliSearch. No need to support older versions of MeiliSearch since MeiliSearch is not stable at this time.
 - the linter does not throw any errors.
