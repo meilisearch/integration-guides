@@ -10,7 +10,7 @@ Feel free to [contact us](https://docs.meilisearch.com/learn/what_is_meilisearch
 
 ## 2. README
 
-Here are the minimum structure that the README must contain:
+At minimum, the README must contain:
 
 - A well-explained `Getting Started` section: the user should be able to copy/paste the code and command examples and everything should work as expected.
 - Basic code examples for the most common actions.
