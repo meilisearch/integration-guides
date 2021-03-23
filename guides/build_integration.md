@@ -49,7 +49,7 @@ We also recommend to add a [`.editorconfig` file](https://editorconfig.org/) so 
 
 A CI must run before merging into the main branch and should check:
 
-- the tests run against the latest version of MeiliSearch. No need to support older version of MeiliSearch since MeiliSearch is not stable.
+- the tests are successful with the latest version of MeiliSearch. No need to support older versions of MeiliSearch since MeiliSearch is not stable at this time.
 - the linter does not throw any error.
 
 This guarantees the quality of the package and provides a welcoming environment for contributions.
