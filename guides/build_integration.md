@@ -4,7 +4,7 @@ In order to guarantee consistency and quality across all MeiliSearch integration
 
 ## 1. Main Principle: User Experience First
 
-The provided package should take into account the user experience: it should be easy to use by the user and as intuitive as possible. The customization is important, but the basic usage of the plugin should be accessible.
+The integration should take user experience into account: it should be as easy to use and intuitive as possible. In particular, the basic usage of the integration must be accessible.
 
 Feel free to [contact us](https://docs.meilisearch.com/learn/what_is_meilisearch/contact.html#contact-us) if you hesitate about an implementation choice.
 
