@@ -23,7 +23,7 @@ All integration repositories must contain a file titled `CONTRIBUTING.md`. The t
 
 ## 4. Minimal Provided Methods
 
-The minimal routes/behaviors an integration should handle are:
+At minimum, your integration must support:
 
 - the [documents manipulation](https://docs.meilisearch.com/reference/api/documents.html).
 - the [search](https://docs.meilisearch.com/reference/api/search.html) with and without [search parameters](https://docs.meilisearch.com/reference/features/search_parameters.html).
