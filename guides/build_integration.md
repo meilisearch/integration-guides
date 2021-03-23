@@ -25,7 +25,7 @@ All integration repositories must contain a file titled `CONTRIBUTING.md`. The t
 
 At minimum, your integration must support:
 
-- the [documents manipulation](https://docs.meilisearch.com/reference/api/documents.html).
+- all functionality related to [document manipulation](https://docs.meilisearch.com/reference/api/documents.html).
 - the [search](https://docs.meilisearch.com/reference/api/search.html) with and without [search parameters](https://docs.meilisearch.com/reference/features/search_parameters.html).
 - a basic error handler that wraps and throws the [MeiliSearch errors](https://docs.meilisearch.com/reference/api/#errors-status-code).
 
