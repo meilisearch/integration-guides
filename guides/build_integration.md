@@ -33,7 +33,7 @@ At minimum, your integration must support:
 
 ## 5. Tests
 
-Each public method (so the exposed part of the tool) should be tested against the MeiliSearch instance. This ensures the provided methods work at any time.
+Each public method (i.e. the exposed part of the integration) should be tested against the MeiliSearch instance. This ensures the provided methods work at any time.
 
 Mocking tests are accepted but should not be prioritized since it would involve updating regularly the mocked server: until v1 of MeiliSearch, most new versions introduce breaking changes.
 
