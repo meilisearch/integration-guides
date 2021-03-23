@@ -15,7 +15,7 @@ At minimum, the README must contain:
 - A well-explained `Getting Started` section: the user should be able to copy/paste the code and command examples and everything should work as expected.
 - Basic code examples for the most common actions.
 
-We recommend checking out the READMEs of our other integration repositories.
+We recommend checking out the READMEs of our other integration repositories, like [this one](https://github.com/meilisearch/meilisearch-ruby/blob/main/README.md).
 
 ## 3. CONTRIBUTING.md
 
