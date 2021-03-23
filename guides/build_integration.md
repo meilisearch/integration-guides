@@ -29,7 +29,7 @@ At minimum, your integration must support:
 - all functionality related to [search](https://docs.meilisearch.com/reference/api/search.html), including [search parameters](https://docs.meilisearch.com/reference/features/search_parameters.html).
 - a basic error handler that wraps and throws the [MeiliSearch errors](https://docs.meilisearch.com/reference/api/#errors-status-code).
 
-⚠️ All the other routes that are not handled by the integration yet should be clearly reported as an issue in the repository.
+⚠️ All routes that are not yet implemented in the integration should be clearly reported as an issue in the repository.
 
 ## 5. Tests
 
