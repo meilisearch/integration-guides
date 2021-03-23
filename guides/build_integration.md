@@ -37,7 +37,7 @@ Each public method (i.e. the exposed part of the integration) should be tested a
 
 Mocking tests are accepted but should not be prioritized since it would involve updating regularly the mocked server: until v1 of MeiliSearch, most new versions introduce breaking changes.
 
-If you want to start writing tests you can checkout the tests in our several repositories like [this one](https://github.com/meilisearch/meilisearch-php/).
+If you want to start writing your own tests and are looking for a reference, you can find tests in most of our repositories, such as [this one](https://github.com/meilisearch/meilisearch-php/).
 
 ## 6. Linter and Style
 
