@@ -41,7 +41,7 @@ If you want to start writing tests you can checkout the tests in our several rep
 
 ## 6. Linter and Style
 
-A linter should be added to ease contributions and maintainers work.
+Your integration should contain a linter to ease contributions and maintenance.
 
 We also recommend to add a [`.editorconfig` file](https://editorconfig.org/) so that everyone can follow minimal styling rules.
 
