@@ -1,6 +1,6 @@
 # Build an Integration for MeiliSearch
 
-Here are some guidelines that you should follow, as we want to guarantee consistency and coherence across the different integrations, as well as technical quality for the different MeiliSearch users.
+In order to guarantee consistency and quality across all MeiliSearch integrations, we request that you consider the following guidelines when creating a new integration.
 
 ## 1. Main Principle: User Experience First
 
