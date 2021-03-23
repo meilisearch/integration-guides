@@ -19,7 +19,7 @@ We recommend checking out the READMEs of our other integration repositories.
 
 ## 3. CONTRIBUTING.md
 
-The repository should contain a CONTRIBUTING.md. The [template is here](/templates/CONTRIBUTING.md) and needs to be filled according to the repository context.
+All integration repositories must contain a file titled `CONTRIBUTING.md`. The template is [here](/templates/CONTRIBUTING.md) and should be filled according to the details of your repository..
 
 ## 4. Minimal Provided Methods
 
