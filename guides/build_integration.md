@@ -6,7 +6,7 @@ In order to guarantee consistency and quality across all MeiliSearch integration
 
 The integration should take user experience into account: it should be as easy to use and intuitive as possible. In particular, the basic usage of the integration must be accessible.
 
-Feel free to [contact us](https://docs.meilisearch.com/learn/what_is_meilisearch/contact.html#contact-us) if you hesitate about an implementation choice.
+Feel free to [contact us](https://docs.meilisearch.com/learn/what_is_meilisearch/contact.html#contact-us) if you're hesitating over an implementation decision.
 
 ## 2. README
 
