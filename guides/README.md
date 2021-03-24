@@ -5,9 +5,9 @@ Here are the different guides for the Integration team.
 ## ⚙️ Processes
 
 - [The Pre-Release Week](./pre-release-week.md)
-- [Releasing an Integration Tool](./integration-tool-release.md)
+- [Releasing an Integration](./integration-release.md)
 - [Create Issues](./issues.md)
-- [Build an Integration](./build_integration.md)
+- [Build an Integration](./build-integration.md)
 
 ## 🔧 Automation Tools
 
