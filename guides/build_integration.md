@@ -35,7 +35,7 @@ At minimum, your integration must support:
 
 Each public method (i.e. the exposed part of the integration) should be tested against the MeiliSearch instance. This ensures the provided methods work at any time.
 
-Mocking tests are accepted but should not be prioritized since it would involve updating regularly the mocked server: until v1 of MeiliSearch, most new versions introduce breaking changes.
+Mock testing is accepted but should not be prioritized, since it would require regularly updating the mocked server to account for breaking changes.
 
 If you want to start writing your own tests and are looking for a reference, you can find tests in most of our repositories, such as [this one](https://github.com/meilisearch/meilisearch-php/).
 
