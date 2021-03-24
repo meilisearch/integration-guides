@@ -39,7 +39,10 @@ The script automates the following tasks:
 
 - **Test manually the RC** with a Core team member or on your own. Should be done by all the Integration team members.
 - **Run all the SDKs automatic test suites against the RC** thanks to [this script](https://github.com/meilisearch/integration-scripts/tree/main/sdks-tests). If tests are not green, these should be justified.
-- **Test manually the DO image with the RC** on the `bump-meilisearch-vX.X.X-rc` branch by following the [testing process steps](https://github.com/meilisearch/meilisearch-digitalocean/blob/master/CONTRIBUTING.md#test-before-releasing) **without merging the branch or submitting the image.**
+- **Test manually the [DigitalOcean](https://github.com/meilisearch/meilisearch-digitalocean), [AWS](https://github.com/meilisearch/meilisearch-aws/) and [GCP](https://github.com/meilisearch/meilisearch-gcp) images with the RC** by following the `Test before Releasing` steps **without submitting or publishing the image**:
+  - [testing process steps of `meilisearch-digitalocean`](https://github.com/meilisearch/meilisearch-digitalocean/blob/main/CONTRIBUTING.md#test-before-releasing-)
+  - [testing process steps of `meilisearch-aws`](https://github.com/meilisearch/meilisearch-aws/blob/main/CONTRIBUTING.md#test-before-releasing-)
+  - [testing process steps of `meilisearch-gcp`](https://github.com/meilisearch/meilisearch-gcp/blob/main/CONTRIBUTING.md#test-before-releasing-)
 
 ## 💻 Coding
 
@@ -62,6 +65,6 @@ Some tests still might fail on this main PR until the new release of MeiliSearch
   - Ask for or/and do a final reviews.
   - Merge the PRs with Bors (`bors merge`).
 - Release the just-modified packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
-- For the repositories depending on other integration packages (like meilisearch-laravel-scout or instant-meilisearch): upgrade the dependency, commit to `bump-meiliserch-vX.X.X` and merge the PR with the same process than above.
+- For the repositories depending on other integration packages (like meilisearch-laravel-scout or instant-meilisearch): upgrade the dependency, commit to `bump-meilisearch-vX.X.X` and merge the PR with the same process than above.
 - Release these packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
 - Close the related issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues). If some features have not been integrated into one or several integration tools, issues about the implementations must be opened in the concerned repositories before closing the main issue in integration-guides.
