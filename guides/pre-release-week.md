@@ -39,7 +39,7 @@ The script automates the following tasks:
 
 - **Test manually the RC** with a Core team member or on your own. Should be done by all the Integration team members.
 - **Run all the SDKs automatic test suites against the RC** thanks to [this script](https://github.com/meilisearch/integration-scripts/tree/main/sdks-tests). If tests are not green, these should be justified.
-- **Test manually the DO, AWS and GCP image with the RC** by following the testing process steps **without submitting the image**:
+- **Test manually the [DigitalOcean](https://github.com/meilisearch/meilisearch-digitalocean), [AWS](https://github.com/meilisearch/meilisearch-aws/) and [GCP](https://github.com/meilisearch/meilisearch-gcp) images with the RC** by following the `Test before Releasing` steps **without submitting or publishing the image**:
   - [testing process steps of `meilisearch-digitalocean`](https://github.com/meilisearch/meilisearch-digitalocean/blob/main/CONTRIBUTING.md#test-before-releasing-)
   - [testing process steps of `meilisearch-aws`](https://github.com/meilisearch/meilisearch-aws/blob/main/CONTRIBUTING.md#test-before-releasing-)
   - [testing process steps of `meilisearch-gcp`](https://github.com/meilisearch/meilisearch-gcp/blob/main/CONTRIBUTING.md#test-before-releasing-)
