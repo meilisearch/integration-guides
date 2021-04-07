@@ -96,4 +96,4 @@ If you want to build an integration for MeiliSearch, you are more than welcome t
 
 We are proud that some of our libraries were developed and are still maintained by external contributors ❤️
 
-Here are [some guidelines](./guides/build_integration.md) that you should follow, as we want to guarantee consistency and coherence across the different integrations, as well as technical quality for the different MeiliSearch users.
+Here are [some guidelines](./guides/build-integration.md) that you should follow, as we want to guarantee consistency and coherence across the different integrations, as well as technical quality for the different MeiliSearch users.
