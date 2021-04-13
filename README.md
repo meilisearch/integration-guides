@@ -32,7 +32,7 @@ Here are the different groups of integrations:
 - the **Front-End Integrations**: to integrate a smooth search experience in the front-end of the projects.
 - the **Web Framework Integrations**: to connect the web frameworks with MeiliSearch.
 - the **DevOps Tools**: to make the deployement of MeiliSearch easier.
-- the **Platform Plugins**: to sync your data with MeilISearch and or add a search experience on different platforms.
+- the **Platform Plugins**: to sync your data with MeiliSearch and/or add a search experience on different platforms.
 
 The exhaustive list of the maintained repositories by the team is available below.
 
