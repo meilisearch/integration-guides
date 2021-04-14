@@ -32,6 +32,7 @@ Here are the different groups of integrations:
 - the **Front-End Integrations**: to integrate a smooth search experience in the front-end of the projects.
 - the **Web Framework Integrations**: to connect the web frameworks with MeiliSearch.
 - the **DevOps Tools**: to make the deployement of MeiliSearch easier.
+- the **Platform Plugins**: to sync your data with MeiliSearch and/or add a search experience on different platforms.
 
 The exhaustive list of the maintained repositories by the team is available below.
 
@@ -56,7 +57,6 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [Angular](https://github.com/meilisearch/meilisearch-angular)
 - [React](https://github.com/meilisearch/meilisearch-react)
 - [Vue](https://github.com/meilisearch/meilisearch-vue)
-- [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch)
 - [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch): a plugin to establish the communication between MeiliSearch and the open-source [InstantSearch](https://github.com/algolia/instantsearch.js) tools (powered by Algolia) for your front-end application.
 - [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 
@@ -71,6 +71,11 @@ The exhaustive list of the maintained repositories by the team is available belo
 ### <img src="assets/icons/other.png" width="20"> Misc
 
 - [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
+
+### 🧩 Platform Plugins
+
+- [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
+- [Strapi](https://github.com/meilisearch/strapi-plugin-meilisearch)
 
 ### 🧑‍🔧 Work In Progress
 
