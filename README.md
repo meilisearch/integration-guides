@@ -72,7 +72,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 - [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
 
-### 🧩 Platforms Plugins
+### 🧩 Platform Plugins
 
 - [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
 - [Strapi](https://github.com/meilisearch/strapi-plugin-meilisearch)
