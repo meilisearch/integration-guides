@@ -83,7 +83,6 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [Dart](https://github.com/meilisearch/meilisearch-dart)
 - [meilisearch-wordpress](https://github.com/meilisearch/meilisearch-wordpress)
 - [Rails](https://github.com/meilisearch/meilisearch-rails)
-- [Strapi](https://github.com/meilisearch/strapi-plugin-meilisearch)
 
 ## 📍 Roadmap, Discussions and Work in Progress
 
