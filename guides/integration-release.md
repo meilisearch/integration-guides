@@ -18,19 +18,21 @@ Don't do a release without any usage purpose, for example for the update of a te
 
 Follow the steps in the `Release Process` section in the `CONTRIBUTING.md` file of the repository carefully. These steps should be precise; if it's not, please open an issue on the related repository.
 
-During these steps, you might publish a release via the GitHub interface and so provide a description with the release changelogs.<br>
-The [Release Drafter tool](./release-drafter.md), integrated into most repositories, helps you provide a kind of structure, but please, feel free to add final modifications to ensure these changelogs are:
+#### Writing the Release Description
+
+During these release steps, depending on the integration, releasing is done via the GitHub interface. The release comes with a description containing the changelogs. <br>
+The [Release Drafter tool](./release-drafter.md), integrated into most repositories, provides a release description structure containing the changelogs. Please add additional content in the release description to ensure these changelogs are:
 - **accurate**: describe what changed, with links to the PRs, and the consequences of the changes if needed. Also, check all the breaking changes are in the `Breaking Changes` section.
 - **user-friendly**: add documentation links if necessary.
 - **user-oriented**: do not add changelogs that do not impact the code usage (e.g., internal refacto, documentation, tests, CI modifications).
 - **contributor-friendly**: thank all the contributors, especially the ones who don't appear on the changelogs because they helped on the tests or the documentation.
 
-Also, when writing the final changelogs, you might notice some inconsistencies, e.g., a PR that should have been identified as a breaking change or a PR that should not appear in the changelogs: please, do not update the release description manually. Instead:
+Also, when writing the final changelogs, you might notice some inconsistencies, e.g., a PR that should have been identified as a breaking change or a PR that should not appear in the changelogs: in this case, please, do not update the release description manually. Instead:
 - Go to the related PR.
 - Add the missing label (`breaking-change` or `skip-changelog`).
 - Re-run the last `Release Drafter` job in the `Actions` tab of the repository.
 
-> 💡 How to re-run the "Release Drafter" job? 
+> 💡 How to re-run the "Release Drafter" job?
 > - Go to the `Action` tab.
 > - Click on the left sidebar `Release Drafter`.
 > - Select the latest action.
