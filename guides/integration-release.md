@@ -21,7 +21,7 @@ Follow the steps in the `Release Process` section in the `CONTRIBUTING.md` file 
 #### Writing the Release Description
 
 During these release steps, you might publish a release via the GitHub interface and so provide a description with the release changelogs.<br>
-The [Release Drafter tool](./release-drafter.md), integrated into most repositories, helps you provide a kind of structure, but please, feel free to add final modifications in the release description to ensure these changelogs are:
+The [Release Drafter tool](./release-drafter.md), integrated into most repositories, provides a release description structure containing the changelogs. Please add additional content in the release description to ensure these changelogs are:
 - **accurate**: describe what changed, with links to the PRs, and the consequences of the changes if needed. Also, check all the breaking changes are in the `Breaking Changes` section.
 - **user-friendly**: add documentation links if necessary.
 - **user-oriented**: do not add changelogs that do not impact the code usage (e.g., internal refacto, documentation, tests, CI modifications).
