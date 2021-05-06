@@ -84,9 +84,10 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [meilisearch-wordpress](https://github.com/meilisearch/meilisearch-wordpress)
 - [Rails](https://github.com/meilisearch/meilisearch-rails)
 
-## 📍 Roadmap, Discussions and Work in Progress
+## 📍 Roadmap and Discussions
 
-You can track current issues and work in progress in our [Integrations and SDKs github project](https://github.com/orgs/meilisearch/projects/3).
+- Our general discussions are available in the [issues of this repository](https://github.com/meilisearch/integration-guides/issues). Here is our [issue management process](https://github.com/meilisearch/integration-guides/blob/main/guides/issues.md).
+- Our [roadmap](https://github.com/meilisearch/integration-guides/blob/main/roadmap/2021.md).
 
 Feel free to take part of our current discussions, or [create a new issue](https://github.com/meilisearch/integration-guides/issues/new).
 
