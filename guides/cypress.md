@@ -4,19 +4,19 @@
 
 ## Motivations
 
-As browser testing was until now a complex task, we did not add browser testing in our repositories.
+As browser testing was, until now, a complex task, we did not add browser testing in our repositories.
 
-Today, we are creating more and more untested front-end tools, demos and webpages. The absences of tests makes it dangerous to accept any PR, reviews asks for a lot of manual front-end testing and thus merging becomes a overall a unreliable time consuming task.
+Today, we are creating more and more untested front-end tools, demos, and web pages. The absence of tests makes it dangerous to accept any PR; reviews ask for a lot of manual front-end testing, and thus merging becomes an overall unreliable, time-consuming task.
 
-With Cypress, every aspect of front-end testing is made very very simple: 
+With Cypress, every aspect of front-end testing is made very simple: 
 
 - Implementation of the testing library
 - Creating and adding tests
-- Adding cypress to the CI
+- Adding Cypress to the CI
 
 ## How Does Cypress Work
 
-Cypress runs your tests in all the specified browsers. Both in headless mode (without a browser oppening) but also in open mode so you can observe why tests are failing in the browser itself.
+Cypress runs your tests in all the specified browsers. Both in headless mode (without a browser opening) and an open mode so you can observe why tests are failing in the browser itself.
 
 This is the none-headless mode:
 
@@ -31,7 +31,7 @@ This is the none-headless mode:
 
 ## Installation
 
-In a node environment install the package.
+In a node environment, install the package.
 
 ```bash
 yarn add cypress --dev
@@ -49,9 +49,9 @@ error cypress@7.4.0: The engine "node" is incompatible with this module. Expecte
 It means that you are probably using node version `10`. Please upgrade to at least `v12` as [node 10 not maintained anymore](https://endoflife.date/nodejs). 
 
 
-## Setup cypress
+## Setup Cypress
 
-The tests are looked for by cypress in the following sub-folder `cypress/fixtures`. Lets create the sub-folders and our first test file. 
+The tests are looked for by Cypress in the following sub-folder `cypress/fixtures`. So let us create the sub-folders and our first test file. 
 
 ```
 mkdir cypress
@@ -82,16 +82,15 @@ describe(`My first test`, () => {
 ```
 _You might have some eslint error, please consult [next section](#cleaning) to remove errors_
 
-Before testing run your app using your starting script (for example`yarn start` or `yarn serve`). Following the above example i'm assuming it will be served on port `8080`, don't forget to change it with your port.
+Before testing, run your app using your starting script (for example`yarn start` or `yarn serve`). Following the above example, i'm assuming it is served on port `8080`, don't forget to change it with your port.
 
-
-Now lets run the tests in not-headless and watch mode so we can see what is happening: 
+Now let's run the tests in not-headless and watch mode so we can see what is happening: 
 
 ```
 npx cypress open
 ```
 
-This will open the following dashboard
+This will open the following dashboard.
 
 ![Cypress dashboard](../assets/screenshots/dashboard.png)
 
@@ -107,7 +106,7 @@ To run the tests in headless mode:
 npx cypress run
 ```
 
-Starting from there, you can add more tests. See example on [our strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js).
+Starting from there, you can add more tests. See example on [our Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js).
 
 For example: 
 ```js
@@ -120,14 +119,14 @@ it('Contains title', () => {
 
 ### Remove eslint errors
 
-When using eslint, errors might be raised because of the unrecognized globals cypress introduces (same as jest).
+When using `eslint`, errors might be raised because of the unrecognized globals Cypress introduces (same as jest).
 Please add the following package.
 
 ```
 yarn add eslint-plugin-cypress --dev
 ```
 
-and update your eslint config file: 
+and update your `eslint` config file: 
 
 ```js
 extends: [
@@ -136,7 +135,7 @@ extends: [
 ],
 ```
 
-### Git ignore unecessary directories
+### Git Ignore Unnecessary Directories
 
 Cypress creates additional directories inside `cypress` that are usefull but should maybe not be pushed: 
 
@@ -158,7 +157,7 @@ cypress/fixtures
 ```
 
 
-### CI implementation
+### CI Implementation
 
 [Cypress has a github-action](https://github.com/cypress-io/github-action) to ease CI testing. 
 
