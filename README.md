@@ -38,6 +38,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### <img src="assets/icons/dev.png" width="20"> SDKs for MeiliSearch API
 
+- [.Net](https://github.com/meilisearch/meilisearch-dotnet)
 - [Golang](https://github.com/meilisearch/meilisearch-go)
 - [Java](https://github.com/meilisearch/meilisearch-java)
 - [JavaScript](https://github.com/meilisearch/meilisearch-js)
@@ -79,7 +80,6 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### 🧑‍🔧 Work In Progress
 
-- [.Net](https://github.com/meilisearch/meilisearch-dotnet)
 - [Dart](https://github.com/meilisearch/meilisearch-dart)
 - [meilisearch-wordpress](https://github.com/meilisearch/meilisearch-wordpress)
 - [Rails](https://github.com/meilisearch/meilisearch-rails)
