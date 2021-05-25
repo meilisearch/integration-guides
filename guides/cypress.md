@@ -1,10 +1,10 @@
 # Cypress: front-end testing
 
-[Cypress](https://www.cypress.io/) is a fast, easy and reliable testing for anything that runs in a browser.
+[Cypress](https://www.cypress.io/) is a fast, easy and reliable testing tool for anything that runs in a browser.
 
 ## Motivations
 
-As browser testing was until now a complex task, we did avoided browser testing in our repositories.
+As browser testing was until now a complex task, we did not add browser testing in our repositories.
 
 Today, we are creating more and more untested front-end tools, demos and webpages. The absences of tests makes it dangerous to accept any PR, reviews asks for a lot of manual front-end testing and thus merging becomes a overall a unreliable time consuming task.
 
@@ -46,7 +46,7 @@ If you have the following error:
 ```
 error cypress@7.4.0: The engine "node" is incompatible with this module. Expected version ">=12.0.0". Got "10.22.1"
 ```
-It means that you are probably using node version `10`. Please upgrade as [node 10 not maintained anymore](https://endoflife.date/nodejs). 
+It means that you are probably using node version `10`. Please upgrade to at least `v12` as [node 10 not maintained anymore](https://endoflife.date/nodejs). 
 
 
 ## Setup cypress
@@ -107,8 +107,14 @@ To run the tests in headless mode:
 npx cypress run
 ```
 
-Starting from there, you can add more tests. See example of [our strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js).
+Starting from there, you can add more tests. See example on [our strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js).
 
+For example: 
+```js
+it('Contains title', () => {
+    cy.contains('Movies Demo with MeiliSearch')
+})
+```
 
 ## Cleaning
 
@@ -134,11 +140,11 @@ extends: [
 
 Cypress creates additional directories inside `cypress` that are usefull but should maybe not be pushed: 
 
-- `/videos`: every test run will generate a video you can watch to see what went wrong
+- `/videos`: Every test run will generate a video you can watch to see what went wrong
 - `/screenshots`: Contains screenshots in case of test fails.
-- `/fixtures`: keep if needed
-- `/plugins`: keep if needed
-- `/support`: keep if needed
+- `/fixtures`: Only keep if needed 
+- `/plugins`: Only keep if needed
+- `/support`: Only keep if needed
 
 To avoid pushing these directories add them to you `.gitignore`
 
@@ -160,7 +166,7 @@ Using the following setup, your tests will run on a chrome browser and create ar
 ```yml
  cypress-run:
     runs-on: ubuntu-latest
-    # Browser it is running on
+    # Browser on which the tests are runned
     container: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
       - name: Checkout
@@ -192,4 +198,4 @@ Using the following setup, your tests will run on a chrome browser and create ar
 
 ## Conclusion
 
-Tada.
+Testing in front-end became a more accessible task. We should not hesitate to add tests as they avoid losing **a lot of time** on the long run. 
