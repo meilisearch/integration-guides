@@ -22,8 +22,6 @@ This is the none-headless mode:
 
 ![Cypress tests](../assets/gifs/cypress.gif)
 
-
-
 ## Requirements:
 - Node >= v12
 - [The browsers](https://docs.cypress.io/guides/guides/launching-browsers) you want to tests
