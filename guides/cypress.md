@@ -96,7 +96,6 @@ This will open the following dashboard.
 
 ![Cypress dashboard](../assets/screenshots/dashboard.png)
 
-
 Click on the file name `first_tests.specs.js`. This should run the tests: 
 
 ![Cypress simple test](../assets/gifs/simple_test.gif)
