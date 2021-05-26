@@ -15,5 +15,5 @@ Here are the different guides for the Integration team.
 - [Bors](./bors.md): manage pull requests merging.
 - [Integration Scripts](https://github.com/meilisearch/integration-scripts/) (only available internally): several scripts to automate Integration team tasks.
 
-## Misc
+## 💡 Tutorials
 - [Write front-end tests](./cypress.md)
