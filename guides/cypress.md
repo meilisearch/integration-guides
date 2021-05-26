@@ -119,7 +119,7 @@ it('Contains title', () => {
 ## Running Server and Tests in One Command
 
 A limitation of the previous system is that we have to both start our app on one side and the tests on the other.<br>
-A solution is to launch both with the same command using [start-server-and-test](https://www.npmjs.com/package/start-server-and-test).<be>
+A solution is to launch both with the same command using [start-server-and-test](https://www.npmjs.com/package/start-server-and-test).<br>
 This package will start your app, wait for it to be fully running, and then run the tests.
 
 The following command will run the tests in headless mode once the server is running. When the tests are done, the process is killed.
