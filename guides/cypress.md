@@ -107,7 +107,7 @@ To run the tests in headless mode:
 npx cypress run
 ```
 
-Starting from there, you can add more tests. See example on [our Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js).
+Starting from there, you can add more tests. See example on [our Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js) or [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch/blob/main/cypress/integration/react.spec.js).
 
 For example: 
 ```js
@@ -115,6 +115,26 @@ it('Contains title', () => {
     cy.contains('Movies Demo with MeiliSearch')
 })
 ```
+
+## Running Server and Tests in one command
+
+A limitation of the previous system is that we have to both start our app at one side and the tests at the other. 
+A solution is to launch both with the same command using [start-server-and-test](https://www.npmjs.com/package/start-server-and-test).
+This package will start your app, wait for it to be fully running, and then run the tests. 
+
+The following command will run the tests in headless mode once the server is running. When the tests are done, the process is killed. 
+
+```bash
+npx start-server-and-test start http://localhost:8080 'cypress run'
+```
+
+It is also possible in no-headless mode:
+
+```bash
+npx start-server-and-test start http://localhost:8080 'cypress open'
+```
+
+See example in [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch/blob/main/scripts/e2e.sh).
 
 ## Cleaning
 
