@@ -6,7 +6,7 @@
 
 As browser testing was, until now, a complex task, we did not add browser testing in our repositories.
 
-Today, we are creating more and more untested front-end tools, demos, and web pages. The absence of tests makes it dangerous to accept any PR; reviews ask for a lot of manual front-end testing, and thus merging becomes an overall unreliable, time-consuming task.
+The absence of front-end tests makes it dangerous to accept any PR; reviews ask for a lot of manual front-end testing, and thus merging becomes an overall unreliable, time-consuming task.
 
 With Cypress, every aspect of front-end testing is made very simple: 
 
@@ -23,29 +23,31 @@ This is the none-headless mode:
 ![Cypress tests](../assets/gifs/cypress.gif)
 
 ## Requirements:
-- Node >= v12
-- [The browsers](https://docs.cypress.io/guides/guides/launching-browsers) you want to tests
 
+- Node.js >= v12
+- [The browsers](https://docs.cypress.io/guides/guides/launching-browsers) you want to tests
 
 ## Installation
 
-In a node environment, install the package.
+In a Node.js environment, install the Cypress package:
 
 ```bash
 yarn add cypress --dev
 ```
 
-or with npm 
+or with npm:
+
 ```bash
 npm install cypress --save-dev
 ```
 
-If you have the following error: 
+If you have the following error:
+
 ```
 error cypress@7.4.0: The engine "node" is incompatible with this module. Expected version ">=12.0.0". Got "10.22.1"
 ```
-It means that you are probably using node version `10`. Please upgrade to at least `v12` as [node 10 not maintained anymore](https://endoflife.date/nodejs). 
 
+It means that you are probably using `node` version `10`. Please upgrade to at least `v12` as [Node.js 10 not maintained anymore](https://endoflife.date/nodejs).
 
 ## Setup Cypress
 
@@ -63,10 +65,10 @@ touch first_tests.specs.js
 
 ## Create Tests 
 
-Lets open `first_tests.specs.js` to create some tests. 
+Let's open `first_tests.specs.js` to create some tests.
 
 ```js
-const HOST = `http://localhost:8080` // please adjust to correct app port
+const HOST = `http://localhost:8080` // Please adjust to your own app port
 
 describe(`My first test`, () => {
   before(() => {
@@ -74,13 +76,14 @@ describe(`My first test`, () => {
   })
 
   it('Should visit the dashboard', () => {
-    cy.url().should('match', /http:\/\/localhost:8080/) // Is the current URL our host
+    cy.url().should('match', /http:\/\/localhost:8080/) // The current host URL
   })
 })
 ```
-_You might have some eslint error, please consult [next section](#cleaning) to remove errors_
 
-Before testing, run your app using your starting script (for example`yarn start` or `yarn serve`). Following the above example, i'm assuming it is served on port `8080`, don't forget to change it with your port.
+_You might have some ESLint error, please consult [next section](#cleaning) to remove errors._
+
+Before testing, run your app using your starting script (for example `yarn start` or `yarn serve`). Following the above example, we are assuming it is served on port `8080`. If it's not, change it accordingly with your port.
 
 Now let's run the tests in not-headless and watch mode so we can see what is happening: 
 
@@ -119,13 +122,14 @@ it('Contains title', () => {
 ### Remove eslint errors
 
 When using `eslint`, errors might be raised because of the unrecognized globals Cypress introduces (same as jest).
-Please add the following package.
+
+Please add the following package:
 
 ```
 yarn add eslint-plugin-cypress --dev
 ```
 
-and update your `eslint` config file: 
+And update your `eslint` config file:
 
 ```js
 extends: [
@@ -134,15 +138,15 @@ extends: [
 ],
 ```
 
-### Git Ignore Unnecessary Directories
+### Update your `.gitignore`
 
 Cypress creates additional directories inside `cypress` that are usefull but should maybe not be pushed: 
 
-- `/videos`: Every test run will generate a video you can watch to see what went wrong
-- `/screenshots`: Contains screenshots in case of test fails.
-- `/fixtures`: Only keep if needed 
-- `/plugins`: Only keep if needed
-- `/support`: Only keep if needed
+- `/videos`: Every test run will generate a video you can watch to see what went wrong.
+- `/screenshots`: Contains screenshots in case of test failures.
+- `/fixtures`: Only keep if needed.
+- `/plugins`: Only keep if needed.
+- `/support`: Only keep if needed.
 
 To avoid pushing these directories add them to you `.gitignore`
 
@@ -156,15 +160,15 @@ cypress/fixtures
 ```
 
 
-### CI Implementation
+### CI Implementation with GH Actions
 
 [Cypress has a github-action](https://github.com/cypress-io/github-action) to ease CI testing. 
 
-Using the following setup, your tests will run on a chrome browser and create artifacts in github in case of failure:
+Using the following setup, your tests will run on a Google Chrome browser and create artifacts in GitHub in case of failure:
 ```yml
  cypress-run:
     runs-on: ubuntu-latest
-    # Browser on which the tests are runned
+    # Browser on which the tests are run
     container: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
       - name: Checkout
@@ -178,9 +182,9 @@ Using the following setup, your tests will run on a chrome browser and create ar
       - name: Browser tests
         uses: cypress-io/github-action@v2
         with:
-          # Your start script
+          # Your starting script
           start: yarn start
-      # Creates github artifacts in case of failure
+      # Creates GitHub artifacts in case of failure
       - uses: actions/upload-artifact@v1
         if: failure()
         with:
