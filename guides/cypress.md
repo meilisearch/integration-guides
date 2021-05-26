@@ -22,7 +22,7 @@ This is the none-headless mode:
 
 ![Cypress tests](../assets/gifs/cypress.gif)
 
-## Requirements:
+## Requirements
 
 - Node.js >= v12
 - [The browsers](https://docs.cypress.io/guides/guides/launching-browsers) you want to tests
@@ -88,7 +88,7 @@ Before testing, run your app using your starting script (for example `yarn start
 Now let's run the tests in not-headless and watch mode so we can see what is happening: 
 
 ```
-cd ../.. # go back to root of project
+cd ../.. # Go back to the root of the project
 npx cypress open
 ```
 
@@ -118,7 +118,7 @@ it('Contains title', () => {
 
 ## Cleaning
 
-### Remove eslint errors
+### Remove ESLint errors
 
 When using `eslint`, errors might be raised because of the unrecognized globals Cypress introduces (same as jest).
 
@@ -147,7 +147,7 @@ Cypress creates additional directories inside `cypress` that are usefull but sho
 - `/plugins`: Only keep if needed.
 - `/support`: Only keep if needed.
 
-To avoid pushing these directories add them to you `.gitignore`
+To avoid pushing these directories, add them to your `.gitignore`
 
 ```
 # Cypress
@@ -182,7 +182,7 @@ Using the following setup, your tests will run on a Google Chrome browser and cr
         with:
           # Your starting script
           start: yarn start
-      # Creates GitHub artifacts in case of failure
+      # Creates and uploads GitHub artifacts in case of failure
       - uses: actions/upload-artifact@v1
         if: failure()
         with:
@@ -197,4 +197,4 @@ Using the following setup, your tests will run on a Google Chrome browser and cr
 
 ## Conclusion
 
-Testing in front-end became a more accessible task. We should not hesitate to add tests as they avoid losing **a lot of time** on the long run. 
+Testing in front-end became a more accessible task. We should not hesitate to add tests as they avoid losing **a lot of time** in the long run 🏃‍♀️
