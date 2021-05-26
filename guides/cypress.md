@@ -116,7 +116,7 @@ it('Contains title', () => {
 })
 ```
 
-## Running Server and Tests in one command
+## Running Server and Tests in One Command
 
 A limitation of the previous system is that we have to both start our app at one side and the tests at the other. 
 A solution is to launch both with the same command using [start-server-and-test](https://www.npmjs.com/package/start-server-and-test).
