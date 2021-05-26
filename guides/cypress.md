@@ -178,7 +178,7 @@ cypress/plugins
 cypress/fixtures
 ```
 
-### CI Implementation with GH Actions
+## CI Implementation with GH Actions
 
 [Cypress has a github-action](https://github.com/cypress-io/github-action) to ease CI testing. 
 
