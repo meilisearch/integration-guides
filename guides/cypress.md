@@ -51,13 +51,13 @@ It means that you are probably using node version `10`. Please upgrade to at lea
 
 ## Setup Cypress
 
-The tests are looked for by Cypress in the following sub-folder `cypress/fixtures`. So let us create the sub-folders and our first test file. 
+The tests are looked for by Cypress in the following sub-folder `cypress/integration`. So let us create the sub-folders and our first test file. 
 
 ```
 mkdir cypress
 cd cypress
-mkdir fixtures
-cd fixtures 
+mkdir integration
+cd integration 
 touch first_tests.specs.js
 ```
 
@@ -72,7 +72,7 @@ const HOST = `http://localhost:8080` // please adjust to correct app port
 
 describe(`My first test`, () => {
   before(() => {
-    cy.visit(host) // Visit our app
+    cy.visit(HOST) // Visit our app
   })
 
   it('Should visit the dashboard', () => {
@@ -87,6 +87,7 @@ Before testing, run your app using your starting script (for example`yarn start`
 Now let's run the tests in not-headless and watch mode so we can see what is happening: 
 
 ```
+cd ../.. # go back to root of project
 npx cypress open
 ```
 
