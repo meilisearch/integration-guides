@@ -118,11 +118,11 @@ it('Contains title', () => {
 
 ## Running Server and Tests in One Command
 
-A limitation of the previous system is that we have to both start our app at one side and the tests at the other. 
-A solution is to launch both with the same command using [start-server-and-test](https://www.npmjs.com/package/start-server-and-test).
-This package will start your app, wait for it to be fully running, and then run the tests. 
+A limitation of the previous system is that we have to both start our app on one side and the tests on the other.<br>
+A solution is to launch both with the same command using [start-server-and-test](https://www.npmjs.com/package/start-server-and-test).<be>
+This package will start your app, wait for it to be fully running, and then run the tests.
 
-The following command will run the tests in headless mode once the server is running. When the tests are done, the process is killed. 
+The following command will run the tests in headless mode once the server is running. When the tests are done, the process is killed.
 
 ```bash
 npx start-server-and-test start http://localhost:8080 'cypress run'
