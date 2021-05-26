@@ -8,7 +8,7 @@ As browser testing was, until now, a complex task, we did not add browser testin
 
 The absence of front-end tests makes it dangerous to accept any PR; reviews ask for a lot of manual front-end testing, and thus merging becomes an overall unreliable, time-consuming task.
 
-With Cypress, every aspect of front-end testing is made very simple: 
+With Cypress, every aspect of front-end testing is made very simple:
 
 - Implementation of the testing library
 - Creating and adding tests
@@ -51,19 +51,19 @@ It means that you are probably using `node` version `10`. Please upgrade to at l
 
 ## Setup Cypress
 
-The tests are looked for by Cypress in the following sub-folder `cypress/integration`. So let us create the sub-folders and our first test file. 
+The tests are looked for by Cypress in the following sub-folder `cypress/integration`. So let us create the sub-folders and our first test file.
 
 ```
 mkdir cypress
 cd cypress
 mkdir integration
-cd integration 
+cd integration
 touch first_tests.specs.js
 ```
 
 **Setup is done.**
 
-## Create Tests 
+## Create Tests
 
 Let's open `first_tests.specs.js` to create some tests.
 
@@ -85,7 +85,7 @@ _You might have some ESLint error, please consult [next section](#cleaning) to r
 
 Before testing, run your app using your starting script (for example `yarn start` or `yarn serve`). Following the above example, we are assuming it is served on port `8080`. If it's not, change it accordingly with your port.
 
-Now let's run the tests in not-headless and watch mode so we can see what is happening: 
+Now let's run the tests in not-headless and watch mode so we can see what is happening:
 
 ```
 cd ../.. # Go back to the root of the project
@@ -96,20 +96,20 @@ This will open the following dashboard.
 
 ![Cypress dashboard](../assets/screenshots/dashboard.png)
 
-Click on the file name `first_tests.specs.js`. This should run the tests: 
+Click on the file name `first_tests.specs.js`. This should run the tests:
 
 ![Cypress simple test](../assets/gifs/simple_test.gif)
 
 The tests will run again on every change in your code (watch mode).
 
-To run the tests in headless mode: 
+To run the tests in headless mode:
 ```
 npx cypress run
 ```
 
 Starting from there, you can add more tests. See example on [our Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js) or [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch/blob/main/cypress/integration/react.spec.js).
 
-For example: 
+For example:
 ```js
 it('Contains title', () => {
     cy.contains('Movies Demo with MeiliSearch')
@@ -159,7 +159,7 @@ extends: [
 
 ### Update your `.gitignore`
 
-Cypress creates additional directories inside `cypress` that are usefull but should maybe not be pushed: 
+Cypress creates additional directories inside `cypress` that are usefull but should maybe not be pushed:
 
 - `/videos`: Every test run will generate a video you can watch to see what went wrong.
 - `/screenshots`: Contains screenshots in case of test failures.
@@ -180,7 +180,7 @@ cypress/fixtures
 
 ## CI Implementation with GH Actions
 
-[Cypress has a github-action](https://github.com/cypress-io/github-action) to ease CI testing. 
+[Cypress has a github-action](https://github.com/cypress-io/github-action) to ease CI testing.
 
 Using the following setup, your tests will run on a Google Chrome browser and create artifacts in GitHub in case of failure:
 ```yml
