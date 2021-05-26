@@ -159,7 +159,6 @@ cypress/plugins
 cypress/fixtures
 ```
 
-
 ### CI Implementation with GH Actions
 
 [Cypress has a github-action](https://github.com/cypress-io/github-action) to ease CI testing. 
@@ -196,7 +195,6 @@ Using the following setup, your tests will run on a Google Chrome browser and cr
           name: cypress-videos
           path: cypress/videos
 ```
-
 
 ## Conclusion
 
