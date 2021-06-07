@@ -14,7 +14,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | Repository | Meili's developer |
 |------------|-------------------|
 | [.Net SDK](https://github.com/meilisearch/meilisearch-dotnet) | [curquiza](https://github.com/curquiza/) |
-| [Dart SDK](https://github.com/meilisearch/meilisearch-dart) | [curquiza](https://github.com/curquiza/)r |
+| [Dart SDK](https://github.com/meilisearch/meilisearch-dart) | [curquiza](https://github.com/curquiza/) |
 | [Golang SDK](https://github.com/meilisearch/meilisearch-go) | [alallema](https://github.com/alallema/) |
 | [Java SDK](https://github.com/meilisearch/meilisearch-java) | [alallema](https://github.com/alallema/) |
 | [JavaScript SDK](https://github.com/meilisearch/meilisearch-js) | [bidoubiwa](https://github.com/bidoubiwa/) |
