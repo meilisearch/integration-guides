@@ -51,6 +51,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 ### 🏗 Framework Integrations
 
 - Laravel: the official [Laravel-Scout](https://github.com/laravel/scout) package supports MeiliSearch.
+- [Ruby on Rails](https://github.com/meilisearch/meilisearch-rails)
 - [Symfony](https://github.com/meilisearch/meilisearch-symfony)
 
 ### <img src="assets/icons/front.png" width="20"> Front-End Integrations
@@ -82,7 +83,6 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 - [Dart](https://github.com/meilisearch/meilisearch-dart)
 - [meilisearch-wordpress](https://github.com/meilisearch/meilisearch-wordpress)
-- [Rails](https://github.com/meilisearch/meilisearch-rails)
 
 ## 📍 Roadmap and Discussions
 
