@@ -16,17 +16,34 @@ If you don't have the right access to this repository, you will not be able to s
 
 The draft release description is therefore generated and corresponds to all the PRs titles since the previous release. **This means each PR should only do one change, and the title should be descriptive of this change**.
 
+### SemVer and Versioning
+
+MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). Based on the chosen labels for a PR, the release-drafter automatically increases the right number in the version.
+
 ### Skip the PR
 
 If you don't want a PR to appear in the release changelogs: add the label `skip-changelog`.
 
 We suggest removing PRs updating the README or the CI. Users don't need this kind of information when updating the package.
 
+### The PR adds a new feature
+
+⚠️ Only for integrations that have a major release version (e.g. `1.x.x`, `2.x.x`).
+
+If the PR introduces a new feature: add the label `new-feature`.
+
+The minor version of the release increases.
+Ex: `0.1.4` -> `0.2.0`
+
 ### The PR implies breaking changes
 
 If the changes you are doing in the PR are breaking: add the label `breaking-change`.
 
-MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). In the release tag, the minor will be increased instead of the patch. The major will never be changed until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
+- If the integration is not stable (e.g. `0.X.Y`) the minor version increases.
+Ex: `0.1.4` -> `0.2.0`
+
+- If the integration is stable (e.g. `X.Y.Z` when `X > 0`) the major version increases.
+Ex: `2.1.4` -> `3.0.0`
 
 ### Other Recommendations
 
