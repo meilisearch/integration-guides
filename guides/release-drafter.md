@@ -16,6 +16,10 @@ If you don't have the right access to this repository, you will not be able to s
 
 The draft release description is therefore generated and corresponds to all the PRs titles since the previous release. **This means each PR should only do one change, and the title should be descriptive of this change**.
 
+### SemVer and Versioning
+
+MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). Based on the chosen labels for a PR, the release-drafter automatically increases the right number in the version.
+
 ### Skip the PR
 
 If you don't want a PR to appear in the release changelogs: add the label `skip-changelog`.
@@ -24,36 +28,22 @@ We suggest removing PRs updating the README or the CI. Users don't need this kin
 
 ### The PR adds a new feature
 
-⚠️ Only for integrations that has a major version release (`1.x.x`, `2.x.x`).
+⚠️ Only for integrations that have a major release version (e.g. `1.x.x`, `2.x.x`).
 
-If the PR introduces a new feature: add the label `new-feature`
+If the PR introduces a new feature: add the label `new-feature`.
 
-the PR is made has already a major version , then, a `Pull request` introducing a new feature should have the `new-feature` label.  
-
-Ex: `1.1.3` -> `1.2.0`
+The minor version of the release increases.
+Ex: `0.1.4` -> `0.2.0`
 
 ### The PR implies breaking changes
 
 If the changes you are doing in the PR are breaking: add the label `breaking-change`.
 
-### SemVer and Versioning
+- If the integration is not stable (e.g. `0.X.Y`) the minor version increases.
+Ex: `0.1.4` -> `0.2.0`
 
-MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). Based on the chosen labels for a PR, the release-drafter will automatically increase the right number in the version. 
-
-#### In integrations with no major release (`0.x.x`)
-
-- `skip-changelog` or no labels does not impact versioning, except if it is the first accepted PR. In which case, the `patch` number increases.
-- `breaking-changes` increases the minor version automatically, ex: `0.2.3` -> `0.3.0`
-
-#### In integrations with a major release ((`1.x.x`, `2.x.x`)
-
-- `skip-changelog` or no labels, does not impact versionning, except if it is the first accepted PR. In which case, the `patch` number increases.
-- `new-feature`: Increases the minor version automatically, ex: `0.2.3` -> `0.3.0`
-- `breaking-changes` Increases the major version automatically, ex: `1.2.4` -> `2.0.0`
-
-The order is important as `breaking-change` will override the version change of a `new-feature`. If both labels are present in a release, only the major version increases.
-
-Integrations with a major release are an exception. Other integrations will have no major release until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
+- If the integration is stable (e.g. `X.Y.Z` when `X > 0`) the major version increases.
+Ex: `2.1.4` -> `3.0.0`
 
 ### Other Recommendations
 
