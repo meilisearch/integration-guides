@@ -29,7 +29,7 @@ The [Release Drafter tool](./release-drafter.md), integrated into most repositor
 
 Also, when writing the final changelogs, you might notice some inconsistencies, e.g., a PR that should have been identified as a breaking change or a PR that should not appear in the changelogs: in this case, please, do not update the release description manually. Instead:
 - Go to the related PR.
-- Add the missing label (`breaking-change` or `skip-changelog`).
+- Add the missing label (`breaking-change`, `new feature` or `skip-changelog`, [see guide](./release-drafter#how-does-the-release-drafter-work)).
 - Re-run the last `Release Drafter` job in the `Actions` tab of the repository.
 
 > 💡 How to re-run the "Release Drafter" job?

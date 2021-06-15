@@ -22,11 +22,38 @@ If you don't want a PR to appear in the release changelogs: add the label `skip-
 
 We suggest removing PRs updating the README or the CI. Users don't need this kind of information when updating the package.
 
+### The PR adds a new feature
+
+⚠️ Only for integrations that has a major version release (`1.x.x`, `2.x.x`).
+
+If the PR introduces a new feature: add the label `new-feature`
+
+the PR is made has already a major version , then, a `Pull request` introducing a new feature should have the `new-feature` label.  
+
+Ex: `1.1.3` -> `1.2.0`
+
 ### The PR implies breaking changes
 
 If the changes you are doing in the PR are breaking: add the label `breaking-change`.
 
-MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). In the release tag, the minor will be increased instead of the patch. The major will never be changed until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
+### SemVer and Versioning
+
+MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). Based on the chosen labels for a PR, the release-drafter will automatically increase the right number in the version. 
+
+#### In integrations with no major release (`0.x.x`)
+
+- `skip-changelog` or no labels does not impact versioning, except if it is the first accepted PR. In which case, the `patch` number increases.
+- `breaking-changes` increases the minor version automatically, ex: `0.2.3` -> `0.3.0`
+
+#### In integrations with a major release ((`1.x.x`, `2.x.x`)
+
+- `skip-changelog` or no labels, does not impact versionning, except if it is the first accepted PR. In which case, the `patch` number increases.
+- `new-feature`: Increases the minor version automatically, ex: `0.2.3` -> `0.3.0`
+- `breaking-changes` Increases the major version automatically, ex: `1.2.4` -> `2.0.0`
+
+The order is important as `breaking-change` will override the version change of a `new-feature`. If both labels are present in a release, only the major version increases.
+
+Integrations with a major release are an exception. Other integrations will have no major release until [MeiliSearch](https://github.com/meilisearch/MeiliSearch) is stable.
 
 ### Other Recommendations
 
