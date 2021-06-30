@@ -76,7 +76,7 @@ describe(`My first test`, () => {
   })
 
   it('Should visit the dashboard', () => {
-    cy.url().should('match', /http:\/\/localhost:8080/) // The current host URL
+    cy.url().should('match', new RegExp(HOST)) // The current host URL
   })
 })
 ```
