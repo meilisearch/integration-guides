@@ -119,22 +119,22 @@ it('Contains title', () => {
 ## Running Server and Tests in One Command
 
 A limitation of the previous system is that we have to both start our app on one side and the tests on the other.<br>
-A solution is to launch both with the same command using [start-server-and-test](https://www.npmjs.com/package/start-server-and-test).<br>
+A solution is to launch both with the same command using [concurrently](https://www.npmjs.com/package/concurrently).<br>
 This package will start your app, wait for it to be fully running, and then run the tests.
 
 The following command will run the tests in headless mode once the server is running. When the tests are done, the process is killed.
 
 ```bash
-npx start-server-and-test start http://localhost:8080 'cypress run'
+npx concurrently --kill-others -s first "yarn start" "cypress run"
 ```
 
 It is also possible in no-headless mode:
 
 ```bash
-npx start-server-and-test start http://localhost:8080 'cypress open'
+npx concurrently --kill-others -s first "yarn start" "cypress open"
 ```
 
-See example in [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch/blob/main/scripts/e2e.sh).
+To add this command in your package.json follow the implementation in [strapi-plugin-meilisearch](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/package.json).
 
 ## Cleaning
 
