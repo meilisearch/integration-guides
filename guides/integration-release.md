@@ -47,7 +47,7 @@ In some repositories, [github actions are triggered](https://github.com/meilisea
 1. Delete the release: go to release, then click on the latest release and then on delete in the upper right corner.
 2. Delete the `tag`:  go to release, then click on `tags`, go to the latest tag, click on delete in the upper right corner.
 3. Merge the PR with the missing pre-requisites (i.e., adding the current version in the correct file).
-4. Once the merge completes, a new release is created. You can now release it! 
+4. Once the merge completes, a new release draft is created. You can now publish it! 
 
 **For Example**
 
@@ -55,4 +55,4 @@ I release `meilisearch-js@v0.2.0` but I forgot to update the version in my `pack
 
 The situation is as follows: `meilisearch-js@v0.2.0` is released on GitHub, the tag `v0.2.0` is created, but it is not published on [npm](https://www.npmjs.com/) which is still at `v0.1.0`. 
 
-To solve the situation, I delete the release and the tag on GitHub. I merge the PR with the right version in `package.json`. I go back to the release screen, and I release the newly created release draft. 
+To solve the situation, I delete the release and the tag on GitHub. I merge the PR with the right version in `package.json`. I go back to the release screen, and I publish the newly created release draft. 
