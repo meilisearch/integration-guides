@@ -55,4 +55,4 @@ I release `meilisearch-js@v0.2.0` but I forgot to update the version in my `pack
 
 The situation is as follows: `meilisearch-js@v0.2.0` is released on GitHub, the tag `v0.2.0` is created, but it is not published on [npm](https://www.npmjs.com/) which is still at `v0.1.0`. 
 
-I delete the release and the tag on GitHub. I merge the PR with the right version in `package.json`. I go back to the release screen, and I release the newly created release draft. 
+To solve the situation, I delete the release and the tag on GitHub. I merge the PR with the right version in `package.json`. I go back to the release screen, and I release the newly created release draft. 
