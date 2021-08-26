@@ -44,16 +44,15 @@ Also, when writing the final changelogs, you might notice some inconsistencies, 
 
 In some repositories, [github actions are triggered](https://github.com/meilisearch/meilisearch-js/blob/main/.github/workflows/publish.yml) after a release creates a tag. It might happen that one of these actions failed because pre-requisites are not met (i.e., the new version in the correct file). Don't worry; it is fixable! These are the steps: 
 
-1. Delete the release: edit the release, and click on delete in the upper right corner.
-2. Delete the `tag.`
+1. Delete the release: go to release, then click on the latest release and then on delete in the upper right corner.
+2. Delete the `tag`:  go to release, then click on `tags`, go to the latest tag, click on delete in the upper right corner.
 3. Merge the PR with the missing pre-requisites (i.e., adding the current version in the correct file).
-4. Create a new release
-
+4. Once the merge completes, a new release is created. You can now release it! 
 
 **For Example**
 
-I release `meilisearch-js@v0.2.0` but I forgot to update the version in my `package.json`. On release, a [`publish to npm`]((https://github.com/meilisearch/meilisearch-js/blob/main/.github/workflows/publish.yml)) GitHub action is triggered. A test is done to check if the version in `package.json` is the same as the `tag` created by the GitHub release. In this case, `v0.1.0` in my package.json and `v0.2.0` as a tag; thus, the GitHub actions stops and my package is not published on [npm](https://www.npmjs.com/).
+I release `meilisearch-js@v0.2.0` but I forgot to update the version in my `package.json`. On release, a [`publish to npm`]((https://github.com/meilisearch/meilisearch-js/blob/main/.github/workflows/publish.yml)) GitHub action is triggered. A test is done to check if the version in `package.json` is the same as the `tag` created by the GitHub release. In this case, `v0.1.0` in my package.json and `v0.2.0` as a tag; thus, the GitHub action stops, and my package is not published on [npm](https://www.npmjs.com/).
 
 The situation is as follows: `meilisearch-js@v0.2.0` is released on GitHub, the tag `v0.2.0` is created, but it is not published on [npm](https://www.npmjs.com/) which is still at `v0.1.0`. 
 
-I delete the release and the tag on GitHub. I merge a PR with the right version in `package.json`.
+I delete the release and the tag on GitHub. I merge the PR with the right version in `package.json`. I go back to the release screen, and I release the newly created release draft. 
