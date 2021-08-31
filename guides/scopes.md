@@ -5,6 +5,10 @@
 The developer responsible for the repository has to:
 - ensure the issues are well answered.
 - merge PRs: this involves you need to review and/or request the right reviewers to safely merge the PRs.
+- make releases on a regular basis
+- ensure the documentation (README.md and CONTRIBUTING.md) is up to date
+
+A developer responsible for a scope is the only one to have the access to merge PRs using Bors (expect Admin GitHub users).
 
 🥰 Being responsible for a repository does not mean you are alone. Feel free to ask for any help by pinging your colleagues on issues or PRs.
 Same, if you are not responsible for a scope, you are always encouraged to check and comments PRs and issues in the other repositories.
