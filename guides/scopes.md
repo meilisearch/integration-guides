@@ -45,4 +45,4 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 |||
 | [docs-scraper](https://github.com/meilisearch/docs-scraper)| [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
-| [WordPress integration](https://github.com/meilisearch/docs-scraper)| [alallema](https://github.com/alallema/) |
+| [WordPress integration](https://github.com/meilisearch/docs-scraper) (Stopped)| [curquiza](https://github.com/curquiza/) |
