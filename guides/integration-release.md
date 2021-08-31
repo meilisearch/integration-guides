@@ -45,7 +45,7 @@ Also, when writing the final changelogs, you might notice some inconsistencies, 
 In some repositories, [GitHub Actions are triggered](https://github.com/meilisearch/meilisearch-js/blob/main/.github/workflows/publish.yml) after a tag creation following the release publication. It might happen that one of these actions failed because pre-requisites are not met (i.e., the new version in the correct file). Don't worry; it is fixable! These are the steps: 
 
 1. Delete the release: go to the "Releases" section on GitHub, then click on the latest release and then on "Delete" in the upper right corner.
-2. Delete the tag (`v0.X.Y`):  go to release, then click on the "Tag" section, go to the latest tag, click on "Delete" in the upper right corner.
+2. Delete the tag (`v0.X.Y`):  go to the "Releases" section on GitHub, then click on the "Tags" section, go to the latest tag, click on "Delete" in the upper right corner.
 3. Merge the PR with the missing pre-requisites (i.e., adding the current version in the correct file).
 4. Once the merge completes, a new release draft is created. You can now publish it! 
 
