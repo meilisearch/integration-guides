@@ -42,7 +42,7 @@ Also, when writing the final changelogs, you might notice some inconsistencies, 
 
 ### What to do when Failing a Release 
 
-In some repositories, [GitHub actions are triggered](https://github.com/meilisearch/meilisearch-js/blob/main/.github/workflows/publish.yml) after a tag creation following the release publication. It might happen that one of these actions failed because pre-requisites are not met (i.e., the new version in the correct file). Don't worry; it is fixable! These are the steps: 
+In some repositories, [GitHub Actions are triggered](https://github.com/meilisearch/meilisearch-js/blob/main/.github/workflows/publish.yml) after a tag creation following the release publication. It might happen that one of these actions failed because pre-requisites are not met (i.e., the new version in the correct file). Don't worry; it is fixable! These are the steps: 
 
 1. Delete the release: go to "Release" section on GitHub, then click on the latest release and then on "Delete" in the upper right corner.
 2. Delete the tag (`v0.X.Y`):  go to release, then click on the "Tag" section, go to the latest tag, click on "Delete" in the upper right corner.
