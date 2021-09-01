@@ -82,8 +82,9 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### 🧑‍🔧 Work In Progress
 
-- [meilisearch-wordpress](https://github.com/meilisearch/meilisearch-wordpress)
 - [Gatsby integration](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
+- [Firestore integration](https://github.com/meilisearch/firestore-meilisearch/)
+- [WordPress plugin](https://github.com/meilisearch/meilisearch-wordpress) (Stopped at the moment)
 
 ## 📍 Roadmap and Discussions
 
