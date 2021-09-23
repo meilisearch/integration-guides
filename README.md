@@ -74,6 +74,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 ### <img src="assets/icons/other.png" width="20"> Misc
 
 - [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
+- [JS boilerplate](https://github.com/meilisearch/js-project-boilerplate/): a boilerplate to start a JS project.
 
 ### 🧩 Platform Plugins
 
@@ -82,6 +83,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### 🧑‍🔧 Work In Progress
 
+- [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration/)
 - [Gatsby integration](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [Firestore integration](https://github.com/meilisearch/firestore-meilisearch/)
 - [WordPress plugin](https://github.com/meilisearch/meilisearch-wordpress) (Stopped at the moment)
