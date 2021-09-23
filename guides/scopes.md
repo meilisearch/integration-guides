@@ -61,4 +61,4 @@ When a member of the integration team owns a repository, they have full access t
 
 However, a great power comes with great responsibility. It means:
 - Merging with Bors (using `bors merge`) should always be privileged. Only merge manually if there is no other alternative.
-- Informing the whole integration team (on Slack) before modifying settings in the `Settings` section of a repository: this change can be impactful and should not be applied, or could interest the other repositories of the team.
+- Informing the whole integration team (on Slack) before modifying settings in the `Settings` section of a repository: in case the change is too impactful and should not be applied or it could interest the other repositories of the team.
