@@ -57,7 +57,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 
 ### Access
 
-When a member of the integration team owns a repository, he/she has full access to this repository, i.e. Admin access on GitHub.
+When a member of the integration team owns a repository, they have full access to this repository, i.e. Admin access on GitHub.
 
 However, a great power comes with a great responsibility. It means:
 - Merging with Bors (using `bors merge`) should always be privileged. Only merge manually they is no other alternative.
