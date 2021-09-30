@@ -38,8 +38,10 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
-| [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [Firestore extension](https://github.com/meilisearch/firestore-meilisearch) (WIP) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [Gatsby plugin](https://github.com/meilisearch/firestore-meilisearch) (WIP) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
 | [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean) | [alallema](https://github.com/alallema/) |
 | [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws) | [alallema](https://github.com/alallema/) |
@@ -48,5 +50,15 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [Cloud Scripts](https://github.com/meilisearch/cloud-scripts) | [alallema](https://github.com/alallema/) |
 |||
 | [docs-scraper](https://github.com/meilisearch/docs-scraper)| [bidoubiwa](https://github.com/bidoubiwa/) |
+| [js-project-boilerplate](https://github.com/meilisearch/js-project-boilerplate)| [bidoubiwa](https://github.com/bidoubiwa/) |
+| [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration)| [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
 | [WordPress integration](https://github.com/meilisearch/docs-scraper) (Stopped)| [curquiza](https://github.com/curquiza/) |
+
+### Access
+
+When a member of the integration team owns a repository, they have full access to this repository, i.e. Admin access on GitHub.
+
+However, a great power comes with great responsibility. It means:
+- Merging with Bors (using `bors merge`) should always be privileged. Only merge manually if there is no other alternative.
+- Informing the whole integration team (on Slack) before modifying settings in the `Settings` section of a repository: in case the change is too impactful and should not be applied or it could interest the other repositories of the team.
