@@ -39,7 +39,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
 | [Firestore extension](https://github.com/meilisearch/firestore-meilisearch) (WIP) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [Gatsby plugin](https://github.com/meilisearch/firestore-meilisearch) (WIP) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [Gatsby plugin](https://github.com/meilisearch/gatsby-plugin-meilisearch) (WIP) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
