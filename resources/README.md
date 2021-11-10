@@ -1,4 +1,4 @@
-# Guides
+# Resources
 
 Here are the different guides for the Integration team.
 
@@ -13,7 +13,8 @@ Here are the different guides for the Integration team.
 
 - [The Release Drafter](./release-drafter.md): automate the content of each release description.
 - [Bors](./bors.md): manage pull requests merging.
-- [Integration Scripts](https://github.com/meilisearch/integration-scripts/) (only available internally): several scripts to automate Integration team tasks.
+- [Integration Scripts](https://github.com/meilisearch/integration-automation/) (only available internally): several scripts to automate Integration team tasks.
 
 ## 💡 Tutorials
+
 - [Write front-end tests](./cypress.md)

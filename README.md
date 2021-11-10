@@ -90,7 +90,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ## 📍 Roadmap and Discussions
 
-- Our general discussions are available in the [issues of this repository](https://github.com/meilisearch/integration-guides/issues). Here is our [issue management process](https://github.com/meilisearch/integration-guides/blob/main/guides/issues.md).
+- Our general discussions are available in the [issues of this repository](https://github.com/meilisearch/integration-guides/issues). Here is our [issue management process](https://github.com/meilisearch/integration-guides/blob/main/resources/issues.md).
 - Our [roadmap](https://github.com/meilisearch/integration-guides/blob/main/roadmap/2021.md).
 
 Feel free to take part of our current discussions, or [create a new issue](https://github.com/meilisearch/integration-guides/issues/new).
@@ -105,4 +105,4 @@ If you want to build an integration for MeiliSearch, you are more than welcome t
 
 We are proud that some of our libraries were developed and are still maintained by external contributors ❤️
 
-Here are [some guidelines](./guides/build-integration.md) that you should follow, as we want to guarantee consistency and coherence across the different integrations, as well as technical quality for the different MeiliSearch users.
+Here are [some guidelines](./resources/build-integration.md) that you should follow, as we want to guarantee consistency and coherence across the different integrations, as well as technical quality for the different MeiliSearch users.
