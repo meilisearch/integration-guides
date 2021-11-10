@@ -20,22 +20,19 @@ The draft release description is therefore generated and corresponds to all the 
 
 MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). Based on the chosen labels for a PR, the release-drafter automatically increases the right number in the version.
 
-### Skip the PR
+### Label the PR
+
+Each PR should be labelled by one of the following labels: `skip-changelog`, `breaking-change`, `security`, `enhancement` or `bug`.
+
+According to the label you choose, the changelog will be put in the related section in the release draft. It means you cannot mix them in the same PR.
+
+#### `skip-changelog`
 
 If you don't want a PR to appear in the release changelogs: add the label `skip-changelog`.
 
 We suggest removing PRs updating the README or the CI. Users don't need this kind of information when updating the package.
 
-### The PR adds a new feature
-
-⚠️ Only for integrations that have a major release version (e.g. `1.x.x`, `2.x.x`).
-
-If the PR introduces a new feature: add the label `new-feature`.
-
-The minor version of the release increases.
-Ex: `0.1.4` -> `0.2.0`
-
-### The PR implies breaking changes
+#### `breaking-change`
 
 If the changes you are doing in the PR are breaking: add the label `breaking-change`.
 
@@ -44,6 +41,24 @@ Ex: `0.1.4` -> `0.2.0`
 
 - If the integration is stable (e.g. `X.Y.Z` when `X > 0`) the major version increases.
 Ex: `2.1.4` -> `3.0.0`
+
+#### `enhancement`
+
+If the PR introduces a new feature or a new improvement: add the label `enhancement`.
+
+For integrations that are stable and so have a major release version (e.g. `1.x.x`, `2.x.x`), this will make the minor increase (e.g. `1.2.4` -> `1.3.0`).
+
+#### `bug`
+
+If the PR fixes bugs: add the label `bug`.
+
+A bug could be an unexpected raised error, but also a loss of performance, or any unexpected behavior of the integration.
+
+#### `security`
+
+If the PR fixes a securtiy issue: add the label `security`.
+
+Most of the time, this concerns PRs fixing dependencies issues on which security vulnerabilities have been reported.
 
 ### Other Recommendations
 
