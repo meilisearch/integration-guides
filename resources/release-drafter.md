@@ -44,7 +44,7 @@ Ex: `2.1.4` -> `3.0.0`
 
 #### `enhancement`
 
-If the PR introduces a new feature or a new improvement: add the label `enhancement`.
+If the PR introduces a new feature or an improvement: add the label `enhancement`.
 
 For integrations that are stable and so have a major release version (e.g. `1.x.x`, `2.x.x`), this will make the minor increase (e.g. `1.2.4` -> `1.3.0`).
 
