@@ -52,7 +52,7 @@ For integrations that are stable and so have a major release version (e.g. `1.x.
 
 If the PR fixes bugs: add the label `bug`.
 
-A bug could be an unexpected raised error, but also a loss of performance, or any unexpected behavior of the integration.
+A bug could be a raised error, a loss of performance, or any unexpected behavior of the integration.
 
 #### `security`
 
