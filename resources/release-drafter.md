@@ -58,7 +58,7 @@ A bug could be a raised error, a loss of performance, or any unexpected behavior
 
 If the PR fixes a security issue: add the label `security`.
 
-Most of the time, this concerns PRs fixing dependencies issues on which security vulnerabilities have been reported.
+Most of the time, this concerns PRs fixing dependencies issues on which security vulnerabilities are reported.
 
 ### Other Recommendations
 
