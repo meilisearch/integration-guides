@@ -56,7 +56,7 @@ A bug could be an unexpected raised error, but also a loss of performance, or an
 
 #### `security`
 
-If the PR fixes a securtiy issue: add the label `security`.
+If the PR fixes a security issue: add the label `security`.
 
 Most of the time, this concerns PRs fixing dependencies issues on which security vulnerabilities have been reported.
 
