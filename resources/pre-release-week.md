@@ -46,6 +46,10 @@ The script automates the following tasks:
 
 ## 💻 Coding
 
+⚠️ [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js) and [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/) implementations should start as soon as possible since:
+- they are related to the [`mini-dashboard`](https://github.com/meilisearch/mini-dashboard).
+- they can make us report a bad design choice of the API when using MeiliSearch in front-end.
+
 For each implementation or fix:
 
 - **Create a PR** up-to-date with `bump-meilisearch-vX.X.X` and pointing to `bump-meilisearch-vX.X.X` with all the changes.

@@ -22,3 +22,13 @@ The following labels help us categorize the issues:
 - `JS integrations`: the issue concerns some or all the JS repositories (ex: meilisearch-js, instant-meilisearch, docs-search.js...)
 - `DevOps tools`: the issue concerns some or all the DevOps repositories (ex: meilisearch-gcp, meilisearch-aws...)
 - `SDKs`: the issue concerns some or all the SDKs (ex: meilisearch-js, meilisearch-ruby...)
+
+## Issue assignation policy
+
+We prefer not assigning external people to our issues.
+
+Why? It often occurs that people ask to be assigned and never come back, which discourages the volunteer contributors to open a PR to fix the issue.
+
+We will accept and merge the first PR that fixes correctly and well implements the issue following the contribution guidelines of the corresponding repository.
+
+We are looking forward to seeing your contribution, and no need to wait for an assignation to start it! 👍
