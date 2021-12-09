@@ -48,7 +48,7 @@ The script automates the following tasks:
 
 ⚠️ [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js) and [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/) implementations should start as soon as possible since:
 - they are dependencies of the [`mini-dashboard`](https://github.com/meilisearch/mini-dashboard).
-- they can make us report a bad design choice of the API when using MeiliSearch in front-end.
+- they may raise bad design choices or relevancy issues of the MeiliSearch API when used in front-end.
 
 For each implementation or fix:
 
