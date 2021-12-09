@@ -31,4 +31,4 @@ Why? It often occurs that people ask to be assigned and never come back, which d
 
 We will accept and merge the first PR that fixes correctly and well implements the issue following the contribution guidelines of the corresponding repository.
 
-We are looking forward to seeing your contribution, and no need to wait for an assignation to start it! 👍
+We are looking forward to your contributions, no need to wait for an assignation to start! 👍
