@@ -63,6 +63,12 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch): a plugin to establish the communication between MeiliSearch and the open-source [InstantSearch](https://github.com/algolia/instantsearch.js) tools (powered by Algolia) for your front-end application.
 - [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 
+### 🧩 Platform Plugins
+
+- [Gatsby integration](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
+- [Strapi](https://github.com/meilisearch/strapi-plugin-meilisearch)
+- [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
+
 ### 🐳 DevOps Tools
 
 - [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean): how to deploy a MeiliSearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/create/how_to/digitalocean_droplet.html) to use it.
@@ -75,16 +81,10 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 - [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into MeiliSearch.
 - [JS boilerplate](https://github.com/meilisearch/js-project-boilerplate/): a boilerplate to start a JS project.
-
-### 🧩 Platform Plugins
-
-- [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
-- [Strapi](https://github.com/meilisearch/strapi-plugin-meilisearch)
+- [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration/)
 
 ### 🧑‍🔧 Work In Progress
 
-- [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration/)
-- [Gatsby integration](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [Firestore integration](https://github.com/meilisearch/firestore-meilisearch/)
 - [WordPress plugin](https://github.com/meilisearch/meilisearch-wordpress) (Stopped at the moment)
 
