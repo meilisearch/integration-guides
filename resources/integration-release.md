@@ -14,7 +14,7 @@ Don't do a release without any usage purpose, for example for the update of a te
 
 📢 **A release should be done only when there are changes concerning the code usage.**
 
-## Do the Release!
+## Let's Release!
 
 Follow the steps in the `Release Process` section in the `CONTRIBUTING.md` file of the repository carefully. These steps should be precise; if it's not, please open an issue on the related repository.
 
