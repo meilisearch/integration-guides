@@ -59,6 +59,6 @@ To solve the situation, I delete the release and the tag on GitHub. I merge the 
 
 ## Release a beta version
 
-For some integrations, we need to release a beta version of the integration before releasing the official one. For instance, during the MeiliSearch pre-release, we often need to release a beta version of [meilisearch-js](https://github.com/meilisearch/meilisearch-js) to make the [mini-dashboard](https://github.com/meilisearch/mini-dashboard)) work with the futur release of MeiliSearch.
+For some integrations, we need to release a beta version of the integration before releasing the official one. For instance, during the MeiliSearch pre-release, we often need to release a beta version of [meilisearch-js](https://github.com/meilisearch/meilisearch-js) to make the [mini-dashboard](https://github.com/meilisearch/mini-dashboard)) work with the future release of MeiliSearch.
 
 Please, follow the instructions detailed in the CONTRIBUTING.md of the repository to release a beta version.
