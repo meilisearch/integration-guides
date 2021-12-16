@@ -7,7 +7,7 @@ This resource is an exhaustive list of the existing dependencies between the int
 They depend on [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js):
 - [`docs-searchbar.js`](https://github.com/meilisearch/docs-searchbar.js)
 - [`firestore-meilisearch`](https://github.com/meilisearch/firestore-meilisearch/)
-- [`gatsby-plugin-meilsearch`](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
+- [`gatsby-plugin-meilisearch`](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/)
 - [`strapi-plugin-meilsearch`](https://github.com/meilisearch/strapi-plugin-meilisearch/)
 
