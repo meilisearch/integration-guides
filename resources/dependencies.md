@@ -45,7 +45,7 @@ Also, even if they are not parts of the integration team, we should keep in mind
 ## Docs-searchbar.js
 
 They depend on [`docs-searchbar.js`](https://github.com/meilisearch/docs-searchbar.js)
-- [`vuepress-plugin-meilsearch`](https://github.com/meilisearch/vuepress-plugin-meilisearch/)
+- [`vuepress-plugin-meilisearch`](https://github.com/meilisearch/vuepress-plugin-meilisearch/)
 
 ## Cloud scripts
 
