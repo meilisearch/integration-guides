@@ -25,7 +25,7 @@ They depend on [`meilisearch-python`](https://github.com/meilisearch/meilisearch
 ## Ruby SDK
 
 They depend on [`meilisearch-ruby`](https://github.com/meilisearch/meilisearch-ruby):
-- [`meiliseach-rails`](https://github.com/meilisearch/meilisearch-rails/)
+- [`meilisearch-rails`](https://github.com/meilisearch/meilisearch-rails/)
 
 Also, even if they are not parts of the integration team, we should keep in mind the following projects strongly depend on `meilisearch-ruby`:
 - the [`meilisearch-cloud`](https://github.com/meilisearch/meilisearch-cloud) backend (link only accessible internally)
