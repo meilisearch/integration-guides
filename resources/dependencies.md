@@ -15,7 +15,7 @@ They depend on [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js)
 
 They depend on [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php):
 - [`laravel/scout`](https://github.com/laravel/scout)
-- [`meiliseach-symfony`](https://github.com/meilisearch/meilisearch-symfony/)
+- [`meilisearch-symfony`](https://github.com/meilisearch/meilisearch-symfony/)
 
 ## Python SDK
 
