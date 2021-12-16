@@ -9,7 +9,7 @@ They depend on [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js)
 - [`firestore-meilisearch`](https://github.com/meilisearch/firestore-meilisearch/)
 - [`gatsby-plugin-meilisearch`](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/)
-- [`strapi-plugin-meilsearch`](https://github.com/meilisearch/strapi-plugin-meilisearch/)
+- [`strapi-plugin-meilisearch`](https://github.com/meilisearch/strapi-plugin-meilisearch/)
 
 ## PHP SDK
 
