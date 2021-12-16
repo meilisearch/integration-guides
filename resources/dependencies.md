@@ -50,9 +50,9 @@ They depend on [`docs-searchbar.js`](https://github.com/meilisearch/docs-searchb
 ## Cloud scripts
 
 They depend on [`cloud-scripts`](https://github.com/meilisearch/cloud-scripts)
-- [`meiliseach-aws`](https://github.com/meilisearch/meilisearch-aws/)
-- [`meiliseach-digitalocean`](https://github.com/meilisearch/meilisearch-gcp/)
-- [`meiliseach-gcp`](https://github.com/meilisearch/meilisearch-gcp/)
+- [`meilisearch-aws`](https://github.com/meilisearch/meilisearch-aws/)
+- [`meilisearch-digitalocean`](https://github.com/meilisearch/meilisearch-gcp/)
+- [`meilisearch-gcp`](https://github.com/meilisearch/meilisearch-gcp/)
 
 ## VuePress plugin
 
