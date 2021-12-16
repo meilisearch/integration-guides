@@ -32,7 +32,7 @@ Also, even if they are not parts of the integration team, we should keep in mind
 
 ## Instant MeiliSearch
 
-They depend on [`instant-meilsearch`](https://github.com/meilisearch/instant-meilisearch/)
+They depend on [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/)
 - [`meilisearch-angular`](https://github.com/meilisearch/meilisearch-angular/) and the [associated code-sandbox](https://codesandbox.io/s/im-angularis-7xipe?file=/src/app/app.component.ts)
 - [`meilisearch-react`](https://github.com/meilisearch/meilisearch-react/) and the [associated code-sandbox](https://codesandbox.io/s/ms-react-is-sh9ud?fontsize=14&hidenavigation=1&theme=dark)
 - [`meilisearch-vue`](https://github.com/meilisearch/meilisearch-vue/) and the [associated code-sandbox](https://codesandbox.io/s/ms-vue-is-1d6bi?fontsize=14&hidenavigation=1&theme=dark)
