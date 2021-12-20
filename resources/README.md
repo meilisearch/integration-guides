@@ -8,6 +8,8 @@ Here are the different guides for the Integration team.
 - [Releasing an Integration](./integration-release.md)
 - [Issues](./issues.md)
 - [Build an Integration](./build-integration.md)
+- [Developer Scopes](./scopes.md)
+- [Demos](./demos.md)
 
 ## 🔧 Automation Tools
 
