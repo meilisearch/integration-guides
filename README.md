@@ -88,7 +88,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [Firestore integration](https://github.com/meilisearch/firestore-meilisearch/)
 - [WordPress plugin](https://github.com/meilisearch/meilisearch-wordpress) (Stopped at the moment)
 
-### Demos
+### 🎮 Demos
 
 The integration team is also responsible for maintaining the following code-sandbox demos:
 
