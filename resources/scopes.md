@@ -24,12 +24,12 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [JavaScript SDK](https://github.com/meilisearch/meilisearch-js) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [PHP SDK](https://github.com/meilisearch/meilisearch-php) | [alallema](https://github.com/alallema/) |
 | [Python SDK](https://github.com/meilisearch/meilisearch-python) | [alallema](https://github.com/alallema/) |
-| [Ruby SDK](https://github.com/meilisearch/meilisearch-ruby) | [curquiza](https://github.com/curquiza/) |
+| [Ruby SDK](https://github.com/meilisearch/meilisearch-ruby) | [brunoocasali](https://github.com/brunoocasali/) |
 | [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [curquiza](https://github.com/curquiza/) |
 | [Swift SDK](https://github.com/meilisearch/meilisearch-swift) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
 | [Laravel-Scout integration](https://github.com/laravel/scout) | [curquiza](https://github.com/curquiza/) |
-| [Rails integration](https://github.com/meilisearch/meilisearch-rails)| [curquiza](https://github.com/curquiza/) |
+| [Rails integration](https://github.com/meilisearch/meilisearch-rails)| [brunoocasali](https://github.com/brunoocasali/) |
 | [Symfony integration](https://github.com/meilisearch/meilisearch-symfony)| [curquiza](https://github.com/curquiza/) |
 |||
 | [Angular integration](https://github.com/meilisearch/meilisearch-angular) | [bidoubiwa](https://github.com/bidoubiwa/) |
