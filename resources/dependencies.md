@@ -30,7 +30,7 @@ They depend on [`meilisearch-ruby`](https://github.com/meilisearch/meilisearch-r
 Also, even if they are not parts of the integration team, we should keep in mind the following projects strongly depend on `meilisearch-ruby`:
 - the [`meilisearch-cloud`](https://github.com/meilisearch/meilisearch-cloud) backend (link only accessible internally)
 
-## Instant MeiliSearch
+## Instant Meilisearch
 
 They depend on [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/)
 - [`meilisearch-angular`](https://github.com/meilisearch/meilisearch-angular/) and the [associated code-sandbox](https://codesandbox.io/s/im-angularis-7xipe?file=/src/app/app.component.ts)
@@ -59,11 +59,11 @@ They depend on [`cloud-scripts`](https://github.com/meilisearch/cloud-scripts)
 No projects depends on [vuepress-plugin-meilisearch]((https://github.com/meilisearch/vuepress-plugin-meilisearch/) in the integration team.
 
 Also, even if they are not parts of the integration team, we should keep in mind the following projects strongly depend on `vuepress-plugin-meilisearch`:
-- The search bar of the [MeiliSearch documentation](https://github.com/meilisearch/documentation/)
+- The search bar of the [Meilisearch documentation](https://github.com/meilisearch/documentation/)
 
 ## Docs scraper
 
 No projects depends on [docs-scraper](https://github.com/meilisearch/docs-scraper/) in the integration team.
 
 Also, even if they are not parts of the integration team, we should keep in mind the following projects strongly depend on `docs-scraper`:
-- The search bar of the [MeiliSearch documentation](https://github.com/meilisearch/documentation/)
+- The search bar of the [Meilisearch documentation](https://github.com/meilisearch/documentation/)

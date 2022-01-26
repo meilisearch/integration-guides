@@ -17,7 +17,7 @@ The four following labels make us track the current state of an issue, from the 
 - `ready to implement`: a consensus has been found, and the solution is ready to be implemented.
 
 The following labels help us categorize the issues:
-- `MeiliSearch bump`: tracking issue related to a bump of MeiliSearch. It describes the impacts to the integration repositories leads by a new MeiliSearch release.
+- `Meilisearch bump`: tracking issue related to a bump of Meilisearch. It describes the impacts to the integration repositories leads by a new Meilisearch release.
 - `new integration`: the issue concerns a new integration.
 - `JS integrations`: the issue concerns some or all the JS repositories (ex: meilisearch-js, instant-meilisearch, docs-search.js...)
 - `DevOps tools`: the issue concerns some or all the DevOps repositories (ex: meilisearch-gcp, meilisearch-aws...)

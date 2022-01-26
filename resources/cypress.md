@@ -112,7 +112,7 @@ Starting from there, you can add more tests. See example on [our Strapi plugin](
 For example:
 ```js
 it('Contains title', () => {
-    cy.contains('Movies Demo with MeiliSearch')
+    cy.contains('Movies Demo with Meilisearch')
 })
 ```
 

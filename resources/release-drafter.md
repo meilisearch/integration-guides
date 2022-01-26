@@ -18,7 +18,7 @@ The draft release description is therefore generated and corresponds to all the 
 
 ### SemVer and Versioning
 
-MeiliSearch tools follow the [Semantic Versioning Convention](https://semver.org/). Based on the chosen labels for a PR, the release-drafter automatically increases the right number in the version.
+Meilisearch tools follow the [Semantic Versioning Convention](https://semver.org/). Based on the chosen labels for a PR, the release-drafter automatically increases the right number in the version.
 
 ### Label the PR
 
