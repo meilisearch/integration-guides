@@ -65,7 +65,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### 🧩 Platform Plugins
 
-- [Gatsby integration](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
+- [Gatsby](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [Strapi](https://github.com/meilisearch/strapi-plugin-meilisearch)
 - [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
 
