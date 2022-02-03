@@ -28,9 +28,9 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [curquiza](https://github.com/curquiza/) |
 | [Swift SDK](https://github.com/meilisearch/meilisearch-swift) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
-| [Laravel-Scout integration](https://github.com/laravel/scout) | [curquiza](https://github.com/curquiza/) |
+| [Laravel-Scout integration](https://github.com/laravel/scout) | [brunoocasali](https://github.com/brunoocasali/) |
 | [Rails integration](https://github.com/meilisearch/meilisearch-rails)| [brunoocasali](https://github.com/brunoocasali/) |
-| [Symfony integration](https://github.com/meilisearch/meilisearch-symfony)| [curquiza](https://github.com/curquiza/) |
+| [Symfony integration](https://github.com/meilisearch/meilisearch-symfony)| [brunoocasali](https://github.com/brunoocasali/) |
 |||
 | [Angular integration](https://github.com/meilisearch/meilisearch-angular) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [React integration](https://github.com/meilisearch/meilisearch-react) | [bidoubiwa](https://github.com/bidoubiwa/) |
