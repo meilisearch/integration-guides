@@ -25,7 +25,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [PHP SDK](https://github.com/meilisearch/meilisearch-php) | [alallema](https://github.com/alallema/) |
 | [Python SDK](https://github.com/meilisearch/meilisearch-python) | [alallema](https://github.com/alallema/) |
 | [Ruby SDK](https://github.com/meilisearch/meilisearch-ruby) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [curquiza](https://github.com/curquiza/) |
+| [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [brunoocasali](https://github.com/brunoocasali/) |
 | [Swift SDK](https://github.com/meilisearch/meilisearch-swift) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
 | [Laravel-Scout integration](https://github.com/laravel/scout) | [brunoocasali](https://github.com/brunoocasali/) |
@@ -53,7 +53,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [js-project-boilerplate](https://github.com/meilisearch/js-project-boilerplate)| [bidoubiwa](https://github.com/bidoubiwa/) |
 | [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration)| [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
-| [WordPress integration](https://github.com/meilisearch/meilisearch-wordpress) (Stopped)| [curquiza](https://github.com/curquiza/) |
+| [WordPress integration](https://github.com/meilisearch/meilisearch-wordpress) (Stopped)| [brunoocasali](https://github.com/brunoocasali/) |
 
 ### Access
 
