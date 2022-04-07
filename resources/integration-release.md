@@ -69,7 +69,7 @@ If the package was published recently:
 2. Follow step one and two of the previous section [What to do when Failing a release](#what-to-do-when-failing-a-release).
 3. Fix the package.
 4. Increase the patch version (ex: 0.1.0 becomes 0.1.1).
-5. Once the merge completes, a new release draft is created. You can now publish it!
+5. Once the merge is completed, a new release draft is created. You can now publish it!
 
 If the package was not published recently:
 1. Deprecate the package in the package manager.
