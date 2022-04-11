@@ -57,6 +57,27 @@ The situation is as follows: `meilisearch-js@v0.2.0` is released on GitHub, the 
 
 To solve the situation, I delete the release and the tag on GitHub. I merge the PR with the right version in `package.json`. I go back to the release screen, and I publish the newly created release draft.
 
+## What to do when publishing a broken package?
+
+It might happen that the release worked but the published package on the package manager is broken (completely unusable). In this specific case, some steps must be followed.
+
+⚠️ This only applies when the published package is completely broken. If the package works but bugs were introduced a patch is enough.
+
+If the package was published recently:
+
+1. Delete/deprecate the package in the package manager (ex: `npm deprecate meilisearch@0.1.0 "Missing files breaks the package"`).
+2. Follow step one and two of the previous section [What to do when Failing a release](#what-to-do-when-failing-a-release).
+3. Fix the package.
+4. Increase the patch version (ex: 0.1.0 becomes 0.1.1).
+5. Once the merge is completed, a new release draft is created. You can now publish it!
+
+If the package was not published recently:
+1. Deprecate the package in the package manager.
+2. Write in the body of the broken release that this version is deprecated.
+3. Fix the package.
+4. Increase the patch version (ex: 0.1.0 becomes 0.1.1).
+5. Once the merge completes, a new release draft is created. You can now publish it!
+
 ## Release a beta version
 
 For some integrations, we need to release a beta version of the integration before releasing the official one. For instance, during the Meilisearch pre-release, we often need to release a beta version of [meilisearch-js](https://github.com/meilisearch/meilisearch-js) to make the [mini-dashboard](https://github.com/meilisearch/mini-dashboard)) work with the future release of Meilisearch.
