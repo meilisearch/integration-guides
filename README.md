@@ -65,6 +65,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### 🧩 Platform Plugins
 
+- [Firestore](https://github.com/meilisearch/firestore-meilisearch/)
 - [Gatsby](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [Strapi](https://github.com/meilisearch/strapi-plugin-meilisearch)
 - [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
@@ -85,7 +86,6 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### 🧑‍🔧 Work In Progress
 
-- [Firestore integration](https://github.com/meilisearch/firestore-meilisearch/)
 - [WordPress plugin](https://github.com/meilisearch/meilisearch-wordpress) (Stopped at the moment)
 
 ## 📍 Roadmap and Discussions
