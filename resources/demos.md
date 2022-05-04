@@ -18,7 +18,8 @@ Here are the exhaustive list of the indexes:
 The following code-sandbox demos related to InstantSearch are maintained:
 
 - [Meilisearch + InstantSearch](https://codesandbox.io/s/ms-is-mese9?fontsize=14&hidenavigation=1&theme=dark)
-- [Meilisearch + Vue InstantSearch](https://codesandbox.io/s/ms-vue-is-1d6bi?fontsize=14&hidenavigation=1&theme=dark&file=/src/App.vue)
+- [Meilisearch + Vue 2 InstantSearch](https://codesandbox.io/s/ms-vue-is-1d6bi?fontsize=14&hidenavigation=1&theme=dark&file=/src/App.vue)
+- [Meilisearch + Vue 3 InstantSearch](https://codesandbox.io/s/ms-vue3-is-0293zk?file=/src/App.vue)
 - [Meilisearch + React InstantSearch](https://codesandbox.io/s/ms-angularis-7xipe)
 - [Meilisearch + Angular InstantSearch](https://codesandbox.io/s/ms-angularis-7xipe)
 
