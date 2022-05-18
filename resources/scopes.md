@@ -17,16 +17,16 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 
 | Repository | Meili's developer |
 |------------|-------------------|
-| [.Net SDK](https://github.com/meilisearch/meilisearch-dotnet) | [brunoocasali](https://github.com/brunoocasali/) |
+| [.Net SDK](https://github.com/meilisearch/meilisearch-dotnet) | [alallema](https://github.com/alallema/) |
 | [Dart SDK](https://github.com/meilisearch/meilisearch-dart) | [brunoocasali](https://github.com/brunoocasali/) |
 | [Golang SDK](https://github.com/meilisearch/meilisearch-go) | [alallema](https://github.com/alallema/) |
 | [Java SDK](https://github.com/meilisearch/meilisearch-java) | [alallema](https://github.com/alallema/) |
 | [JavaScript SDK](https://github.com/meilisearch/meilisearch-js) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [PHP SDK](https://github.com/meilisearch/meilisearch-php) | [alallema](https://github.com/alallema/) |
+| [PHP SDK](https://github.com/meilisearch/meilisearch-php) | [brunoocasali](https://github.com/brunoocasali/) |
 | [Python SDK](https://github.com/meilisearch/meilisearch-python) | [alallema](https://github.com/alallema/) |
 | [Ruby SDK](https://github.com/meilisearch/meilisearch-ruby) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Swift SDK](https://github.com/meilisearch/meilisearch-swift) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [Swift SDK](https://github.com/meilisearch/meilisearch-swift) | [brunoocasali](https://github.com/brunoocasali/) |
 |||
 | [Laravel-Scout integration](https://github.com/laravel/scout) | [brunoocasali](https://github.com/brunoocasali/) |
 | [Rails integration](https://github.com/meilisearch/meilisearch-rails)| [brunoocasali](https://github.com/brunoocasali/) |
@@ -49,7 +49,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes) | [alallema](https://github.com/alallema/) |
 | [Cloud Scripts](https://github.com/meilisearch/cloud-scripts) | [alallema](https://github.com/alallema/) |
 |||
-| [docs-scraper](https://github.com/meilisearch/docs-scraper)| [bidoubiwa](https://github.com/bidoubiwa/) |
+| [docs-scraper](https://github.com/meilisearch/docs-scraper)| [alallema](https://github.com/alallema/) |
 | [js-project-boilerplate](https://github.com/meilisearch/js-project-boilerplate)| [bidoubiwa](https://github.com/bidoubiwa/) |
 | [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration)| [alallema](https://github.com/alallema/) |
 |||
