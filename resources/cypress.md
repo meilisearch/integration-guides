@@ -2,6 +2,15 @@
 
 [Cypress](https://www.cypress.io/) is a fast, easy and reliable testing tool for anything that runs in a browser.
 
+## Table of Contents
+- [Motivations](#-motivations)
+- [How does cypress work](#-how-does-cypress-work)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Setup](#-setup)
+- [First Test](#-first-test)
+- [Running Tests](#-first-test)
+
 ## Motivations
 
 As browser testing was, until now, a complex task, we did not add browser testing in our repositories.
@@ -29,7 +38,7 @@ This is the none-headless mode:
 
 ## Installation
 
-In a Node.js environment, install the Cypress package:
+In a Node.js environment, install the Cypress package (`Node 14 >=` required):
 
 ```bash
 yarn add cypress --dev
@@ -41,15 +50,7 @@ or with npm:
 npm install cypress --save-dev
 ```
 
-If you have the following error:
-
-```
-error cypress@7.4.0: The engine "node" is incompatible with this module. Expected version ">=12.0.0". Got "10.22.1"
-```
-
-It means that you are probably using `node` version `10`. Please upgrade to at least `v12` as [Node.js 10 not maintained anymore](https://endoflife.date/nodejs).
-
-## Setup Cypress
+## Setup
 
 The tests are looked for by Cypress in the following sub-folder `cypress/integration`. So let us create the sub-folders and our first test file.
 
@@ -63,7 +64,7 @@ touch first_tests.specs.js
 
 **Setup is done.**
 
-## Create Tests
+## First Test
 
 Let's open `first_tests.specs.js` to create some tests.
 
