@@ -1,4 +1,4 @@
-# Guides
+# Resources
 
 Here are the different guides for the Integration team.
 
@@ -8,9 +8,15 @@ Here are the different guides for the Integration team.
 - [Releasing an Integration](./integration-release.md)
 - [Issues](./issues.md)
 - [Build an Integration](./build-integration.md)
+- [Developer Scopes](./scopes.md)
+- [Demos](./demos.md)
 
 ## 🔧 Automation Tools
 
 - [The Release Drafter](./release-drafter.md): automate the content of each release description.
 - [Bors](./bors.md): manage pull requests merging.
-- [Integration Scripts](https://github.com/meilisearch/integration-scripts/) (only available internally): several scripts to automate Integration team tasks.
+- [Integration Scripts](https://github.com/meilisearch/integration-automation/) (only available internally): several scripts to automate Integration team tasks.
+
+## 💡 Tutorials
+
+- [Write front-end tests](./cypress.md)

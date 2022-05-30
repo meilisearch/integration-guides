@@ -1,6 +1,6 @@
-# Build an Integration for MeiliSearch
+# Build an Integration for Meilisearch
 
-In order to guarantee consistency and quality across all MeiliSearch integrations, we request that you consider the following guidelines when creating a new integration.
+In order to guarantee consistency and quality across all Meilisearch integrations, we request that you consider the following guidelines when creating a new integration.
 
 ## 1. Main Principle: User Experience First
 
@@ -27,13 +27,13 @@ At minimum, your integration must support:
 
 - all functionality related to [document manipulation](https://docs.meilisearch.com/reference/api/documents.html).
 - all functionality related to [search](https://docs.meilisearch.com/reference/api/search.html), including [search parameters](https://docs.meilisearch.com/reference/features/search_parameters.html).
-- a basic error handler that wraps and throws the [MeiliSearch errors](https://docs.meilisearch.com/reference/api/#errors-status-code).
+- a basic error handler that wraps and throws the [Meilisearch errors](https://docs.meilisearch.com/reference/api/#errors-status-code).
 
 ⚠️ All routes that are not yet implemented in the integration should be clearly reported as an issue in the repository.
 
 ## 5. Tests
 
-Each public method (i.e. the exposed part of the integration) should be tested against the MeiliSearch instance. This ensures the provided methods work at any time.
+Each public method (i.e. the exposed part of the integration) should be tested against the Meilisearch instance. This ensures the provided methods work at any time.
 
 Mock testing is accepted but should not be prioritized, since it would require regularly updating the mocked server to account for breaking changes.
 
@@ -49,7 +49,7 @@ We also recommend to add a [`.editorconfig` file](https://editorconfig.org/) so 
 
 All integration repositories should run a CI workflow before merging into the main branch. It should ensure that:
 
-- the tests are successful with the latest version of MeiliSearch. No need to support older versions of MeiliSearch since MeiliSearch is not stable at this time.
+- the tests are successful with the latest version of Meilisearch. No need to support older versions of Meilisearch since Meilisearch is not stable at this time.
 - the linter does not throw any errors.
 
 This guarantees the quality of the package and provides a welcoming environment for contributions.
