@@ -10,6 +10,7 @@ Here are the different guides for the Integration team.
 - [Build an Integration](./build-integration.md)
 - [Developer Scopes](./scopes.md)
 - [Demos](./demos.md)
+- [Labels in the sdk's issues](./sdk-labels.md)
 
 ## 🔧 Automation Tools
 
