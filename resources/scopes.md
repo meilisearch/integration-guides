@@ -53,7 +53,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 |||
 | [docs-scraper](https://github.com/meilisearch/docs-scraper)| [alallema](https://github.com/alallema/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [js-project-boilerplate](https://github.com/meilisearch/js-project-boilerplate)| [bidoubiwa](https://github.com/bidoubiwa/) |
-| [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration)| [alallema](https://github.com/alallema/) |
+| [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration)| [alallema](https://github.com/alallema/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
 | [WordPress integration](https://github.com/meilisearch/meilisearch-wordpress) (Stopped)| [brunoocasali](https://github.com/brunoocasali/) |
 
