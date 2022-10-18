@@ -15,41 +15,43 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 
 👥 Some repositories are handled by external contributors, and we are really grateful for this! This table only describes who is internally responsible at Meili, even if many contributors are highly present on this repository. This person can be considered as the Meili referent for the community. You can ping her/him if you have any question.
 
-| Repository | Meili's developer |
-|------------|-------------------|
-| [.Net SDK](https://github.com/meilisearch/meilisearch-dotnet) | [alallema](https://github.com/alallema/) |
-| [Dart SDK](https://github.com/meilisearch/meilisearch-dart) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Golang SDK](https://github.com/meilisearch/meilisearch-go) | [alallema](https://github.com/alallema/) |
-| [Java SDK](https://github.com/meilisearch/meilisearch-java) | [alallema](https://github.com/alallema/) |
-| [JavaScript SDK](https://github.com/meilisearch/meilisearch-js) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [PHP SDK](https://github.com/meilisearch/meilisearch-php) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Python SDK](https://github.com/meilisearch/meilisearch-python) | [alallema](https://github.com/alallema/) |
-| [Ruby SDK](https://github.com/meilisearch/meilisearch-ruby) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [Swift SDK](https://github.com/meilisearch/meilisearch-swift) | [brunoocasali](https://github.com/brunoocasali/) |
+👀 During the pre-release weeks, we generate tons of similar pull requests, which could be hard to review due to the amount of work in this period. In the last column, you can check who is responsible for reviewing a PR in the repository. It does not mean no one else can review the PR. This new list is just made to reduce the burden of the pre-release week.
+
+| Repository | Meili's developer | Pre-Release week reviewer |
+|------------|-------------------|---------------------------|
+| [.Net SDK](https://github.com/meilisearch/meilisearch-dotnet) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
+| [Dart SDK](https://github.com/meilisearch/meilisearch-dart) | [brunoocasali](https://github.com/brunoocasali/) | [alallema](https://github.com/alallema/) |
+| [Golang SDK](https://github.com/meilisearch/meilisearch-go) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/)
+| [Java SDK](https://github.com/meilisearch/meilisearch-java) | [alallema](https://github.com/alallema/) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [JavaScript SDK](https://github.com/meilisearch/meilisearch-js) | [bidoubiwa](https://github.com/bidoubiwa/) | [brunoocasali](https://github.com/brunoocasali/) |
+| [PHP SDK](https://github.com/meilisearch/meilisearch-php) | [brunoocasali](https://github.com/brunoocasali/) | [alallema](https://github.com/alallema/) |
+| [Python SDK](https://github.com/meilisearch/meilisearch-python) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
+| [Ruby SDK](https://github.com/meilisearch/meilisearch-ruby) | [brunoocasali](https://github.com/brunoocasali/) | [curquiza](https://github.com/curquiza/) & [mdubus](https://github.com/mdubus/) |
+| [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [bidoubiwa](https://github.com/bidoubiwa/) | [alallema](https://github.com/alallema/) |
+| [Swift SDK](https://github.com/meilisearch/meilisearch-swift) | [brunoocasali](https://github.com/brunoocasali/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
-| [Laravel-Scout integration](https://github.com/laravel/scout) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Rails integration](https://github.com/meilisearch/meilisearch-rails)| [brunoocasali](https://github.com/brunoocasali/) |
-| [Symfony integration](https://github.com/meilisearch/meilisearch-symfony)| [brunoocasali](https://github.com/brunoocasali/) |
+| [Laravel-Scout integration](https://github.com/laravel/scout) | [brunoocasali](https://github.com/brunoocasali/) | |
+| [Rails integration](https://github.com/meilisearch/meilisearch-rails)| [brunoocasali](https://github.com/brunoocasali/) | [curquiza](https://github.com/curquiza/) & [mdubus](https://github.com/mdubus/) |
+| [Symfony integration](https://github.com/meilisearch/meilisearch-symfony)| [brunoocasali](https://github.com/brunoocasali/) | [curquiza](https://github.com/curquiza/) & [alallema](https://github.com/alallema/) |
 |||
 | [Angular integration](https://github.com/meilisearch/meilisearch-angular) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [React integration](https://github.com/meilisearch/meilisearch-react) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [Vue integration](https://github.com/meilisearch/meilisearch-vue) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [brunoocasali](https://github.com/brunoocasali/) & [mdubus](https://github.com/mdubus/) |
+| [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) |
 |||
-| [Firestore extension](https://github.com/meilisearch/firestore-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [Gatsby plugin](https://github.com/meilisearch/gatsby-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) |
+| [Firestore extension](https://github.com/meilisearch/firestore-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [alallema](https://github.com/alallema/) |
+| [Gatsby plugin](https://github.com/meilisearch/gatsby-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) |
+| [Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) |
+| [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) |
 |||
-| [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean) | [alallema](https://github.com/alallema/) |
-| [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws) | [alallema](https://github.com/alallema/) |
-| [meilisearch-gcp](https://github.com/meilisearch/meilisearch-gcp) | [alallema](https://github.com/alallema/) |
-| [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes) | [alallema](https://github.com/alallema/) |
-| [Cloud Scripts](https://github.com/meilisearch/cloud-scripts) | [alallema](https://github.com/alallema/) |
+| [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
+| [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
+| [meilisearch-gcp](https://github.com/meilisearch/meilisearch-gcp) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
+| [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
+| [Cloud Scripts](https://github.com/meilisearch/cloud-scripts) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
 |||
-| [docs-scraper](https://github.com/meilisearch/docs-scraper)| [alallema](https://github.com/alallema/) |
+| [docs-scraper](https://github.com/meilisearch/docs-scraper)| [alallema](https://github.com/alallema/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [js-project-boilerplate](https://github.com/meilisearch/js-project-boilerplate)| [bidoubiwa](https://github.com/bidoubiwa/) |
 | [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration)| [alallema](https://github.com/alallema/) |
 |||
