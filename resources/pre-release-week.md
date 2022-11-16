@@ -2,7 +2,7 @@
 
 > ### **What's the pre-release week?**
 >
-> One week before the official release of Meilisearch, the Core team creates a release candidate (RC) version of Meilisearch. For the integration team, the main purpose of this RC is to implement the new features (in the integrations tools) related to the next release by testing them against the RC version.
+> One week before the official release of Meilisearch, the Engine team creates a release candidate (RC) version of Meilisearch. For the integration team, the main purpose of this RC is to implement the new features (in the integrations tools) related to the next release by testing them against the RC version.
 >
 > So **the pre-release week is a sprint for the Integration team** who needs to complete all the tests and integrate most of the changes before the official release of Meilisearch.
 >
@@ -37,7 +37,7 @@ The script automates the following tasks:
 
 ## 🧪 Testing
 
-- **Test manually the RC** with a Core team member or on your own. Should be done by all the Integration team members.
+- **Test manually the RC** with a Engine team member or on your own. Should be done by all the Integration team members.
 - **Run all the SDKs automatic test suites against the RC** thanks to [this script](https://github.com/meilisearch/integration-scripts/tree/main/sdks-tests). If tests are not green, these should be justified.
 - **Test manually the [DigitalOcean](https://github.com/meilisearch/meilisearch-digitalocean), [AWS](https://github.com/meilisearch/meilisearch-aws/) and [GCP](https://github.com/meilisearch/meilisearch-gcp) images with the RC** by following the `Test before Releasing` steps **without submitting or publishing the image**:
   - [testing process steps of `meilisearch-digitalocean`](https://github.com/meilisearch/meilisearch-digitalocean/blob/main/CONTRIBUTING.md#test-before-releasing-)
