@@ -26,7 +26,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [JavaScript SDK](https://github.com/meilisearch/meilisearch-js) | [bidoubiwa](https://github.com/bidoubiwa/) | [brunoocasali](https://github.com/brunoocasali/) |
 | [PHP SDK](https://github.com/meilisearch/meilisearch-php) | [brunoocasali](https://github.com/brunoocasali/) | [alallema](https://github.com/alallema/) |
 | [Python SDK](https://github.com/meilisearch/meilisearch-python) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Ruby SDK](https://github.com/meilisearch/meilisearch-ruby) | [brunoocasali](https://github.com/brunoocasali/) | [curquiza](https://github.com/curquiza/) & [mdubus](https://github.com/mdubus/) |
+| [Ruby SDK](https://github.com/meilisearch/meilisearch-ruby) | [brunoocasali](https://github.com/brunoocasali/) | [bidoubiwa](https://github.com/bidoubiwa/), [curquiza](https://github.com/curquiza/) & [mdubus](https://github.com/mdubus/) |
 | [Rust SDK](https://github.com/meilisearch/meilisearch-rust) | [bidoubiwa](https://github.com/bidoubiwa/) | [alallema](https://github.com/alallema/) |
 | [Swift SDK](https://github.com/meilisearch/meilisearch-swift) | [brunoocasali](https://github.com/brunoocasali/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
@@ -38,7 +38,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [React integration](https://github.com/meilisearch/meilisearch-react) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [Vue integration](https://github.com/meilisearch/meilisearch-vue) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [brunoocasali](https://github.com/brunoocasali/) & [mdubus](https://github.com/mdubus/) |
-| [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) |
+| [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
 | [Firestore extension](https://github.com/meilisearch/firestore-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [alallema](https://github.com/alallema/) |
 | [Gatsby plugin](https://github.com/meilisearch/gatsby-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) |
