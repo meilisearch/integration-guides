@@ -10,17 +10,13 @@
 <h4 align="center">
   <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
   <a href="https://docs.meilisearch.com">Documentation</a> |
-  <a href="https://slack.meilisearch.com">Slack</a> |
+  <a href="https://discord.meilisearch.com">Discord</a> |
   <a href="https://www.meilisearch.com">Website</a> |
   <a href="https://blog.meilisearch.com">Blog</a> |
   <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> |
   <a href="https://twitter.com/meilisearch">Twitter</a> |
   <a href="https://docs.meilisearch.com/faq/">FAQ</a>
 </h4>
-
-<p align="center">
-  <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-Meilisearch-blue.svg?logo=slack" alt="Slack"></a>
-</p>
 
 **The Integration Team owns all the repositories and tools that help the users integrate Meilisearch in their project.**
 
