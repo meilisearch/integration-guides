@@ -10,6 +10,7 @@ They depend on [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js)
 - [`gatsby-plugin-meilisearch`](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/)
 - [`strapi-plugin-meilisearch`](https://github.com/meilisearch/strapi-plugin-meilisearch/)
+- [`mini-dashboard`](https://github.com/meilisearch/mini-dashboard/)
 
 ## PHP SDK
 
@@ -37,6 +38,7 @@ They depend on [`instant-meilisearch`](https://github.com/meilisearch/instant-me
 - [`meilisearch-react`](https://github.com/meilisearch/meilisearch-react/) and the [associated code-sandbox](https://codesandbox.io/s/ms-react-is-sh9ud?fontsize=14&hidenavigation=1&theme=dark)
 - [`meilisearch-vue`](https://github.com/meilisearch/meilisearch-vue/) and the [associated code-sandbox](https://codesandbox.io/s/ms-vue-is-1d6bi?fontsize=14&hidenavigation=1&theme=dark)
 - The [code-sandbox of instant-meilisearch](https://codesandbox.io/s/ms-is-mese9?fontsize=14&hidenavigation=1&theme=dark)
+- [`mini-dashboard`](https://github.com/meilisearch/mini-dashboard/)
 
 Also, even if they are not parts of the integration team, we should keep in mind the following projects strongly depend on `instant-meilisearch`:
 - the [`mini-dashboard`](https://github.com/meilisearch/mini-dashboard)
