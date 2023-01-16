@@ -79,6 +79,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into Meilisearch.
 - [JS boilerplate](https://github.com/meilisearch/js-project-boilerplate/): a boilerplate to start a JS project.
 - [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration/)
+- [mini-dashboard](https://github.com/meilisearch/mini-dashboard/)
 
 ### 🧑‍🔧 Work In Progress
 

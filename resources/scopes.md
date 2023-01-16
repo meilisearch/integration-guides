@@ -55,6 +55,8 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [js-project-boilerplate](https://github.com/meilisearch/js-project-boilerplate)| [bidoubiwa](https://github.com/bidoubiwa/) |
 | [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration)| [alallema](https://github.com/alallema/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
+| [mini-dashboard](https://github.com/meilisearch/mini-dashboard/)| [bidoubiwa](https://github.com/bidoubiwa/) | [brunoocasali](https://github.com/brunoocasali/) |
+|||
 | [WordPress integration](https://github.com/meilisearch/meilisearch-wordpress) (Stopped)| [brunoocasali](https://github.com/brunoocasali/) |
 
 ### Access
