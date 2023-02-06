@@ -7,10 +7,10 @@ This guide is about releasing integrations and has nothing to do with Meilisearc
 >
 > **The Integration team should keep this in mind during the release process.**
 
-## Why Doing a Release?
+## Why Do a Release?
 
 First of all, you need to check the release would include user-oriented changes. A release is not always needed after merging PRs.<br>
-Don't do a release without any usage purpose, for example for the update of a text file/test/CI or for an internal refacto.
+Don't do a release without any usage purpose, for example for the update of a text file/test/CI or for an internal refactor.
 
 📢 **A release should be done only when there are changes concerning the code usage.**
 
