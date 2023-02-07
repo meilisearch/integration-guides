@@ -58,11 +58,13 @@ When an SDK drops a minimum required version of the runtime, we release a new MA
 
 ## Correlation between Meilisearch engine versioning and the SDKs
 
-We're still planning to make the SDKs stable, but first, we would like to evolve some questions, like having more feedback about the public API we expose to the users.
-So, expect different major version numbers between the Meilisearch engine and the SDKs.
+SDK's do not follow the Meilisearch engine version. It means that there is no correlation between SDK's version and Meilisearch; an SDK may be in version `v10.0.0` while the Meilisearch engine is in `v1.0.0`.
 
-It means there is no guarantee that since the Meilisearch engine is v1, we will have: Meilisearch Dart v1, Meilisearch JavaScript v1, Meilisearch .NET v1, and so on...
-And also, if we get a Meilisearch v2 in the future, there is no guarantee that we will have Meilisearch Dart v2.
+If the version of an SDK is the same as the latest version of Meilisearch. It is just a happy coincidence.
+
+A major release in Meilisearch may also not lead to a major release in the SDK's. For example, if we get a Meilisearch v2 in the future, there is no guarantee that the Meilisearch Dart SDK will update from v10 to v11.
+
+You can find out which version of the Meilisearch engine an SDK is compatible with by going to the `Compatibility with Meilisearch` section of every SDK README page. For example, the [README](https://github.com/meilisearch/meilisearch-ruby/#-compatibility-with-meilisearch) page of the ruby SDK.
 
 To illustrate, the idea is to have a similar table in every repository.
 
@@ -73,6 +75,8 @@ To illustrate, the idea is to have a similar table in every repository.
 | v1.1 | v0.18.0 |
 
 Given the example above, it means that the integration in v0.15 works with Meilisearch v1.1, but may only some of the new features introduced in v1.1 will work with this integration version.
+
+We're still working on making all of our SDKs stable, but first, we would like to evolve some questions, like having more feedback about the public API we expose to the users. We'r eager to receive feedback on changes you'd like to see in some sdks before their v1 release.
 
 ## When to we update SDKs to v1?
 
