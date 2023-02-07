@@ -1,6 +1,6 @@
 # Versioning policy
 
-This page describes the versioning rules Meilisearch SDKs will follow once Meilisearch engine v1.0.0 is released and how/when we should increase the MAJOR, MINOR, and PATCH of the versions.
+This page describes the versioning rules Meilisearch SDKs follow after the release of Meilisearch engine v1.0.0. It explains how and when we should increase the MAJOR, MINOR, and PATCH of the versions.
 
 ## 🤖 Basic rules
 
