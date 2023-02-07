@@ -54,7 +54,7 @@ This is the list of minimum supported language version runtimes*:
 
 When an SDK drops a minimum required version of the runtime, we will release a new MAJOR version of the SDK.
 
-\* This list may need to be updated. Always check the actual version in the integration's repository.
+\* This list may need to be updated. Always check the current version in the integration's repository.
 
 ## Correlation between Meilisearch engine versioning and the SDKs
 
