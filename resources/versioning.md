@@ -52,7 +52,7 @@ This is the list of minimum supported language version runtimes*:
 | Ruby | >= 2.6 |
 | Rust | N/A |
 
-When an SDK drops a minimum required version of the runtime, we will release a new MAJOR version of the SDK.
+When an SDK drops a minimum required version of the runtime, we release a new MAJOR version of the SDK.
 
 \* This list may need to be updated. Always check the current version in the integration's repository.
 
