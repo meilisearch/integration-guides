@@ -1,6 +1,6 @@
 # Versioning policy
 
-This page describes the versioning rules Meilisearch SDKs follow after the release of Meilisearch engine v1.0.0. It explains how and when we should increase the MAJOR, MINOR, and PATCH of the versions.
+This page describes the versioning rules Meilisearch SDKs follow after the release of Meilisearch engine v1.0.0. It explains how and when the Integrations Team should increase the MAJOR, MINOR, and PATCH of the versions.
 
 ## 🤖 Basic rules
 
@@ -23,17 +23,17 @@ Examples of changes making the code break and then, involving increasing the MAJ
     - Renaming a method name or classes
     - Removing or changing a positional argument of a method.
 
-## Reasons why we should release a major version
+## Reasons why releasing a major version is needed
 
 ### New runtimes adoption
 
-We don't have a strict policy yet regarding the minimum support of the language version. Example:
+There is no strict policy yet regarding the minimum support of the language version. Example:
 
 Ruby SDK has a `required_ruby_version >= 2.6`, which prevents users from using the gem if they run their apps with a `Ruby 2.5`.
 
-It is often good to only allow newer versions of the runtimes because they are maintained :sparkles: and there are always new features we can adopt in the code.
+It is often good to only allow newer versions of the runtimes because they are maintained :sparkles: and there are always new features is possible to adopt in the code and improve maintenance time.
 
-But there is a price for that. When we make that cut, we reduce the number of users who can adopt our SDK/service.
+But there is a price for that. When that cut is made, the number of users who can adopt the SDK is reduced.
 
 Currently, all supported versions are set in the CI of each repository.
 
@@ -52,9 +52,9 @@ This is the list of minimum supported language version runtimes*:
 | Ruby | >= 2.6 |
 | Rust | N/A |
 
-When an SDK drops a minimum required version of the runtime, we release a new MAJOR version of the SDK.
+When an SDK drops a minimum required version of the runtime, a new MAJOR version of the SDK should be released.
 
-\* This list may need to be updated. Always check the current version in the integration's repository.
+\* This list may be outdated. Always check the current version in the integration's repository.
 
 ## Correlation between Meilisearch engine versioning and the SDKs
 
@@ -62,11 +62,9 @@ SDKs do not follow the Meilisearch engine version. It means that there is no cor
 
 Suppose the version of an SDK is the same as the latest version of Meilisearch. It is just a happy coincidence.
 
-A major release in Meilisearch may also not lead to a major release in the SDKs. For example, if we get a Meilisearch v2 in the future, there is no guarantee that the Meilisearch Dart SDK will update from v10 to v11.
-
 You can find out which version of the Meilisearch engine an SDK is compatible with by going to the `Compatibility with Meilisearch` section of every SDK README page. For example, the [README](https://github.com/meilisearch/meilisearch-ruby/#-compatibility-with-meilisearch) page of the ruby SDK.
 
-To illustrate, the idea is to have a similar table in every repository.
+To illustrate, every repository will have a similar table like this:
 
 | Meilisearch engine version | Integration version |
 | -------------------------- | ------------------- |
@@ -76,12 +74,11 @@ To illustrate, the idea is to have a similar table in every repository.
 
 Given the example above, it means that the integration in v0.15 works with Meilisearch v1.1, but may only some of the new features introduced in v1.1 will work with this integration version.
 
-We're still working on making all of our SDKs stable, but first, we would like to evolve some questions, like having more feedback about the public API we expose to the users. We're eager to receive feedback on changes you'd like to see in some SDKs before their v1 release.
+## When SDKs will be stable (v1)?
 
-## When to we update SDKs to v1?
+The Integrations Team is still working on making all of the SDKs stable, but there is no roadmap yet. First, some questions need to evolve, like having more feedback about the public API exposed to the users.
 
-We are getting closer to a possible v1 in the SDKs, but there has yet to be a real roadmap.
-If you have a specific use case where you need the SDKs in v1, please let us know through the issues.
+If you have a specific use case where you need the SDKs in v1, or if you want to share feedback about them, **please share it through the issues**.
 
 ## Important facts
 
@@ -89,4 +86,4 @@ If you have a specific use case where you need the SDKs in v1, please let us kno
 
 :warning: If you use a `raw` method like `GetAllRawIndexesAsync`, `allRaw`, `rawSearch`, and similar. Please double-check the Meilisearch version you're running.
 
-Since these methods' responses are made directly by the Meilisearch engine, we, the SDKs, may be unable to keep backward compatibility in a possible v2, for example. So, if possible, don't use them.
+Since these methods' responses are made directly by the Meilisearch engine, the SDKs, may be unable to keep backward compatibility in a possible Meilisearch v2, for example. So, if possible, don't use them.
