@@ -70,9 +70,10 @@ To illustrate, every repository will have a similar table like this:
 | -------------------------- | ------------------- |
 | v0.30 | v0.14.0 |
 | v1.0 | >= v0.15.0 |
-| v1.1 | v0.18.0 |
+| v1.1 | >= v0.18.0 |
 
-Given the example above, it means that the integration in v0.15 works with Meilisearch v1.1, but may only some of the new features introduced in v1.1 will work with this integration version.
+Given the table above, a user using Meilisearch v1.1 does not need to have the v0.18 version of its SDK.
+Of course, some features will not be present, but they should still work.
 
 ## When SDKs will be stable (v1)?
 
