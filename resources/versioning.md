@@ -58,7 +58,7 @@ When an SDK drops a minimum required version of the runtime, we release a new MA
 
 ## Correlation between Meilisearch engine versioning and the SDKs
 
-SDKs do not follow the Meilisearch engine version. It means that there is no correlation between SDK's version and Meilisearch; an SDK may be in version `v10.0.0` while the Meilisearch engine is in `v1.0.0`.
+SDKs do not follow the Meilisearch engine version. It means that there is no correlation between SDK's version and Meilisearch; an SDK may be in version `v8.0.0` while the Meilisearch engine is in `v1.0.0`.
 
 Suppose the version of an SDK is the same as the latest version of Meilisearch. It is just a happy coincidence.
 
