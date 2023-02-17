@@ -27,13 +27,13 @@ Examples of changes making the code break and then, involving increasing the MAJ
 
 ### New runtimes adoption
 
-There is no strict policy yet regarding the minimum support of the language version. Example:
+There is no strict policy yet regarding the minimum support of the language version, but some ground rules were defined. Example:
 
 Ruby SDK has a `required_ruby_version >= 2.6`, which prevents users from using the gem if they run their apps with a `Ruby 2.5`.
 
 It is often good to only allow newer versions of the runtimes because they are maintained :sparkles: and there are always new features is possible to adopt in the code and improve maintenance time.
 
-But there is a price for that. When that cut is made, the number of users who can adopt the SDK is reduced.
+So when that cut is made, some users can be left behind. Because of this, the adoption of a new runtime is carefully planned because the team's top priority is to keep as many users covered as much as possible.
 
 Currently, all supported versions are set in the CI of each repository.
 
