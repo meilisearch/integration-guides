@@ -23,9 +23,7 @@ Examples of changes making the code break and then, involving increasing the MAJ
     - Renaming a method name or classes
     - Removing or changing a positional argument of a method.
 
-## Reasons why releasing a major version is needed
-
-### New runtimes adoption
+## Minimum supported runtime
 
 There is no strict policy yet regarding the minimum support of the language version, but some ground rules were defined. Example:
 
@@ -64,16 +62,6 @@ Suppose the version of an SDK is the same as the latest version of Meilisearch. 
 
 You can find out which version of the Meilisearch engine an SDK is compatible with by going to the `Compatibility with Meilisearch` section of every SDK README page. For example, the [README](https://github.com/meilisearch/meilisearch-ruby/#-compatibility-with-meilisearch) page of the ruby SDK.
 
-To illustrate, every repository will have a similar table like this:
-
-| Meilisearch engine version | Integration version |
-| -------------------------- | ------------------- |
-| v0.30 | v0.14.0 |
-| v1.0 | >= v0.15.0 |
-| v1.1 | >= v0.18.0 |
-
-Given the table above, a user using Meilisearch v1.1 does not need to have the v0.18 version of its SDK.
-Of course, some features will not be present, but they should still work.
 
 ## When SDKs will be stable (v1)?
 
