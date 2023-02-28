@@ -77,7 +77,7 @@ It is possible by accessing the README.md of each repository. A tier badge is pr
 
 [![tiers - #1](https://img.shields.io/static/v1?label=tiers&message=%231&color=blue)](https://github.com/meilisearch/integration-guides/blob/main/resources/tiers.md)
 [![tiers - #2](https://img.shields.io/static/v1?label=tiers&message=%232&color=2ea44f)](https://github.com/meilisearch/integration-guides/blob/main/resources/tiers.md)
-[![tiers - #3](https://img.shields.io/static/v1?label=tiers&message=%231&color=critical)](https://github.com/meilisearch/integration-guides/blob/main/resources/tiers.md)
+[![tiers - #3](https://img.shields.io/static/v1?label=tiers&message=%233&color=critical)](https://github.com/meilisearch/integration-guides/blob/main/resources/tiers.md)
 
 #### Why SDKs are present in a particular tier?
 
