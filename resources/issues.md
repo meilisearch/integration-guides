@@ -33,3 +33,11 @@ Why? People often ask to be assigned and never come back, which discourages the 
 We will accept and merge the first PR that fixes correctly and implements the issue following the contribution guidelines of the corresponding repository.
 
 We are looking forward to your contributions. No need to wait for an assignment to start! 👍
+
+## Issue priority feedback policy based on tier level
+
+Hey \@username.
+No reason why we shouldn't implement this, it's a good idea!
+
+I will add it to the stack of new features to add in this plugin, but we don't have enough time to work on it in the following weeks. 
+If someone wants to contribute and implement it, it can be faster! PRs are always welcomed!
