@@ -28,8 +28,8 @@ The following labels help us categorize the issues:
 
 We prefer not assigning external people to our issues.
 
-Why? It often occurs that people ask to be assigned and never come back, which discourages the volunteer contributors to open a PR to fix the issue.
+Why? People often ask to be assigned and never come back, which discourages the volunteer contributors from opening a PR to fix the issue.
 
-We will accept and merge the first PR that fixes correctly and well implements the issue following the contribution guidelines of the corresponding repository.
+We will accept and merge the first PR that fixes correctly and implements the issue following the contribution guidelines of the corresponding repository.
 
-We are looking forward to your contributions, no need to wait for an assignation to start! 👍
+We are looking forward to your contributions. No need to wait for an assignment to start! 👍
