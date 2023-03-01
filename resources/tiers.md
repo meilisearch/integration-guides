@@ -71,14 +71,6 @@ Whenever a anomaly is detected, a change can be submitted to the `integration-gu
 
 The other way around is also valid. A SDK can move to less important tiers. :shipit:
 
-### How to identify which tier an SDK belongs to?
-
-It is possible by accessing the README.md of each repository. A tier badge is present below the Meilisearch logo. The badge can have the following values: "tiers #1", "tiers #2" and "tiers #3". For example:
-
-[![tiers - #1](https://img.shields.io/static/v1?label=tiers&message=%231&color=blue)](https://github.com/meilisearch/integration-guides/blob/main/resources/tiers.md)
-[![tiers - #2](https://img.shields.io/static/v1?label=tiers&message=%232&color=2ea44f)](https://github.com/meilisearch/integration-guides/blob/main/resources/tiers.md)
-[![tiers - #3](https://img.shields.io/static/v1?label=tiers&message=%233&color=critical)](https://github.com/meilisearch/integration-guides/blob/main/resources/tiers.md)
-
 #### Why SDKs are present in a particular tier?
 
 In general, because those SDKs have more and the most active users. By "active users," it means more activity in the repository, like contributions, watching (GitHub watchers), stargazers (GitHub stars), and forks (GitHub clones).
