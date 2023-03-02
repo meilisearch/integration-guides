@@ -37,7 +37,7 @@ We are looking forward to your contributions. No need to wait for an assignment 
 ## Issue priority feedback policy based on tier level
 
 Hey \@username.
-I agree on implementing this! 
+I agree with implementing this! 
 
-We might not have enough time to work on it in the following weeks.
-If someone wants to contribute and implement it, it will be released faster! PRs are always welcomed!
+We might not have enough time to work on it in the following weeks. Also, I will add some details to this issue to make the implementation easier.
+If someone wants to contribute and implement it, it will be released faster! PRs are always welcome!
