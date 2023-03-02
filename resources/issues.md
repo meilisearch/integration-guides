@@ -37,7 +37,7 @@ We are looking forward to your contributions. No need to wait for an assignment 
 ## Issue priority feedback policy based on tier level
 
 Hey \@username.
-No reason why we shouldn't implement this, it's a good idea!
+I agree on implementing this! 
 
-I will add it to the stack of new features to add in this plugin, but we don't have enough time to work on it in the following weeks. 
-If someone wants to contribute and implement it, it can be faster! PRs are always welcomed!
+We might not have enough time to work on it in the following weeks.
+If someone wants to contribute and implement it, it will be released faster! PRs are always welcomed!
