@@ -26,10 +26,26 @@ The following labels help us categorize the issues:
 
 ## Issue assignation policy
 
-We prefer not assigning external people to our issues.
+We prefer not assigning external people to our issues.<br />
+Because people often ask to be assigned and never return, which discourages other potential contributions. <br />
+We will accept and merge the first PR that fixes correctly and implements the issue. <br />
 
-Why? People often ask to be assigned and never come back, which discourages the volunteer contributors from opening a PR to fix the issue.
+## Message templates (to be used by the Integrations Team members)
+
+**When the contributor asks to be assigned into the issue**
+
+Hi \@username, we prefer not assigning external people to our issues.
+
+Why? People often ask to be assigned and never return, discouraging the volunteer contributors from opening a PR to fix the issue.
 
 We will accept and merge the first PR that fixes correctly and implements the issue following the contribution guidelines of the corresponding repository.
 
-We are looking forward to your contributions. No need to wait for an assignment to start! 👍
+We are looking forward to your contributions. No need to wait for an assignment to start! :+1:
+
+**When the contributor suggests an improvement in a low level tier.**
+
+Hey \@username.
+I agree with implementing this! 
+
+We might not have enough time to work on it in the following weeks. Also, I will add some details to this issue to make the implementation easier.
+If someone wants to contribute and implement it, it will be released faster! PRs are always welcome!
