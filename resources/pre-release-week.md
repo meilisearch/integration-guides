@@ -54,7 +54,7 @@ For each implementation or fix:
 - **Create a PR** up-to-date with `bump-meilisearch-vX.X.X` and pointing to `bump-meilisearch-vX.X.X` with all the changes.
 - **Make all the tests green**: the tests are running against the RC and not the latest stable version of Meilisearch.<br>
 If they don't pass, please explain the reason: another PR concerning other changes might indeed be needed.
-- **Ask for reviews**: the Meili developer responsible to make the review [is written here](https://github.com/meilisearch/integration-guides/blob/main/resources/scopes.md).
+- **Ask for reviews**: the team member responsible to make the review [is written here](https://github.com/meilisearch/integration-guides/blob/main/resources/scopes.md).
 - **Merge the PR** with the `Squash and Merge` button once you get an approval.<br>
 Don't use Bors: this tool would not run the tests against the RC so will not merge your PR.<br>
 Some tests still might fail on this main PR until the new release of Meilisearch is out.
