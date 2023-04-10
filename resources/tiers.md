@@ -71,7 +71,7 @@ Whenever a anomaly is detected, a change can be submitted to the `integration-gu
 
 The other way around is also valid. A SDK can move to less important tiers. :shipit:
 
-#### Why SDKs are present in a particular tier?
+### Why SDKs are present in a particular tier?
 
 In general, because those SDKs have more and the most active users. By "active users," it means more activity in the repository, like contributions, watching (GitHub watchers), stargazers (GitHub stars), and forks (GitHub clones).
 
@@ -79,3 +79,13 @@ Besides GitHub data, we track the importance of integration by constantly watchi
 We also give more weight when we know a particular SDK has more Meilisearch Cloud customers.
 
 PS: Other principles that are not written here may be used to move SDKs around if the team thinks it is relevant.
+
+### When will the new features from a new Meilisearch release be released in the SDKs?
+
+There is a [guideline](https://github.com/meilisearch/integration-guides/blob/main/resources/pre-release-week.md) the Integrations Team follows for every pre-release. Take a look at it to have more info.
+
+Since every pre-release has its central issue ([like this one](https://github.com/meilisearch/integration-guides/issues/251)), and this issue describes every planned implementation the team will do in the weeks before the release, the community can expect that this plan will be achieved.
+
+But if, for some reason, the team does not finish it on time, it will still be the top priority to finish it before anything else.
+
+Remember that most new features will not be implemented in tier #3. Each repository will track those features individually as new issues after the pre-release time.
