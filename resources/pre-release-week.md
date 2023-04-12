@@ -72,4 +72,5 @@ Some tests still might fail on this main PR until the new release of Meilisearch
 - Release these packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
 - Close the related issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues) only when the original plan was achieved. 
   - Open new issues in all the repositories which were not part of the planned tiers. E.g., since most features are not done in tier #3, issues should be opened in those repositories.
+  - Open new issues in the repositories where the feature proved harder to implement than expected and is not worth doing now.
 - The Integration team does a retrospective meeting internally to take notes on what went well and what did not and improve it for the next time.
