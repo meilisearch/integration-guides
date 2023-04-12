@@ -86,6 +86,15 @@ There is a [guideline](https://github.com/meilisearch/integration-guides/blob/ma
 
 Since every pre-release has its central issue ([like this one](https://github.com/meilisearch/integration-guides/issues/251)), and this issue describes every planned implementation the team will do in the weeks before the release, the community can expect that this plan will be achieved.
 
-But if, for some reason, the team does not finish it on time, it will still be the top priority to finish it before anything else.
+But if, for some reason, the team does not finish it on time, it will still be the top priority to finish it before anything else. In an event of having only part of the features available to be released in the D-Day, the team will evaluate how long it will take to finish the remaining, so it means:
+
+Tier #1 = Release day + 1 day  
+Tier #2 = Release day + 1 week  
+Tier #3 = Release day + unlimited  
+
+So, if a tier #1 SDK is not fully ready on the Meilisearch engine release day, the user can expect a release in **any case on the following day**. Yes, __this release may lack some of the features planned initially__. Those features will be done in the next few days as a top priority.<br/>
+The same can happen with tier #2. If it is not fully ready, you can expect a release **a week after the release day**, and the remaining features will be implemented in the following weeks.<br/>
+Tier #3 **has no constraint** about having to be released in a particular amount of time.
+
 
 Remember that most new features will not be implemented in tier #3. Each repository will track those features individually as new issues after the pre-release time.
