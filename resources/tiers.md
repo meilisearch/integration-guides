@@ -71,7 +71,7 @@ Whenever a anomaly is detected, a change can be submitted to the `integration-gu
 
 The other way around is also valid. A SDK can move to less important tiers. :shipit:
 
-#### Why SDKs are present in a particular tier?
+### Why SDKs are present in a particular tier?
 
 In general, because those SDKs have more and the most active users. By "active users," it means more activity in the repository, like contributions, watching (GitHub watchers), stargazers (GitHub stars), and forks (GitHub clones).
 
@@ -79,3 +79,22 @@ Besides GitHub data, we track the importance of integration by constantly watchi
 We also give more weight when we know a particular SDK has more Meilisearch Cloud customers.
 
 PS: Other principles that are not written here may be used to move SDKs around if the team thinks it is relevant.
+
+### When will the new features from a new Meilisearch release be released in the SDKs?
+
+There is a [guideline](https://github.com/meilisearch/integration-guides/blob/main/resources/pre-release-week.md) the Integrations Team follows for every pre-release. Take a look at it to have more info.
+
+Every pre-release has its central issue ([like this one](https://github.com/meilisearch/integration-guides/issues/251)). This issue describes every planned implementation the team will do in the weeks before the release. The community can expect that this plan will be achieved.
+
+But if, for some reason, the team does not finish implementing on time, it still is the top priority to finish it before anything else. If only parts of the features are available on the release D-Day, the team will evaluate how long it will take to finish them. Depending on the integration tier, and the time it would take the team to finish, we will release the integration with the partial implementations. These are the delays we accept per tier before releasing:
+
+Tier #1 = Release day + 1 day  
+Tier #2 = Release day + 1 week  
+Tier #3 = Release day + unlimited  
+
+So, if a tier #1 SDK is not fully ready on the Meilisearch engine release day, the user can expect a release in **any case on the following day**. Yes, __this release may lack some of the features planned initially__. Those features will be implemented as a top priority.<br/>
+The same can happen with tier #2. If it is not fully ready, you can expect a release **a week after the release day**, and the remaining features will be implemented in the following weeks.<br/>
+Tier #3 **has no constraint** about having to be released in a particular amount of time.
+
+
+Remember that most new features will not be implemented in tier #3. Each repository will track those features individually as new issues after the pre-release time.
