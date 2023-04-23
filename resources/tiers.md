@@ -92,7 +92,7 @@ Tier #1 = Release day + 1 day
 Tier #2 = Release day + 1 week  
 Tier #3 = Release day + unlimited  
 
-So, if a tier #1 SDK is not fully ready on the Meilisearch engine release day, the user can expect a release in **any case on the following day**. Yes, __this release may lack some of the features planned initially__. Those features will be done in the next few days as a top priority.<br/>
+So, if a tier #1 SDK is not fully ready on the Meilisearch engine release day, the user can expect a release in **any case on the following day**. Yes, __this release may lack some of the features planned initially__. Those features will be implemented as a top priority.<br/>
 The same can happen with tier #2. If it is not fully ready, you can expect a release **a week after the release day**, and the remaining features will be implemented in the following weeks.<br/>
 Tier #3 **has no constraint** about having to be released in a particular amount of time.
 
