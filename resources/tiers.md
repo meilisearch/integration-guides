@@ -86,7 +86,7 @@ There is a [guideline](https://github.com/meilisearch/integration-guides/blob/ma
 
 Every pre-release has its central issue ([like this one](https://github.com/meilisearch/integration-guides/issues/251)). This issue describes every planned implementation the team will do in the weeks before the release. The community can expect that this plan will be achieved.
 
-But if, for some reason, the team does not finish it on time, it will still be the top priority to finish it before anything else. In an event of having only part of the features available to be released in the D-Day, the team will evaluate how long it will take to finish the remaining, so it means:
+But if, for some reason, the team does not finish implementing on time, it still is the top priority to finish it before anything else. If only parts of the features are available on the release D-Day, the team will evaluate how long it will take to finish them. Depending on the integration tier, and the time it would take the team to finish, we will release the integration with the partial implementations. These are the delays we accept per tier before releasing:
 
 Tier #1 = Release day + 1 day  
 Tier #2 = Release day + 1 week  
