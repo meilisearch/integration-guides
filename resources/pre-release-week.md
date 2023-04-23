@@ -70,5 +70,7 @@ Some tests still might fail on this main PR until the new release of Meilisearch
 - Release the just-modified packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
 - For the repositories depending on other integration packages (like meilisearch-rails or instant-meilisearch): upgrade the dependency, commit to `bump-meilisearch-vX.X.X` and merge the PR with the same process than above.
 - Release these packages if necessary. Follow the steps in the [release process guide](./integration-tool-release.md).
-- Close the related issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues). If some features have not been integrated into one or several integration tools, issues about the implementations must be opened in the concerned repositories before closing the main issue in integration-guides.
+- Close the related issue in [integration-guides](https://github.com/meilisearch/integration-guides/issues) only when the original plan was achieved. 
+  - Open new issues in all the repositories which were not part of the planned tiers. E.g., since most features are not done in tier #3, issues should be opened in those repositories.
+  - Open new issues in the repositories where the feature proved harder to implement than expected and is not worth doing now.
 - The Integration team does a retrospective meeting internally to take notes on what went well and what did not and improve it for the next time.
