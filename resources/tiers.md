@@ -42,17 +42,17 @@ Javascript | #1 |
 PHP | #1 |
 Instant Meilisearch | #1 |
 Python | #1 |
+Ruby | #1 |
 Go | #1 |
 Strapi | #2 |
-Ruby | #2 |
-Rails | #2 |
 .NET | #2 |
+Rails | #2 |
 Rust | #2 |
 Symfony | #3 |
-docs-searchbar.js | #3 |
-Firebase | #3 |
-Dart | #3 |
 Java | #3 |
+Firebase | #3 |
+docs-searchbar.js | #3 |
+Dart | #3 |
 Swift | #3 |
 Vuepress | #3 |
 Gatsby | #3 |
