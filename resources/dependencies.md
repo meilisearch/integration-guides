@@ -49,13 +49,6 @@ Also, even if they are not parts of the integration team, we should keep in mind
 They depend on [`docs-searchbar.js`](https://github.com/meilisearch/docs-searchbar.js)
 - [`vuepress-plugin-meilisearch`](https://github.com/meilisearch/vuepress-plugin-meilisearch/)
 
-## Cloud scripts
-
-They depend on [`cloud-scripts`](https://github.com/meilisearch/cloud-scripts)
-- [`meilisearch-aws`](https://github.com/meilisearch/meilisearch-aws/)
-- [`meilisearch-digitalocean`](https://github.com/meilisearch/meilisearch-gcp/)
-- [`meilisearch-gcp`](https://github.com/meilisearch/meilisearch-gcp/)
-
 ## VuePress plugin
 
 No projects depends on [vuepress-plugin-meilisearch]((https://github.com/meilisearch/vuepress-plugin-meilisearch/) in the integration team.

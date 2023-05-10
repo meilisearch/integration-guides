@@ -68,11 +68,12 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### 🐳 DevOps Tools
 
-- [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean): how to deploy a Meilisearch instance on DigitalOcean. See this [dedicated page](https://docs.meilisearch.com/create/how_to/digitalocean_droplet.html) to use it.
-- [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws): how to deploy a Meilisearch instance on AWS. See this [dedicated page](https://docs.meilisearch.com/create/how_to/aws.html) to use it.
-- [meilisearch-gcp](https://github.com/meilisearch/meilisearch-gcp): how to deploy a Meilisearch instance on GCP.
+- [Cloud Providers](https://github.com/meilisearch/cloud-providers): Centralize a set of tools to build Meilisearch images for multiple platforms.
+  How to deploy a Meilisearch instance on every provider:
+  - See this [dedicated page for AWS](https://www.meilisearch.com/docs/learn/cookbooks/aws) to use it.
+  - See this [dedicated page for DigitalOcean](https://www.meilisearch.com/docs/learn/cookbooks/digitalocean) to use it.
+  - See this [dedicated page for GCP](https://www.meilisearch.com/docs/learn/cookbooks/gcp) to use it.
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): how to deploy a Meilisearch instance on Kubernetes.
-- [Cloud Scripts](https://github.com/meilisearch/cloud-scripts): centralize all the configurations to help our DevOps tool handle Meilisearch.
 
 ### <img src="assets/icons/other.png" width="20"> Misc
 

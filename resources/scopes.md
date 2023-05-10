@@ -45,11 +45,8 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) |
 | [VuePress plugin](https://github.com/meilisearch/vuepress-plugin-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) |
 |||
-| [meilisearch-digitalocean](https://github.com/meilisearch/meilisearch-digitalocean) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
-| [meilisearch-aws](https://github.com/meilisearch/meilisearch-aws) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
-| [meilisearch-gcp](https://github.com/meilisearch/meilisearch-gcp) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
 | [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
-| [Cloud Scripts](https://github.com/meilisearch/cloud-scripts) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
+| [Cloud Providers](https://github.com/meilisearch/cloud-providers) | [alallema](https://github.com/alallema/) | [brunoocasali](https://github.com/brunoocasali/) |
 |||
 | [docs-scraper](https://github.com/meilisearch/docs-scraper)| [alallema](https://github.com/alallema/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [js-project-boilerplate](https://github.com/meilisearch/js-project-boilerplate)| [bidoubiwa](https://github.com/bidoubiwa/) |
