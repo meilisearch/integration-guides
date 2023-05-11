@@ -21,7 +21,7 @@ The following labels help us categorize the issues:
 - `Meilisearch bump`: tracking issue related to a bump of Meilisearch. It describes the impacts to the integration repositories leads by a new Meilisearch release.
 - `new integration`: the issue concerns a new integration.
 - `JS integrations`: the issue concerns some or all the JS repositories (ex: meilisearch-js, instant-meilisearch, docs-search.js...)
-- `DevOps tools`: the issue concerns some or all the DevOps repositories (ex: meilisearch-gcp, meilisearch-aws...)
+- `DevOps tools`: the issue concerns the DevOps repository (ex: cloud-providers)
 - `SDKs`: the issue concerns some or all the SDKs (ex: meilisearch-js, meilisearch-ruby...)
 
 ## Issue assignation policy
@@ -45,7 +45,7 @@ We are looking forward to your contributions. No need to wait for an assignment 
 **When the contributor suggests an improvement in a low level tier.**
 
 Hey \@username.
-I agree with implementing this! 
+I agree with implementing this!
 
 We might not have enough time to work on it in the following weeks. Also, I will add some details to this issue to make the implementation easier.
 If someone wants to contribute and implement it, it will be released faster! PRs are always welcome!
