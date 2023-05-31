@@ -37,7 +37,7 @@ Same, if you are not responsible for a scope, you are always encouraged to check
 | [Angular integration](https://github.com/meilisearch/meilisearch-angular) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [React integration](https://github.com/meilisearch/meilisearch-react) | [bidoubiwa](https://github.com/bidoubiwa/) |
 | [Vue integration](https://github.com/meilisearch/meilisearch-vue) | [bidoubiwa](https://github.com/bidoubiwa/) |
-| [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [brunoocasali](https://github.com/brunoocasali/) & [mdubus](https://github.com/mdubus/) |
+| [instant-meilisearch](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [brunoocasali](https://github.com/brunoocasali/) & [mdubus](https://github.com/mdubus/) |
 | [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js) | [bidoubiwa](https://github.com/bidoubiwa/) | [mdubus](https://github.com/mdubus/) | [bidoubiwa](https://github.com/bidoubiwa/) |
 |||
 | [Firestore extension](https://github.com/meilisearch/firestore-meilisearch) | [bidoubiwa](https://github.com/bidoubiwa/) | [alallema](https://github.com/alallema/) |
