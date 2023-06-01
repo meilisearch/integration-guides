@@ -41,7 +41,7 @@ Integration | Tier |
 Javascript | #1 |
 PHP | #1 |
 Instant Meilisearch | #1 |
-Autocomplete-client | #1 |
+Autocomplete client | #1 |
 Python | #1 |
 Ruby | #1 |
 Go | #1 |
