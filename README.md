@@ -15,7 +15,7 @@
   <a href="https://blog.meilisearch.com">Blog</a> |
   <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> |
   <a href="https://twitter.com/meilisearch">Twitter</a> |
-  <a href="https://docs.meilisearch.com/faq/">FAQ</a>
+  <a href="https://www.meilisearch.com/docs/faq/">FAQ</a>
 </h4>
 
 **The Integration Team owns all the repositories and tools that help the users integrate Meilisearch in their project.**
