@@ -20,7 +20,7 @@ The five following labels make us track the current state of an issue, from the 
 The following labels help us categorize the issues:
 - `Meilisearch bump`: tracking issue related to a bump of Meilisearch. It describes the impacts to the integration repositories leads by a new Meilisearch release.
 - `new integration`: the issue concerns a new integration.
-- `JS integrations`: the issue concerns some or all the JS repositories (ex: meilisearch-js, instant-meilisearch, autocomplete-client...)
+- `JS integrations`: the issue concerns some or all the JS repositories (ex: meilisearch-js, instant-meilisearch, docs-search.js...)
 - `DevOps tools`: the issue concerns the DevOps repository (ex: cloud-providers)
 - `SDKs`: the issue concerns some or all the SDKs (ex: meilisearch-js, meilisearch-ruby...)
 
