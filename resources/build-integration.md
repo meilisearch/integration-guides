@@ -21,6 +21,52 @@ We recommend checking out the READMEs of our other integration repositories, lik
 
 All integration repositories must contain a file titled `CONTRIBUTING.md`. The template is [here](/templates/CONTRIBUTING.md) and should be filled according to the details of your repository..
 
+### 3.1 Docker & Docker-compose
+
+The integration should contain a `Docker` and a `Docker Compose` configurated following the patterns of the other repositories.
+
+- Must have a service `package` and a `meilisearch` service.
+  - Must depend and contain a link to `meilisearch` service.
+- The `meilisearch` service should point to `latest` tag.
+  - `MEILI_NO_ANALYTICS` should be set to `true`
+  - `MEILI_MASTER_KEY` should be set to `masterKey`
+
+<details>
+  <summary>See the Docker and Docker-compose sample</summary>
+
+  ```yml
+  version: "3.8"
+
+  volumes:
+    pub:
+
+  services:
+    package:
+      image: dart:latest # this sample comes from the Dart SDK.
+      tty: true
+      stdin_open: true
+      working_dir: /home/package
+      environment:
+        - MEILISEARCH_URL=http://meilisearch:7700
+        - PUB_CACHE=/vendor/pub-cache
+      depends_on:
+        - meilisearch
+      links:
+        - meilisearch
+      volumes:
+        - pub:/vendor/pub-cache
+        - ./:/home/package
+
+    meilisearch:
+      image: getmeili/meilisearch:latest
+      ports:
+        - "7700"
+      environment:
+        - MEILI_MASTER_KEY=masterKey
+        - MEILI_NO_ANALYTICS=true
+  ```
+</details>
+
 ## 4. Minimal Provided Methods
 
 At minimum, your integration must support:
