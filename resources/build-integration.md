@@ -23,7 +23,7 @@ All integration repositories must contain a file titled `CONTRIBUTING.md`. The t
 
 ### 3.1 Docker & Docker-compose
 
-The integration should be ready to use with `Docker`, and it must contain a `Docker Compose` file configurated following the patterns of the other repositories.
+The integration should be ready to use with `Docker`, and it must contain a `Docker Compose` file configurated following these patterns:
 - Must have a service `package` and a `meilisearch` service.
   - Must depend and contain a link to `meilisearch` service.
 - The `meilisearch` service should point to `latest` tag.
