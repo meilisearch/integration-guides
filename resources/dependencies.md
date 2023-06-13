@@ -8,7 +8,8 @@ They depend on [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js)
 - [`docs-searchbar.js`](https://github.com/meilisearch/docs-searchbar.js)
 - [`firestore-meilisearch`](https://github.com/meilisearch/firestore-meilisearch/)
 - [`gatsby-plugin-meilisearch`](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
-- [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/)
+- [`instant-meilisearch`](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch)
+- [`instant-meilisearch`](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch)
 - [`autocomplete-client`](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/autocomplete-client)
 - [`strapi-plugin-meilisearch`](https://github.com/meilisearch/strapi-plugin-meilisearch/)
 - [`mini-dashboard`](https://github.com/meilisearch/mini-dashboard/)
@@ -34,7 +35,7 @@ Also, even if they are not parts of the integration team, we should keep in mind
 
 ## Instant Meilisearch
 
-They depend on [`instant-meilisearch`](https://github.com/meilisearch/instant-meilisearch/)
+They depend on [`instant-meilisearch`](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch)
 - [`autocomplete-client`](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/autocomplete-client)
 - [`meilisearch-angular`](https://github.com/meilisearch/meilisearch-angular/) and the [associated code-sandbox](https://codesandbox.io/s/im-angularis-7xipe?file=/src/app/app.component.ts)
 - [`meilisearch-react`](https://github.com/meilisearch/meilisearch-react/) and the [associated code-sandbox](https://codesandbox.io/s/ms-react-is-sh9ud?fontsize=14&hidenavigation=1&theme=dark)

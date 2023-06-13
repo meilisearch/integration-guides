@@ -108,7 +108,7 @@ To run the tests in headless mode:
 npx cypress run
 ```
 
-Starting from there, you can add more tests. See example on [our Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js) or [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch/blob/main/cypress/integration/react.spec.js).
+Starting from there, you can add more tests. See example on [our Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch/blob/main/cypress/integration/ui_spec.js) or [instant-meilisearch](https://github.com/meilisearch/meilisearch-js-plugins/blob/main/playgrounds/local-react/cypress/integration/search-ui.spec.js).
 
 For example:
 ```js
