@@ -41,6 +41,7 @@ Integration | Tier |
 Javascript | #1 |
 PHP | #1 |
 Instant Meilisearch | #1 |
+Autocomplete client | #1 |
 Python | #1 |
 Ruby | #1 |
 Go | #1 |
@@ -88,9 +89,9 @@ Every pre-release has its central issue ([like this one](https://github.com/meil
 
 But if, for some reason, the team does not finish implementing on time, it still is the top priority to finish it before anything else. If only parts of the features are available on the release D-Day, the team will evaluate how long it will take to finish them. Depending on the integration tier, and the time it would take the team to finish, we will release the integration with the partial implementations. These are the delays we accept per tier before releasing:
 
-Tier #1 = Release day + 1 day  
-Tier #2 = Release day + 1 week  
-Tier #3 = Release day + unlimited  
+Tier #1 = Release day + 1 day
+Tier #2 = Release day + 1 week
+Tier #3 = Release day + unlimited
 
 So, if a tier #1 SDK is not fully ready on the Meilisearch engine release day, the user can expect a release in **any case on the following day**. Yes, __this release may lack some of the features planned initially__. Those features will be implemented as a top priority.<br/>
 The same can happen with tier #2. If it is not fully ready, you can expect a release **a week after the release day**, and the remaining features will be implemented in the following weeks.<br/>

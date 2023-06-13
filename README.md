@@ -15,7 +15,7 @@
   <a href="https://blog.meilisearch.com">Blog</a> |
   <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> |
   <a href="https://twitter.com/meilisearch">Twitter</a> |
-  <a href="https://docs.meilisearch.com/faq/">FAQ</a>
+  <a href="https://www.meilisearch.com/docs/faq/">FAQ</a>
 </h4>
 
 **The Integration Team owns all the repositories and tools that help the users integrate Meilisearch in their project.**
@@ -56,7 +56,8 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [Angular](https://github.com/meilisearch/meilisearch-angular)
 - [React](https://github.com/meilisearch/meilisearch-react)
 - [Vue](https://github.com/meilisearch/meilisearch-vue)
-- [instant-meilisearch](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch): a plugin to establish the communication between Meilisearch and the open-source [InstantSearch](https://github.com/algolia/instantsearch.js) tools (powered by Algolia) for your front-end application.
+- [instant-meilisearch](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch): A search client that enables the integration of the open-source tool [instantsearch.js](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/) with Meilisearch. This client allows you to combine the functionalities of Meilisearch with InstantSearch.js, resulting in a powerful and interactive search user interface.
+- [Autocomplete client](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/autocomplete-client): A search client that enables the integration of the open-source tool [autocomplete-js](https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete/) with Meilisearch. This client allows you to utilize the powerful features of Meilisearch in combination with autocomplete functionality for an enhanced search experience.
 - [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 
 ### 🧩 Platform Plugins
