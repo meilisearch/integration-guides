@@ -42,9 +42,11 @@ Javascript | #1 |
 PHP | #1 |
 Instant Meilisearch | #1 |
 Autocomplete client | #1 |
-Python | #1 |
-Ruby | #1 |
-Go | #1 |
+Cloud Providers | #1 |
+Kubernetes Chart | #1 |
+Python | #2 |
+Ruby | #2 |
+Go | #2 |
 Strapi | #2 |
 .NET | #2 |
 Rails | #2 |
