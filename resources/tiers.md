@@ -40,8 +40,7 @@ Integration | Tier |
 -------------|------|
 Javascript | #1 |
 PHP | #1 |
-Instant Meilisearch | #1 |
-Autocomplete client | #1 |
+meilisearch-js-plugins | #1 |
 Cloud Providers | #1 |
 Kubernetes Chart | #1 |
 Python | #2 |
