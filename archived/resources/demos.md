@@ -1,5 +1,7 @@
 # Integration team demos
 
+:warning: This is a responsibility of the Meilisearch DevRel team now.
+
 The integration team is also responsible for maintaining some Meilisearch indexes and demos that can be useful for the users and the developers.
 
 ## Meilisearch instance
