@@ -14,6 +14,8 @@ It is worth remembering that this priority is just a concept introduced by the t
 
 ## Tier #1
 
+:warning: Managed by the internal team
+
 The SDKs in group #1 have absolute priority over the team's time. For example, issues are visited before issues are present in tier #2.
 It is worth remembering that this does not mean open issues are addressed and fixed promptly. Every issue needs time to be understood/confirmed/worked on and consequently closed.
 
@@ -21,12 +23,15 @@ All new Meilisearch features that make sense for those SDKs will be available on
 
 ## Tier #2
 
-Tier #2 SDKs are the emergent ones. The Integrations Team believes they can move further and are betting on them.
-In any case, since they bring less value than tier #1, the team will only spend the time required to keep these SDKs working and do the necessary maintenance code and code cleanup.
+:warning: Managed by the community & Internal team
+
+Tier #2 SDKs are the emergent ones. In any case, since they have a smaller audience than tier #1, the team will only spend the time required to keep these SDKs working and do the necessary maintenance code like fixing really important bugs.
 
 Only in urgent cases where, for example, the SDK is no longer working issues from the SDKs in group #2 prioritized over Tier #1.
 
 ## Tier #3
+
+:warning: Managed only by the community
 
 The SDKs in group #3 have relatively low user adoption compared to groups #2 and #1. They are probably new or have a small community behind the tech stack in the first place.
 As with tier #2, SDKs in this group are prioritized only in critical cases, and they are not going to receive active improvements or maintance from the integrations team.
@@ -59,6 +64,26 @@ Dart | #3 |
 Swift | #3 |
 Vuepress | #3 |
 Gatsby | #3 |
+Flutter | #3 |
+
+## Internal maintainers
+
+@curqui and @brunoocasali are the responsible for watching the repositories and ensuring they are relevant, detect and prioritize bugs/feature requests.
+
+Also, they are responsible for releasing new versions of the SDKs.
+
+## External contributors
+
+Our most impactful contributors were invited to be part of the official maintainers of the SDKs alongside us :heart:.
+
+They have the `Collaborator` badge and rights. So whenever you interact with one of them, you can trust their expertise and remember that they are aligned with our values.
+
+Here is the list of the external collaborators that help us:
+
+- **[@ahmednfwela](https://github.com/ahmednfwela)**: [`meilisearch-flutter`](https://github.com/meilisearch/meilisearch-flutter), [`meilisearch-dart`](https://github.com/meilisearch/meilisearch-dart), [`meilisearch-dotnet`](https://github.com/meilisearch/meilisearch-dotnet)
+- **[@mmachatschek](https://github.com/mmachatschek)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`laravel/scout`](https://github.com/laravel/scout)
+- **[@norkunas](https://github.com/norkunas)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`meilisearch-symfony`](https://github.com/meilisearch/meilisearch-symfony)
+- **[@sanders41](https://github.com/sanders41)**: [`meilisearch-python`](https://github.com/meilisearch/meilisearch-python), [`docs-scraper`](https://github.com/meilisearch/docs-scraper)
 
 ## FAQ
 ### How are the tiers organized?

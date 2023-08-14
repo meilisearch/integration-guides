@@ -9,7 +9,6 @@ They depend on [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js)
 - [`firestore-meilisearch`](https://github.com/meilisearch/firestore-meilisearch/)
 - [`gatsby-plugin-meilisearch`](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [`instant-meilisearch`](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch)
-- [`instant-meilisearch`](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch)
 - [`autocomplete-client`](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/autocomplete-client)
 - [`strapi-plugin-meilisearch`](https://github.com/meilisearch/strapi-plugin-meilisearch/)
 - [`mini-dashboard`](https://github.com/meilisearch/mini-dashboard/)
@@ -51,17 +50,3 @@ Also, even if they are not parts of the integration team, we should keep in mind
 
 They depend on [`docs-searchbar.js`](https://github.com/meilisearch/docs-searchbar.js)
 - [`vuepress-plugin-meilisearch`](https://github.com/meilisearch/vuepress-plugin-meilisearch/)
-
-## VuePress plugin
-
-No projects depends on [vuepress-plugin-meilisearch]((https://github.com/meilisearch/vuepress-plugin-meilisearch/) in the integration team.
-
-Also, even if they are not parts of the integration team, we should keep in mind the following projects strongly depend on `vuepress-plugin-meilisearch`:
-- The search bar of the [Meilisearch documentation](https://github.com/meilisearch/documentation/)
-
-## Docs scraper
-
-No projects depends on [docs-scraper](https://github.com/meilisearch/docs-scraper/) in the integration team.
-
-Also, even if they are not parts of the integration team, we should keep in mind the following projects strongly depend on `docs-scraper`:
-- The search bar of the [Meilisearch documentation](https://github.com/meilisearch/documentation/)
