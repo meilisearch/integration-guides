@@ -1,18 +1,18 @@
 # Build an Integration for Meilisearch
 
-In order to guarantee consistency and quality across all Meilisearch integrations, we request that you consider the following guidelines when creating a new integration.
+To guarantee consistency and quality across all Meilisearch integrations, we request that you consider the following guidelines when creating a new integration.
 
-## 1. Main Principle: User Experience First
+## 1. Leading Principle: User Experience First
 
-The integration should take user experience into account: it should be as easy to use and intuitive as possible. In particular, the basic usage of the integration must be accessible.
+The integration should consider user experience: it should be as easy to use and intuitive as possible. In particular, the primary usage of the integration must be accessible.
 
 Feel free to [contact us](https://docs.meilisearch.com/learn/what_is_meilisearch/contact.html#contact-us) if you're hesitating over an implementation decision.
 
 ## 2. README
 
-At minimum, the README must contain:
+At a minimum, the README must contain:
 
-- A well-explained `Getting Started` section: the user should be able to copy/paste the code and command examples and everything should work as expected.
+- A well-explained `Getting Started` section: the user should be able to copy/paste the code and command examples, and everything should work as expected.
 - Basic code examples for the most common actions.
 
 We recommend checking out the READMEs of our other integration repositories, like [this one](https://github.com/meilisearch/meilisearch-ruby/blob/main/README.md).
@@ -23,7 +23,7 @@ All integration repositories must contain a file titled `CONTRIBUTING.md`. The t
 
 ### 3.1 Docker & Docker-compose
 
-The integration should be ready to use with `Docker`, and it must contain a `Docker Compose` file configurated following these patterns:
+To ease the maintenance, the integration should be ready to use with `Docker`, and it must contain a `Docker Compose` file configurated following these patterns:
 - Must have a service `package` and a `meilisearch` service.
   - Must depend and contain a link to `meilisearch` service.
 - The `meilisearch` service should point to `latest` tag.
@@ -68,27 +68,29 @@ The integration should be ready to use with `Docker`, and it must contain a `Doc
 
 ## 4. Minimal Provided Methods
 
-At minimum, your integration must support:
+At a minimum, your integration must support the following:
 
 - all functionality related to [document manipulation](https://docs.meilisearch.com/reference/api/documents.html).
 - all functionality related to [search](https://docs.meilisearch.com/reference/api/search.html), including [search parameters](https://docs.meilisearch.com/reference/features/search_parameters.html).
 - a basic error handler that wraps and throws the [Meilisearch errors](https://docs.meilisearch.com/reference/api/#errors-status-code).
+- ensure the correct headers are being sent:
+  - the `User-Agent` header should contain this value i.e. `Meilisearch PHP (v1.0.1)`, `Meilisearch Strapi (v1.0.1)`, can also contain more than one: `Meilisearch PHP (v1.0.1); Meilisearch Laravel (v12.1.5);`
 
-⚠️ All routes that are not yet implemented in the integration should be clearly reported as an issue in the repository.
+⚠️ All routes not yet implemented in the integration should be reported as an issue in the repository.
 
 ## 5. Tests
 
-Each public method (i.e. the exposed part of the integration) should be tested against the Meilisearch instance. This ensures the provided methods work at any time.
+Each public method (i.e., the exposed part of the integration) should be tested against the Meilisearch instance. This ensures the provided methods work at any time.
 
-Mock testing is accepted but should not be prioritized, since it would require regularly updating the mocked server to account for breaking changes.
+Mock testing is accepted but should not be prioritized since it would require regularly updating the mocked server to account for breaking changes.
 
-If you want to start writing your own tests and are looking for a reference, you can find tests in most of our repositories, such as [this one](https://github.com/meilisearch/meilisearch-php/).
+If you want to start writing your tests and are looking for a reference, you can find tests in most of our repositories, such as [meilisearch-php](https://github.com/meilisearch/meilisearch-php/) and [meilisearch-js](https://github.com/meilisearch/meilisearch-js/).
 
 ## 6. Linter and Style
 
 Your integration should contain a linter to ease contributions and maintenance.
 
-We also recommend to add a [`.editorconfig` file](https://editorconfig.org/) so that everyone can follow minimal styling rules.
+We recommend adding a [`.editorconfig` file](https://editorconfig.org/) so everyone can follow minimal styling rules.
 
 ## 7. Continuous Integration (CI)
 
@@ -105,4 +107,4 @@ The release versioning should follow the [Semantic Versioning Convention](https:
 
 ---
 
-Thank you for reading this through ❤️ Feel free to contact us if you have any questions!
+Thank you for reading this through ❤️ Feel free to contact us with any questions!
