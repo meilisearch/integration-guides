@@ -69,28 +69,26 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### 🐳 DevOps Tools
 
+- [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): A helm chart that help you deploying Meilisearch on Kubernetes.
 - [Cloud Providers](https://github.com/meilisearch/cloud-providers): Centralize a set of tools to build Meilisearch images for multiple platforms.
   How to deploy a Meilisearch instance on every provider:
   - See this [dedicated page for AWS](https://www.meilisearch.com/docs/learn/cookbooks/aws) to use it.
   - See this [dedicated page for DigitalOcean](https://www.meilisearch.com/docs/learn/cookbooks/digitalocean) to use it.
   - See this [dedicated page for GCP](https://www.meilisearch.com/docs/learn/cookbooks/gcp) to use it.
-- [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): how to deploy a Meilisearch instance on Kubernetes.
 
 ### <img src="assets/icons/other.png" width="20"> Misc
 
 - [docs-scraper](https://github.com/meilisearch/docs-scraper): a scraper tool to automatically read the content of your documentation and store it into Meilisearch.
-- [JS boilerplate](https://github.com/meilisearch/js-project-boilerplate/): a boilerplate to start a JS project.
 - [meilisearch-migration](https://github.com/meilisearch/meilisearch-migration/)
 - [mini-dashboard](https://github.com/meilisearch/mini-dashboard/)
 
-### 🧑‍🔧 Work In Progress
+### 🚧 Work In Progress
 
-- [WordPress plugin](https://github.com/meilisearch/meilisearch-wordpress) (Stopped at the moment)
+- [Flutter](https://github.com/meilisearch/meilisearch-flutter)
 
-## 📍 Roadmap and Discussions
+## 🍿 Discussions
 
-- Our general discussions are available in the [issues of this repository](https://github.com/meilisearch/integration-guides/issues). Here is our [issue management process](https://github.com/meilisearch/integration-guides/blob/main/resources/issues.md).
-- Our [roadmap](https://github.com/meilisearch/integration-guides/blob/main/roadmap/2021.md).
+- Our general discussions are available in the [issues of this repository](https://github.com/meilisearch/integration-guides/issues).
 
 Feel free to take part of our current discussions, or [create a new issue](https://github.com/meilisearch/integration-guides/issues/new).
 
