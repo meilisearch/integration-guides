@@ -78,6 +78,9 @@ Flutter | #3 | @brunoocasali |
 Swift | #3 | @curquiza |
 Symfony | #3 | @brunoocasali |
 Mini-dashboard | #3 | @curquiza |
+Angular | #3 | @curquiza |
+React | #3 | @curquiza |
+Vue | #3 | @curquiza |
 | | |
 docs-searchbar.js | Deprecated | @curquiza |
 docs-scraper | Deprecated | @brunoocasali |
