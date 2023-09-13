@@ -16,7 +16,7 @@ This issue gathers the changes related to the vX.Y.0 of Meilisearch that will im
 
 ### Before pre-release
 
-- [ ] Define (with the help of PMs) which integrations should be updated to include the new features included in the latest version of Meilisaearch. Most of the time, it will be tier #1 integrations.
+- [ ] Define (with the help of PMs) which integrations should be updated to include the new features in the latest version of Meilisaearch. Most of the time, it will be tier #1 integrations.
 Integration to update: TBD
 
 ### Pre-release
