@@ -1,8 +1,8 @@
 # Integration work related to Meilisearch pre-release
 
-Every 8 week, the engine team releases a new version of the Meilisearch engine. The last 4 weeks are the "pre-release time" where no new additions are made by the engine team, and release candidates (RCs) are done.
+Every eight weeks, the engine team releases a new version of the Meilisearch engine. The last four weeks are the "pre-release time" where no new additions are made by the engine team, and release candidates (RCs) are done.
 
-For each Meilisaerch release, a central issue should be opened in the [integration-guide repository](https://github.com/meilisearch/integration-guides/issues). This central issue is an exhaustive list of the changes applied on the integration scope related to the future release of Meilisearch.
+For each Meilisearch release, a central issue should be opened in the [integration-guide repository](https://github.com/meilisearch/integration-guides/issues). This central issue is an exhaustive list of the changes applied to the integration scope related to the future release of Meilisearch.
 
 👇👇👇 Here is the template of the central issue to copy & past. Replace the `TBD`. 👇👇👇
 
