@@ -88,7 +88,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ## 🍿 Discussions
 
-- Our general discussions are available in the [issues of this repository](https://github.com/meilisearch/integration-guides/issues).
+Our general discussions are available in the [issues of this repository](https://github.com/meilisearch/integration-guides/issues).
 
 Feel free to take part of our current discussions, or [create a new issue](https://github.com/meilisearch/integration-guides/issues/new).
 
