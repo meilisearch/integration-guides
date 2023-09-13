@@ -4,7 +4,7 @@ Every eight weeks, the engine team releases a new version of the Meilisearch eng
 
 For each Meilisearch release, a central issue should be opened in the [integration-guide repository](https://github.com/meilisearch/integration-guides/issues). This central issue is an exhaustive list of the changes applied to the integration scope related to the future release of Meilisearch.
 
-👇👇👇 Here is the template of the central issue to copy & past. Replace the `TBD`. 👇👇👇
+👇👇👇 Here is the template of the central issue to copy & paste. Replace the `TBD`. 👇👇👇
 
 ---
 
