@@ -35,7 +35,7 @@ Integration to update: TBD
 - [ ] Merge the related PR in [K8s repository](https://github.com/meilisearch/meilisearch-kubernetes/pulls)
 - [ ] Publish [DevOps tools](https://github.com/meilisearch/cloud-providers/):
   - [ ] create the git tag
-  - [ ] publish images (stesps are in CONTRIBUTING.md)
+  - [ ] publish images (steps are in CONTRIBUTING.md)
 - [ ] Open issues in the repositories that are not up-to-date with the latest version of Meilisearch (**including code samples**)
 
 ## Features to implement
