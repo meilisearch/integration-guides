@@ -1,76 +1,108 @@
 # SDK tiers
 
-The objective of Meilisearch's Integrations Team is to **ease Meilisearch usage to as many developers as possible**.
+The objective of Meilisearch's integrations is to **ease Meilisearch usage to as many developers as possible**.
 
-Given this statement, **tiers** are nothing more than a __group of SDKs/integrations__ where the Integrations Team can fairly divide their attention. Unfortunately is not possible to keep all the SDKs 100% updated against the new Meilisearch features from Meilisearch releases all the time. The Integrations Team is a polyglot small team that maintains 30+ different integrations and tools, so it is humanly impossible to consistently meet the Meilisearch quality standards.
+Given this statement, **tiers** are nothing more than a __group of SDKs/integrations__ where the Meilisearch team can fairly divide their attention. Unfortunately, it is not possible to keep all the SDKs 100% updated against the new Meilisearch features from Meilisearch releases all the time. The Meilisearch team is a small team that maintains 30+ different integrations and tools, so it is humanly impossible to consistently meet the Meilisearch quality standards.
 
 The ultimate goal of introducing tiers is to allow the team to have more time to invest in new projects/integrations to impact even more users.
 
 To measure the impact of an SDK, the data come from different places like [telemetry](https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html) and GitHub's stars, forks, and watchers.
 
-It is worth remembering that this priority is just a concept introduced by the team that aims to give a **decision weight** before investing time in some issues of the SDKs. So it does not mean they will never work on feature requests from the bottom tiers anymore, but it says they will prioritize the top tiers most of the time transparently.
+It is worth remembering that this priority is just a concept introduced by the team that aims to give a **decision weight** before investing time in some issues of the SDKs. So, it does not mean they will never work on feature requests from the bottom tiers anymore, but it says they will prioritize the top tiers most of the time transparently.
 
 :warning: The team will still keep all officially maintained SDKs **working**. :warning:
 
 ## Tier #1
 
-:warning: Managed by the internal team
+👉 Priority of the Meili team
 
-The SDKs in group #1 have absolute priority over the team's time. For example, issues are visited before issues are present in tier #2.
-It is worth remembering that this does not mean open issues are addressed and fixed promptly. Every issue needs time to be understood/confirmed/worked on and consequently closed.
+The Meili team ensures these integrations provide all the tools to use the features contained in the latest release of Meilisearch.
 
-All new Meilisearch features that make sense for those SDKs will be available on the release day.
+Issues and PRs from the community are frequently browsed by the team. If the community cannot be reactive enough, bug fixes and/or important enhancements are implemented by the Meili team.
+
+It is worth remembering that this does not mean open issues are addressed and fixed promptly. Every issue needs time to be understood/confirmed/worked on and consequently closed.<br>
 
 ## Tier #2
 
-:warning: Managed by the community & Internal team
+👉 Mostly improved by the community
 
-Tier #2 SDKs are the emergent ones. In any case, since they have a smaller audience than tier #1, the team will only spend the time required to keep these SDKs working and do the necessary maintenance code like fixing really important bugs.
+Issues and PRs from the community are less frequently browsed by the team but still watched regularly.
 
-Only in urgent cases where, for example, the SDK is no longer working issues from the SDKs in group #2 prioritized over Tier #1.
+Community work is crucial to improve the repository on a daily basis: suggest improvements, fix bugs and implement enhancements.
+
+Integrations in this group are prioritized only in **really critical** cases, and they are not going to receive active improvements or maintenance from the integrations team. If the community cannot be reactive enough and for **specific** situations, **critical** bug fixes and/or **critical** enhancements are implemented by the Meili team.
 
 ## Tier #3
 
-:warning: Managed only by the community
+👉 Fully improved by the community
 
 The SDKs in group #3 have relatively low user adoption compared to groups #2 and #1. They are probably new or have a small community behind the tech stack in the first place.
-As with tier #2, SDKs in this group are prioritized only in critical cases, and they are not going to receive active improvements or maintance from the integrations team.
 
-This is a very special group because the Integrations Team really need help from the community here.
+Issues and PRs from the community are not the team's priority, but they are still watched from time to time.
 
+Community work is mandatory to improve the repository on a daily basis: suggest improvements, fix bugs and implement enhancements.
+
+Integrations in this group are prioritized only in **really critical** cases, and they are not going to receive improvements or maintenance from the integrations team. If the community cannot be reactive enough, only **really critical** bugs are fixed by the Meili team.
+
+## Deprecated
+
+Depending on the reasons, integrations in this group tend to be archived at some point (a few months/years). The Meili team does not accept any enhancement in these repositories, even from the community.
+
+Bug fixes have to be done by the community since the Meili team cannot afford to spend time on them.
+
+We made our best to provide alternatives to this tools: check the related README of these repositories to get more information.
 
 ## Tiers list
 
-Integration | Tier |
--------------|------|
-Javascript | #1 |
-PHP | #1 |
-meilisearch-js-plugins | #1 |
-Cloud Providers | #1 |
-Kubernetes Chart | #1 |
-Python | #2 |
-Ruby | #2 |
-Go | #2 |
-Strapi | #2 |
-.NET | #2 |
-Rails | #2 |
-Rust | #2 |
-Symfony | #3 |
-Java | #3 |
-Firebase | #3 |
-docs-searchbar.js | #3 |
-docs-scraper | #3 |
-Dart | #3 |
-Swift | #3 |
-Vuepress | #3 |
-Gatsby | #3 |
-Flutter | #3 |
+Integration | Tier | Meili maintainer |
+-------------|------|-----|
+JavaScript | #1 | @brunoocasali |
+PHP | #1 | @curquiza |
+meilisearch-js-plugins | #1 | @brunoocasali |
+Cloud Providers | #1 | @brunoocasali |
+Kubernetes Chart | #1 | @brunoocasali |
+| | |
+.NET | #2 | @curquiza |
+Python | #2 | @curquiza |
+Go | #2 | @curquiza |
+Rails | #2 | @brunoocasali |
+Ruby | #2 | @brunoocasali |
+Rust | #2 | @curquiza |
+Strapi | #2 | @brunoocasali |
+| | |
+Dart | #3 | @brunoocasali |
+Gatsby | #3 | @brunoocasali |
+Java | #3 | @curquiza |
+Firebase | #3 | @brunoocasali |
+Flutter | #3 | @brunoocasali |
+Swift | #3 | @curquiza |
+Symfony | #3 | @brunoocasali |
+Mini-dashboard | #3 | @curquiza |
+Angular | #3 | @curquiza |
+React | #3 | @curquiza |
+Vue | #3 | @curquiza |
+| | |
+docs-searchbar.js | Deprecated | @curquiza |
+docs-scraper | Deprecated | @brunoocasali |
+meilisearch-migration | Deprecated | @brunoocasali |
+VuePress | Deprecated | @curquiza |
+
 
 ## Internal maintainers
 
-@curqui and @brunoocasali are the responsible for watching the repositories and ensuring they are relevant, detect and prioritize bugs/feature requests.
+@curquiza and @brunoocasali are the main maintainers of the integration scope.
 
-Also, they are responsible for releasing new versions of the SDKs.
+They are responsible for:
+
+- Releasing new versions
+- Browsing the issues, which means:
+    - Redirect support questions to [Meili Discord](https://discord.meilisearch.com/)
+    - Answer and apply triage on issues
+    - Browse the requested feature requests: validate them, reject them, or ask for community's opinion.
+- Browsing community's PRs and ensure they are reviewed
+- Ensuring security fixes by merging bump of Dependabot
+- Ensuring and follow [pre-release work related to the new Meilisearch version](./meilisearch-pre-release-work.md)
+- Merge regularly Dependabot update to avoid outdated dependencies. We try to do it before releasing a new version of the integration.
 
 ## External contributors
 
@@ -86,6 +118,7 @@ Here is the list of the external collaborators that help us:
 - **[@sanders41](https://github.com/sanders41)**: [`meilisearch-python`](https://github.com/meilisearch/meilisearch-python), [`docs-scraper`](https://github.com/meilisearch/docs-scraper)
 
 ## FAQ
+
 ### How are the tiers organized?
 
 The method used is mainly manual and subjective, using previously collected data from the [telemetry](https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html) and Github to generate the groups.
@@ -108,21 +141,8 @@ We also give more weight when we know a particular SDK has more Meilisearch Clou
 
 PS: Other principles that are not written here may be used to move SDKs around if the team thinks it is relevant.
 
-### When will the new features from a new Meilisearch release be released in the SDKs?
+### When will the new features from a new Meilisearch release be released in the integrations?
 
-There is a [guideline](https://github.com/meilisearch/integration-guides/blob/main/resources/pre-release-week.md) the Integrations Team follows for every pre-release. Take a look at it to have more info.
+#1 integrations are up to date with the latest version of Meilisearch in the coming week of the [Meilisearch release](https://github.com/meilisearch/meilisearch/releases).
 
-Every pre-release has its central issue ([like this one](https://github.com/meilisearch/integration-guides/issues/251)). This issue describes every planned implementation the team will do in the weeks before the release. The community can expect that this plan will be achieved.
-
-But if, for some reason, the team does not finish implementing on time, it still is the top priority to finish it before anything else. If only parts of the features are available on the release D-Day, the team will evaluate how long it will take to finish them. Depending on the integration tier, and the time it would take the team to finish, we will release the integration with the partial implementations. These are the delays we accept per tier before releasing:
-
-Tier #1 = Release day + 1 day
-Tier #2 = Release day + 1 week
-Tier #3 = Release day + unlimited
-
-So, if a tier #1 SDK is not fully ready on the Meilisearch engine release day, the user can expect a release in **any case on the following day**. Yes, __this release may lack some of the features planned initially__. Those features will be implemented as a top priority.<br/>
-The same can happen with tier #2. If it is not fully ready, you can expect a release **a week after the release day**, and the remaining features will be implemented in the following weeks.<br/>
-Tier #3 **has no constraint** about having to be released in a particular amount of time.
-
-
-Remember that most new features will not be implemented in tier #3. Each repository will track those features individually as new issues after the pre-release time.
+For other tiers, the features have to be implemented by the community. Issues are present in the related integration repositories. Once the PR is ready, the maintainers of the repository review and merge it to integrate it into the next integration release.
