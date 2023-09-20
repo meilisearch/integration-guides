@@ -28,6 +28,7 @@ Integration to update: TBD
 - [ ] Update integrations having failing test suites with the new RC of Meilisearch
   - [ ] TBD
 - [ ] Add code samples for the chosen up-to-date integrations with the new version of Meilisearch
+- [ ] Update the library version of the related integrations and prepare the changelogs
 
 ### Release day
 
