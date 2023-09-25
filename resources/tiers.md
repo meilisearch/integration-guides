@@ -30,7 +30,7 @@ Issues and PRs from the community are less frequently browsed by the team but st
 
 Community work is crucial to improve the repository on a daily basis: suggest improvements, fix bugs and implement enhancements.
 
-Integrations in this group are prioritized only in **really critical** cases, and they are not going to directly receive active improvements or maintenance from the Meili team. Most of the work is implemented by the community and reviewed by the Meili team. If the community cannot be reactive enough and for **specific** situations, **critical** bug fixes and/or enhancements are implemented by the Meili team.
+Integrations in this group will not receive active improvements or maintenance from the Meili team except for specific situations. Most of the work is implemented by the community and reviewed by the Meili team. If the community cannot be reactive enough and for **specific** situations, **critical** bug fixes and/or enhancements are implemented by the Meili team.
 
 ## Tier #3
 
