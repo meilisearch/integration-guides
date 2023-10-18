@@ -18,10 +18,10 @@ This issue gathers the changes related to the vX.Y.0 of Meilisearch that will im
 
 - [ ] Define (with the help of PMs) which integrations should be updated to include the new features in the latest version of Meilisaearch. Most of the time, it will be tier #1 integrations.
 Integration to update: TBD
-- [ ] With the help of [this CI](https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml), define in which SDKs we have to update the tests: None
 
 ### Pre-release
 
+- [ ] With the help of [this CI](https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml) running on `rc0`, define in which SDKs we have to update the tests
 - [ ] Create a branch by running [Octopus script](https://github.com/meilisearch/integration-automations/tree/main/octopus): only open branches for the integrations we choose to update + Kubernetes repository + Cloud provider repository (changing the version) + SDKs/integrations where we must update the test suite.
 - [ ] Update integrations according to the new Meilisearch features (cf below which feature and how 👇)
 ⚠️ If possible, this step is done before pre-release, once the feature is ready thanks to the prototype released by the engine team
