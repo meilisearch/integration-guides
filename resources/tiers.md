@@ -117,6 +117,7 @@ Here is the list of the external collaborators that help us:
 - **[@norkunas](https://github.com/norkunas)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`meilisearch-symfony`](https://github.com/meilisearch/meilisearch-symfony)
 - **[@sanders41](https://github.com/sanders41)**: [`meilisearch-python`](https://github.com/meilisearch/meilisearch-python), [`docs-scraper`](https://github.com/meilisearch/docs-scraper)
 - **[@ellnix](https://github.com/ellnix)**: [`meilisearch-ruby`](https://github.com/meilisearch/meilisearch-ruby), [`meilisearch-rails`](https://github.com/meilisearch/meilisearch-rails)
+- **[@Sherlouk](https://github.com/Sherlouk)**: [`meilisearch-swift`](https://github.com/meilisearch/meilisearch-swift)
 
 ## FAQ
 
