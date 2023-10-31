@@ -1,6 +1,10 @@
 <p align="center">
-  <img src="assets/logos/logo.svg" alt="Meilisearch" width="200" height="200" />
+  <a href="https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides" target="_blank">
+    <img src="assets/logos/logo.svg" alt="Meilisearch" width="200" height="200" />
+  </a>
 </p>
+
+
 
 
 <h1 align="center">Meilisearch Integrations</h1>
