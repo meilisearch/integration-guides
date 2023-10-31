@@ -97,7 +97,7 @@ Feel free to take part of our current discussions, or [create a new issue](https
 
 ## 📖 Documentation
 
-[Meilisearch docs](https://docs.meilisearch.com?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) is the official documentation project for Meilisearch.
+Read the official [Meilisearch docs](https://docs.meilisearch.com?utm_campaign=oss&utm_source=github&utm_medium=integration-guides).
 
 ## 🚀 Building an Integration
 
