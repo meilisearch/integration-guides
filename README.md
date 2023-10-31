@@ -5,10 +5,8 @@
 </p>
 
 
-
-
 <h1 align="center">Meilisearch Integrations</h1>
-<h5 align="center">This repository is the central reference for developing and maintaining integrations for <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a>.
+<h5 align="center">This repository is the central reference for developing and maintaining integrations for <a href="https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides" target="_blank">Meilisearch</a>.
 </h5>
 
 <h4 align="center">
