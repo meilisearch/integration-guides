@@ -75,9 +75,9 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): A helm chart that help you deploying Meilisearch on Kubernetes.
 - [Cloud Providers](https://github.com/meilisearch/cloud-providers): Centralize a set of tools to build Meilisearch images for multiple platforms.
   How to deploy a Meilisearch instance on every provider:
-  - See this [dedicated page for AWS](https://www.meilisearch.com/docs/learn/cookbooks/aws) to use it.
-  - See this [dedicated page for DigitalOcean](https://www.meilisearch.com/docs/learn/cookbooks/digitalocean) to use it.
-  - See this [dedicated page for GCP](https://www.meilisearch.com/docs/learn/cookbooks/gcp) to use it.
+  - See this [dedicated page for AWS](https://www.meilisearch.com/docs/learn/cookbooks/aws?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
+  - See this [dedicated page for DigitalOcean](https://www.meilisearch.com/docs/learn/cookbooks/digitalocean?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
+  - See this [dedicated page for GCP](https://www.meilisearch.com/docs/learn/cookbooks/gcp?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
 
 ### <img src="assets/icons/other.png" width="20"> Misc
 
@@ -97,7 +97,7 @@ Feel free to take part of our current discussions, or [create a new issue](https
 
 ## 📖 Documentation
 
-[Meilisearch docs](https://docs.meilisearch.com) is the official documentation project for Meilisearch.
+[Meilisearch docs](https://docs.meilisearch.com?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) is the official documentation project for Meilisearch.
 
 ## 🚀 Building an Integration
 
