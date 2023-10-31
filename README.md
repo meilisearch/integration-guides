@@ -10,14 +10,13 @@
 </h5>
 
 <h4 align="center">
-  <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
-  <a href="https://docs.meilisearch.com">Documentation</a> |
-  <a href="https://discord.meilisearch.com">Discord</a> |
-  <a href="https://www.meilisearch.com">Website</a> |
-  <a href="https://blog.meilisearch.com">Blog</a> |
-  <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> |
-  <a href="https://twitter.com/meilisearch">Twitter</a> |
-  <a href="https://www.meilisearch.com/docs/faq/">FAQ</a>
+  <a href="https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Website</a> |
+  <a href="https://roadmap.meilisearch.com/tabs/1-under-consideration">Roadmap</a> |
+  <a href="https://www.meilisearch.com/cloud?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Meilisearch Cloud</a> |
+  <a href="https://blog.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Blog</a> |
+  <a href="https://docs.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Documentation</a> |
+  <a href="https://docs.meilisearch.com/faq/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">FAQ</a> |
+  <a href="https://discord.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Discord</a>
 </h4>
 
 > Meilisearch is an open-source search engine that offers fast, relevant search out of the box.
