@@ -20,9 +20,11 @@
   <a href="https://www.meilisearch.com/docs/faq/">FAQ</a>
 </h4>
 
-**The Integration Team owns all the repositories and tools that help the users integrate Meilisearch in their project.**
+> Meilisearch is an open-source search engine that offers fast, relevant search out of the box.
 
-## 🛠 Our Integrations
+👉 [Meilisearch repository](https://github.com/meilisearch/meilisearch)
+
+## 🛠 Meilisearch Integrations
 
 Here are the different groups of integrations:
 
