@@ -94,7 +94,7 @@ VuePress | Deprecated | @curquiza |
 
 They are responsible for:
 
-- Releasing new versions
+- Ensuring the release of new versions
 - Browsing the issues, which means:
     - Redirect support questions to [Meili Discord](https://discord.meilisearch.com/)
     - Answer and apply triage on issues
