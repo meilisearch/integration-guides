@@ -1,26 +1,29 @@
 <p align="center">
-  <img src="assets/logos/logo.svg" alt="Meilisearch" width="200" height="200" />
+  <a href="https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides" target="_blank">
+    <img src="assets/logos/logo.svg" alt="Meilisearch" width="200" height="200" />
+  </a>
 </p>
 
 
 <h1 align="center">Meilisearch Integrations</h1>
-<h5 align="center">This repository is the central reference for developing and maintaining integrations for <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a>.
+<h5 align="center">This repository is the central reference for developing and maintaining integrations for <a href="https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides" target="_blank">Meilisearch</a>.
 </h5>
 
 <h4 align="center">
-  <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
-  <a href="https://docs.meilisearch.com">Documentation</a> |
-  <a href="https://discord.meilisearch.com">Discord</a> |
-  <a href="https://www.meilisearch.com">Website</a> |
-  <a href="https://blog.meilisearch.com">Blog</a> |
-  <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> |
-  <a href="https://twitter.com/meilisearch">Twitter</a> |
-  <a href="https://www.meilisearch.com/docs/faq/">FAQ</a>
+  <a href="https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Website</a> |
+  <a href="https://roadmap.meilisearch.com/tabs/1-under-consideration">Roadmap</a> |
+  <a href="https://www.meilisearch.com/cloud?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Meilisearch Cloud</a> |
+  <a href="https://blog.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Blog</a> |
+  <a href="https://docs.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Documentation</a> |
+  <a href="https://docs.meilisearch.com/faq/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">FAQ</a> |
+  <a href="https://discord.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=integration-guides">Discord</a>
 </h4>
 
-**The Integration Team owns all the repositories and tools that help the users integrate Meilisearch in their project.**
+> Meilisearch is an open-source search engine that offers fast, relevant search out of the box.
 
-## 🛠 Our Integrations
+👉 [Meilisearch repository](https://github.com/meilisearch/meilisearch)
+
+## 🛠 Meilisearch Integrations
 
 Here are the different groups of integrations:
 
@@ -72,9 +75,9 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): A helm chart that help you deploying Meilisearch on Kubernetes.
 - [Cloud Providers](https://github.com/meilisearch/cloud-providers): Centralize a set of tools to build Meilisearch images for multiple platforms.
   How to deploy a Meilisearch instance on every provider:
-  - See this [dedicated page for AWS](https://www.meilisearch.com/docs/learn/cookbooks/aws) to use it.
-  - See this [dedicated page for DigitalOcean](https://www.meilisearch.com/docs/learn/cookbooks/digitalocean) to use it.
-  - See this [dedicated page for GCP](https://www.meilisearch.com/docs/learn/cookbooks/gcp) to use it.
+  - See this [dedicated page for AWS](https://www.meilisearch.com/docs/learn/cookbooks/aws?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
+  - See this [dedicated page for DigitalOcean](https://www.meilisearch.com/docs/learn/cookbooks/digitalocean?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
+  - See this [dedicated page for GCP](https://www.meilisearch.com/docs/learn/cookbooks/gcp?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
 
 ### <img src="assets/icons/other.png" width="20"> Misc
 
@@ -94,7 +97,7 @@ Feel free to take part of our current discussions, or [create a new issue](https
 
 ## 📖 Documentation
 
-[Meilisearch docs](https://docs.meilisearch.com) is the official documentation project for Meilisearch.
+Read the official [Meilisearch docs](https://docs.meilisearch.com?utm_campaign=oss&utm_source=github&utm_medium=integration-guides).
 
 ## 🚀 Building an Integration
 
