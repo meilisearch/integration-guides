@@ -12,18 +12,14 @@ This issue gathers the changes related to the vX.Y.0 of Meilisearch that will im
 
 📅 Release date: TBD
 
-## TODO
+## Timelines & steps
 
 ### Pre-release
 
-- [ ] Define (with the help of PMs) which integrations should be updated to include the new features in the latest version of Meilisaearch. Most of the time, it will be tier #1 integrations.
-Integration to update: TBD
-- [ ] With the help of [this CI](https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml) running on `rc0`, define in which SDKs we have to update the tests
-- [ ] Create a branch by running [Octopus script](https://github.com/meilisearch/integration-automations/tree/main/octopus): only open branches for the integrations we choose to update + Kubernetes repository + Cloud provider repository (changing the version) + SDKs/integrations where we must update the test suite.
-- [ ] Update integrations according to the new Meilisearch features (cf below which feature and how 👇)
+- [ ] With the help of the Product team and [this CI](https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml), define which integrations should be updated and how (New feature? Update README? Update tests?) -> **Fill in** the "What to implement?" section below in this issue 👇.
+- [ ] Create a branch by running [Octopus script](https://github.com/meilisearch/integration-automations/tree/main/octopus): only open branches for the integrations we choose to update (defined in the previous step) + Kubernetes repository + Cloud provider repository (changing the version)
+- [ ] Update integrations according to the decisions (cf "What to implement?" section below in this issue 👇)
 ⚠️ If possible, this step is done before pre-release, once the feature is ready thanks to the prototype released by the engine team
-  - [ ] TBD
-- [ ] Update integrations having failing test suites with the new RC of Meilisearch (refer to this [CI](https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml))
   - [ ] TBD
 - [ ] Add code samples for the chosen up-to-date integrations with the new version of Meilisearch
 - [ ] Update the library version of the related integrations and prepare the changelogs
@@ -37,8 +33,19 @@ Integration to update: TBD
   - [ ] publish images (steps are in CONTRIBUTING.md)
 - [ ] Open issues in the repositories that are not up-to-date with the latest version of Meilisearch (**including code samples**)
 
-## Features to implement
+## What to implement?
 
-*TBD: here list the features, link the related specs/issues/PRDs, and some implementation details if necessary*
+### Template: feature name
+
+Related issue in the engine:
+
+Brief explanation of the feature and the impact potential impact on the integrations
+
+TODO:
+- [ ] JS: TBD
+- [ ] PHP: TBD
+- [ ] TBD
+
+The following integrations will not have the feature available for the release day: TBD
 
 ---
