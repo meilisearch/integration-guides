@@ -1,5 +1,5 @@
 ---
-name: New sprint issue
+name: New central issue
 about: ⚠️ Should only be used by the internal Meili team ⚠️
 title: 'Changes related to Meilisearch v1.Y.0'
 labels: 'Meilisearch bump'
