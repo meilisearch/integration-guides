@@ -45,5 +45,3 @@ TODO:
 - [ ] TBD
 
 The following integrations will not have the feature available for the release day: TBD
-
----
