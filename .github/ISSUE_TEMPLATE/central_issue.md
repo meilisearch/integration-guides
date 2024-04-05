@@ -44,4 +44,4 @@ TODO:
 - [ ] PHP: TBD
 - [ ] TBD
 
-The following integrations will not have the feature available for the release day: TBD
+The following integrations will not have the feature available for the release day except if the community implements it: TBD
