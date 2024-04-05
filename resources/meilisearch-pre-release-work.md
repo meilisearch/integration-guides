@@ -4,4 +4,4 @@ Every eight weeks, the engine team releases a new version of the Meilisearch eng
 
 For each Meilisearch release, a central issue should be opened in the [integration-guide repository](https://github.com/meilisearch/integration-guides/issues). This central issue is an exhaustive list of the changes applied to the integration scope related to the future release of Meilisearch.
 
-👉 Open the central issue [here](to-replace-once-pr-is-merged). Replace the `TBD` and the corresponding Meilisearch version.
+👉 Open the central issue [here](https://github.com/meilisearch/integration-guides/issues/new?assignees=curquiza%2C+brunoocasali&labels=Meilisearch+bump&projects=&template=central_issue.md&title=Changes+related+to+Meilisearch+v1.Y.0). Replace the `TBD` and the corresponding Meilisearch version.
