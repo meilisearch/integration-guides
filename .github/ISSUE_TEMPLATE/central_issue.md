@@ -19,7 +19,10 @@ Minial implementation: PHP, JS, Instant-meilisearch.
 - [ ] Create a branch by running [Octopus script](https://github.com/meilisearch/integration-automations/tree/main/octopus): only open branches for the integrations we choose to update (defined in the previous step) + Kubernetes repository + Cloud provider repository (changing the version)
 - [ ] Update integrations according to the decisions (cf "What to implement?" section below in this issue 👇)
 ⚠️ If possible, this step is done before pre-release, once the feature is ready thanks to the prototype released by the engine team
-  - [ ] TBD
+  - [ ] JS
+  - [ ] PHP
+  - [ ] Instant-meilisearch
+  - [ ] ...TBD
 - [ ] Add code samples for the chosen up-to-date integrations with the new version of Meilisearch
 - [ ] Update the library version of the related integrations and prepare the changelogs
 
