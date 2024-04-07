@@ -21,8 +21,8 @@ Minial implementation: PHP, JS, Instant-meilisearch.
 ⚠️ If possible, this step is done before pre-release, once the feature is ready thanks to the prototype released by the engine team
   - [ ] JS
   - [ ] PHP
-  - [ ] Instant-meilisearch
-  - [ ] ...TBD
+  - [ ] Instant-meilisearch (update meilisearch-js version)
+  - [ ] ... TBD
 - [ ] Add code samples for the chosen up-to-date integrations with the new version of Meilisearch
 - [ ] Update the library version of the related integrations and prepare the changelogs
 
