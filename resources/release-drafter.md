@@ -1,6 +1,6 @@
 # Changelogs Automation: the Release-Drafter
 
-The [release-drafter](https://github.com/release-drafter/release-drafter/) tool is used in our GitHub Actions to automatize the content of each release description, so the changelogs.
+The [release-drafter](https://github.com/release-drafter/release-drafter/) tool is used in our GitHub Actions to automate the content of each release description, so the changelogs.
 
 ## Motivations
 

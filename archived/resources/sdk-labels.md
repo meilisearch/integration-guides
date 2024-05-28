@@ -25,6 +25,6 @@ They already exist in every repo.
 | `needs investigation`  | #006B75  | Needs to take time to understand the issue.  |
 | `needs more info`  | #5319e7  |  This issue needs a minimal complete and verifiable example. |
 | `maintenance` | #DBA7A9  | Issue about maintenance (CI, tests, refacto...). |
-| `stale` | #A2A0D6 | Pull request or issue that has recieve no activity for a long time. |
+| `stale` | #A2A0D6 | Pull request or issue that has receive no activity for a long time. |
 
 Side note, labels can be easily forgotten. We strongly encourage its use, but we want to observe if we naturally apply them before making them mandatory. We also want to observe if some labels are missing or never used.
