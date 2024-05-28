@@ -30,7 +30,7 @@ Here are the different groups of integrations:
 - the **SDKs**: the *devkits* that help the devs to use Meilisearch with their favorite language.
 - the **Front-End Integrations**: to integrate a smooth search experience in the front-end of the projects.
 - the **Web Framework Integrations**: to connect the web frameworks with Meilisearch.
-- the **DevOps Tools**: to make the deployement of Meilisearch easier.
+- the **DevOps Tools**: to make the deployment of Meilisearch easier.
 - the **Platform Plugins**: to sync your data with Meilisearch and/or add a search experience on different platforms.
 
 The exhaustive list of the maintained repositories by the team is available below.

@@ -160,7 +160,7 @@ extends: [
 
 ### Update your `.gitignore`
 
-Cypress creates additional directories inside `cypress` that are usefull but should maybe not be pushed:
+Cypress creates additional directories inside `cypress` that are useful but should maybe not be pushed:
 
 - `/videos`: Every test run will generate a video you can watch to see what went wrong.
 - `/screenshots`: Contains screenshots in case of test failures.

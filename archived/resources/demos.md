@@ -12,7 +12,7 @@ This instance contains the indexes officially used by the integration team for d
 
 Here are the exhaustive list of the indexes:
 
-- `steam-video-games` used by the code-sandboxes mentionned in the following section.
+- `steam-video-games` used by the code-sandboxes mentioned in the following section.
 - `world_cities` used in the [instant-meilisearch playground related to geo-search](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/playgrounds/geo-javascript).
 
 ## Code sandboxes
