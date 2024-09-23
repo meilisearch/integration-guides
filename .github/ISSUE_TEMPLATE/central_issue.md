@@ -14,8 +14,10 @@ This issue gathers the changes related to the v1.Y.0 of Meilisearch that will im
 
 ### Pre-release
 
-- [ ] With the help of the Product team and [this CI](https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml), define which integrations should be updated and how (New feature? Update README? Update tests?) -> **Fill in** the "What to implement?" section below in this issue 👇.
-Minial implementation: PHP, JS, Instant-meilisearch.
+- [ ] With the help of the [changelog](https://github.com/meilisearch/engine-team/pulls) &  [this CI](https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml), define which integrations should be updated and how (New feature? Update README? Update tests?)
+  - [ ] **Fill in** the "What to implement?" section below in this issue 👇. Minial implementation: PHP, JS, Instant-meilisearch.
+  - [ ] Open implementation issues in repositories that need implementation.
+  - [ ] Discuss with the Product team if needed. At least share this issue to let them know about the decisions.
 - [ ] Create a branch by running [Octopus script](https://github.com/meilisearch/integration-automations/tree/main/octopus): only open branches for the integrations we choose to update (defined in the previous step) + Kubernetes repository + Cloud provider repository (changing the version)
 - [ ] Update integrations according to the decisions (cf "What to implement?" section below in this issue 👇)
 ⚠️ If possible, this step is done before pre-release, once the feature is ready thanks to the prototype released by the engine team
