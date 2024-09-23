@@ -30,7 +30,8 @@ This issue gathers the changes related to the v1.Y.0 of Meilisearch that will im
 
 ### Release day
 
-- [ ] Release the integrations
+- [ ] Release the integrations or only merged the related PRs (sometimes a release is not needed)
+  - [ ] TBD
 - [ ] Merge the related PR in [K8s repository](https://github.com/meilisearch/meilisearch-kubernetes/pulls)
 - [ ] Publish [DevOps tools](https://github.com/meilisearch/cloud-providers/):
   - [ ] create the git tag
