@@ -33,6 +33,7 @@ Minial implementation: PHP, JS, Instant-meilisearch.
 - [ ] Publish [DevOps tools](https://github.com/meilisearch/cloud-providers/):
   - [ ] create the git tag
   - [ ] publish images (steps are in CONTRIBUTING.md)
+- [ ] Remove useless AWS images (by using our [internal script](https://github.com/meilisearch/integration-automations/tree/main/cloud-providers))
 - [ ] Open issues in the repositories that are not up-to-date with the latest version of Meilisearch (**including code samples**)
 
 ## What to implement?
