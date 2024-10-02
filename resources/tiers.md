@@ -64,15 +64,15 @@ Kubernetes Chart | #1 | @brunoocasali |
 | | |
 .NET | #2 | @curquiza |
 Python | #2 | @curquiza |
+Java | #2 | @curquiza |
 Go | #2 | @curquiza |
 Rails | #2 | @brunoocasali |
 Ruby | #2 | @brunoocasali |
-Rust | #2 | @curquiza |
 Strapi | #2 | @brunoocasali |
 | | |
 Dart | #3 | @brunoocasali |
+Rust | #3 | @curquiza |
 Gatsby | #3 | @brunoocasali |
-Java | #3 | @curquiza |
 Firebase | #3 | @brunoocasali |
 Flutter | #3 | @brunoocasali |
 Swift | #3 | @curquiza |
