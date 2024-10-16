@@ -59,8 +59,7 @@ Integration | Tier | Meili maintainer |
 JavaScript | #1 | @brunoocasali |
 PHP | #1 | @curquiza |
 meilisearch-js-plugins | #1 | @brunoocasali |
-Cloud Providers | #1 | @brunoocasali |
-Kubernetes Chart | #1 | @brunoocasali |
+Strapi | #1 | @brunoocasali |
 | | |
 .NET | #2 | @curquiza |
 Python | #2 | @curquiza |
@@ -68,7 +67,8 @@ Go | #2 | @curquiza |
 Rails | #2 | @brunoocasali |
 Ruby | #2 | @brunoocasali |
 Rust | #2 | @curquiza |
-Strapi | #2 | @brunoocasali |
+Cloud Providers | #2 | @brunoocasali |
+Kubernetes Chart | #2 | @brunoocasali |
 | | |
 Dart | #3 | @brunoocasali |
 Gatsby | #3 | @brunoocasali |
