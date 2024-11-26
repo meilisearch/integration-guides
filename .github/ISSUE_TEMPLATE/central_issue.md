@@ -23,15 +23,17 @@ This issue gathers the changes related to the v1.Y.0 of Meilisearch that will im
 ⚠️ If possible, this step is done before pre-release, once the feature is ready thanks to the prototype released by the engine team
   - [ ] JS
   - [ ] PHP
-  - [ ] Instant-meilisearch (update meilisearch-js version)
   - [ ] ... TBD
 - [ ] Add code samples for the chosen up-to-date integrations with the new version of Meilisearch
 - [ ] Update the library version of the related integrations and prepare the changelogs
 
 ### Release day
 
-- [ ] Release the integrations or only merged the related PRs (sometimes a release is not needed)
-  - [ ] TBD
+- [ ] Release the integrations or only merge the related PRs (sometimes a release is not needed)
+  - [ ] JS
+  - [ ] PHP
+  - [ ] Instant-meilisearch (at least update meilisearch-js version)
+  - [ ] ... TBD
 - [ ] Merge the related PR in [K8s repository](https://github.com/meilisearch/meilisearch-kubernetes/pulls)
 - [ ] Publish [DevOps tools](https://github.com/meilisearch/cloud-providers/):
   - [ ] create the git tag
@@ -50,6 +52,4 @@ Brief explanation of the feature and the impact potential impact on the integrat
 TODO:
 - [ ] JS: TBD
 - [ ] PHP: TBD
-- [ ] TBD
-
-The following integrations will not have the feature available for the release day except if the community implements it: TBD
+- [ ] ... TBD
