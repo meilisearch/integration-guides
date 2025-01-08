@@ -56,19 +56,16 @@ The exhaustive list of the maintained repositories by the team is available belo
 
 ### <img src="assets/icons/front.png" width="20"> Front-End Integrations
 
-- [Angular](https://github.com/meilisearch/meilisearch-angular)
 - [React](https://github.com/meilisearch/meilisearch-react)
 - [Vue](https://github.com/meilisearch/meilisearch-vue)
 - [instant-meilisearch](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch): A search client that enables the integration of the open-source tool [instantsearch.js](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/) with Meilisearch. This client allows you to combine the functionalities of Meilisearch with InstantSearch.js, resulting in a powerful and interactive search user interface.
 - [Autocomplete client](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/autocomplete-client): A search client that enables the integration of the open-source tool [autocomplete-js](https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete/) with Meilisearch. This client allows you to utilize the powerful features of Meilisearch in combination with autocomplete functionality for an enhanced search experience.
-- [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 
 ### 🧩 Platform Plugins
 
 - [Firestore](https://github.com/meilisearch/firestore-meilisearch/)
 - [Gatsby](https://github.com/meilisearch/gatsby-plugin-meilisearch/)
 - [Strapi](https://github.com/meilisearch/strapi-plugin-meilisearch)
-- [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
 
 ### 🐳 DevOps Tools
 
@@ -88,6 +85,12 @@ The exhaustive list of the maintained repositories by the team is available belo
 ### 🚧 Work In Progress
 
 - [Flutter](https://github.com/meilisearch/meilisearch-flutter)
+
+### ⚠️ Deprecated
+
+- [Angular](https://github.com/meilisearch/meilisearch-angular)
+- [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
+- [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
 
 ## 🍿 Discussions
 
