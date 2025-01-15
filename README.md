@@ -74,7 +74,6 @@ The exhaustive list of the maintained repositories by the team is available belo
   How to deploy a Meilisearch instance on every provider:
   - See this [dedicated page for AWS](https://www.meilisearch.com/docs/learn/cookbooks/aws?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
   - See this [dedicated page for DigitalOcean](https://www.meilisearch.com/docs/learn/cookbooks/digitalocean?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
-  - See this [dedicated page for GCP](https://www.meilisearch.com/docs/learn/cookbooks/gcp?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
 
 ### <img src="assets/icons/other.png" width="20"> Misc
 
@@ -91,6 +90,7 @@ The exhaustive list of the maintained repositories by the team is available belo
 - [Angular](https://github.com/meilisearch/meilisearch-angular)
 - [docs-searchbar.js](https://github.com/meilisearch/docs-searchbar.js): a search bar integration for all kinds of documentation.
 - [VuePress](https://github.com/meilisearch/vuepress-plugin-meilisearch)
+- Meilisearch image for GCP (one-click deploy), originally available [in this repository](https://github.com/meilisearch/cloud-providers/tree/main).
 
 ## 🍿 Discussions
 
