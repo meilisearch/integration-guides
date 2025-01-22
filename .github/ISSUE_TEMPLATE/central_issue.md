@@ -3,7 +3,7 @@ name: New central issue
 about: ⚠️ Should only be used by the internal Meili team ⚠️
 title: 'Changes related to Meilisearch v1.Y.0'
 labels: 'Meilisearch bump'
-assignees: 'curquiza, brunoocasali', 'Strift'
+assignees: 'curquiza, brunoocasali, Strift'
 ---
 
 This issue gathers the changes related to the v1.Y.0 of Meilisearch that will impact the integrations scope.
