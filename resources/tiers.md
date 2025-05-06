@@ -116,7 +116,6 @@ Here is the list of the external collaborators that help us:
 - **[@mmachatschek](https://github.com/mmachatschek)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`laravel/scout`](https://github.com/laravel/scout)
 - **[@norkunas](https://github.com/norkunas)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`meilisearch-symfony`](https://github.com/meilisearch/meilisearch-symfony)
 - **[@sanders41](https://github.com/sanders41)**: [`meilisearch-python`](https://github.com/meilisearch/meilisearch-python), [`docs-scraper`](https://github.com/meilisearch/docs-scraper)
-- **[@ellnix](https://github.com/ellnix)**: [`meilisearch-ruby`](https://github.com/meilisearch/meilisearch-ruby), [`meilisearch-rails`](https://github.com/meilisearch/meilisearch-rails)
 - **[@Sherlouk](https://github.com/Sherlouk)**: [`meilisearch-swift`](https://github.com/meilisearch/meilisearch-swift)
 - **[@flevi29](https://github.com/flevi29)**: [`meilisearch-js`](https://github.com/meilisearch/meilisearch-js), [`meilisearch-js-plugins`](https://github.com/meilisearch/meilisearch-js-plugins)
 - **[@Ja7ad](https://github.com/Ja7ad)**: [`meilisearch-go`](https://github.com/meilisearch/meilisearch-go)
@@ -136,7 +135,7 @@ Whenever a anomaly is detected, a change can be submitted to the `integration-gu
 
 The other way around is also valid. A SDK can move to less important tiers. :shipit:
 
-### Why SDKs are present in a particular tier?
+### Why are SDKs present in a particular tier?
 
 In general, because those SDKs have more and the most active users. By "active users," it means more activity in the repository, like contributions, watching (GitHub watchers), stargazers (GitHub stars), and forks (GitHub clones).
 
