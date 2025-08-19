@@ -67,7 +67,6 @@ Java | #2 | @curquiza |
 Go | #2 | @curquiza |
 Rails | #2 | @brunoocasali |
 Ruby | #2 | @brunoocasali |
-Cloud Providers | #2 | @brunoocasali |
 Kubernetes Chart | #2 | @brunoocasali |
 | | |
 Dart | #3 | @brunoocasali |
