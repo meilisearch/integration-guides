@@ -70,10 +70,6 @@ The exhaustive list of the maintained repositories by the team is available belo
 ### 🐳 DevOps Tools
 
 - [meilisearch-kubernetes](https://github.com/meilisearch/meilisearch-kubernetes): A helm chart that help you deploying Meilisearch on Kubernetes.
-- [Cloud Providers](https://github.com/meilisearch/cloud-providers): Centralize a set of tools to build Meilisearch images for multiple platforms.
-  How to deploy a Meilisearch instance on every provider:
-  - See this [dedicated page for AWS](https://www.meilisearch.com/docs/learn/cookbooks/aws?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
-  - See this [dedicated page for DigitalOcean](https://www.meilisearch.com/docs/learn/cookbooks/digitalocean?utm_campaign=oss&utm_source=github&utm_medium=integration-guides) to use it.
 
 ### <img src="assets/icons/other.png" width="20"> Misc
 
