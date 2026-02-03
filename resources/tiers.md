@@ -84,7 +84,6 @@ Vue | #3 | @curquiza |
 docs-searchbar.js | Deprecated | @curquiza |
 docs-scraper | Deprecated | @brunoocasali |
 meilisearch-migration | Deprecated | @curquiza |
-VuePress | Deprecated | @curquiza |
 
 
 ## Internal maintainers
