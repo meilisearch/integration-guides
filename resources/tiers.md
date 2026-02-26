@@ -50,38 +50,38 @@ Depending on the reasons, integrations in this group tend to be archived at some
 
 Bug fixes have to be done by the community since the Meili team cannot afford to spend time on them.
 
-We made our best to provide alternatives to this tools: check the related README of these repositories to get more information.
+We made our best to provide alternatives to these tools: check the related README of these repositories to get more information.
 
 ## Tiers list
 
-Integration | Tier | Meili maintainer |
--------------|------|-----|
-JavaScript | #1 | @brunoocasali |
-PHP | #1 | @curquiza |
-meilisearch-js-plugins | #1 | @brunoocasali |
-Strapi | #1 | @brunoocasali |
+Integration | Tier |
+-------------|------|
+JavaScript | #1 |
+PHP | #1 |
+meilisearch-js-plugins | #1 |
+Strapi | #1 |
 | | |
-.NET | #2 | @curquiza |
-Python | #2 | @curquiza |
-Java | #2 | @curquiza |
-Go | #2 | @curquiza |
-Rails | #2 | @brunoocasali |
-Ruby | #2 | @brunoocasali |
-Kubernetes Chart | #2 | @brunoocasali |
+.NET | #2 |
+Python | #2 |
+Java | #2 |
+Go | #2 |
+Rails | #2 |
+Ruby | #2 |
 | | |
-Dart | #3 | @brunoocasali |
-Rust | #3 | @curquiza |
-Firebase | #3 | @brunoocasali |
-Swift | #3 | @curquiza |
-Symfony | #3 | @brunoocasali |
-Mini-dashboard | #3 | @curquiza |
+Dart | #3 |
+Rust | #3 |
+Firebase | #3 |
+Swift | #3 |
+Symfony | #3 |
+Mini-dashboard | #3 |
+Kubernetes Chart | #3 |
 | | |
-docs-scraper | Deprecated | @brunoocasali |
+docs-scraper | Deprecated |
 
 
 ## Internal maintainers
 
-@curquiza and @brunoocasali are the main maintainers of the integration scope.
+@Strift, @curquiza and @brunoocasali are the main maintainers of the integration scope.
 
 They are responsible for:
 
