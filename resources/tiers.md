@@ -1,12 +1,12 @@
 # SDK tiers
 
-The objective of Meilisearch's integrations is to **ease Meilisearch usage to as many developers as possible**.
+The objective of Meilisearch's integrations is to **make Meilisearch easier to use for as many developers as possible**.
 
 Given this statement, **tiers** are nothing more than a __group of SDKs/integrations__ where the Meilisearch team can fairly divide their attention. Unfortunately, it is not possible to keep all the SDKs 100% updated against the new Meilisearch features from Meilisearch releases all the time. The Meilisearch team is a small team that maintains 30+ different integrations and tools, so it is humanly impossible to consistently meet the Meilisearch quality standards.
 
 The ultimate goal of introducing tiers is to allow the team to have more time to invest in new projects/integrations to impact even more users.
 
-To measure the impact of an SDK, the data come from different places like [telemetry](https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html) and GitHub's stars, forks, and watchers.
+To measure the impact of an SDK, the data comes from different places like [telemetry](https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html) and GitHub's stars, forks, and watchers.
 
 It is worth remembering that this priority is just a concept introduced by the team that aims to give a **decision weight** before investing time in some issues of the SDKs. So, it does not mean they will never work on feature requests from the bottom tiers anymore, but it says they will prioritize the top tiers most of the time transparently.
 
@@ -50,45 +50,38 @@ Depending on the reasons, integrations in this group tend to be archived at some
 
 Bug fixes have to be done by the community since the Meili team cannot afford to spend time on them.
 
-We made our best to provide alternatives to this tools: check the related README of these repositories to get more information.
+We did our best to provide alternatives to these tools: check the related README of these repositories to get more information.
 
 ## Tiers list
 
-Integration | Tier | Meili maintainer |
--------------|------|-----|
-JavaScript | #1 | @brunoocasali |
-PHP | #1 | @curquiza |
-meilisearch-js-plugins | #1 | @brunoocasali |
-Strapi | #1 | @brunoocasali |
+Integration | Tier |
+-------------|------|
+JavaScript | #1 |
+PHP | #1 |
+meilisearch-js-plugins | #1 |
+Strapi | #1 |
 | | |
-.NET | #2 | @curquiza |
-Python | #2 | @curquiza |
-Java | #2 | @curquiza |
-Go | #2 | @curquiza |
-Rails | #2 | @brunoocasali |
-Ruby | #2 | @brunoocasali |
-Kubernetes Chart | #2 | @brunoocasali |
+.NET | #2 |
+Python | #2 |
+Java | #2 |
+Go | #2 |
+Rails | #2 |
+Ruby | #2 |
 | | |
-Dart | #3 | @brunoocasali |
-Rust | #3 | @curquiza |
-Gatsby | #3 | @brunoocasali |
-Firebase | #3 | @brunoocasali |
-Flutter | #3 | @brunoocasali |
-Swift | #3 | @curquiza |
-Symfony | #3 | @brunoocasali |
-Mini-dashboard | #3 | @curquiza |
-Angular | #3 | @curquiza |
-React | #3 | @curquiza |
-Vue | #3 | @curquiza |
+Dart | #3 |
+Rust | #3 |
+Firebase | #3 |
+Swift | #3 |
+Symfony | #3 |
+Mini-dashboard | #3 |
+Kubernetes Chart | #3 |
 | | |
-docs-searchbar.js | Deprecated | @curquiza |
-docs-scraper | Deprecated | @brunoocasali |
-meilisearch-migration | Deprecated | @curquiza |
+docs-scraper | Deprecated |
 
 
 ## Internal maintainers
 
-@curquiza and @brunoocasali are the main maintainers of the integration scope.
+@Strift, @curquiza and @brunoocasali are the main maintainers of the integration scope.
 
 They are responsible for:
 
@@ -97,10 +90,10 @@ They are responsible for:
     - Redirect support questions to [Meili Discord](https://discord.meilisearch.com/)
     - Answer and apply triage on issues
     - Browse the requested feature requests: validate them, reject them, or ask for community's opinion.
-- Browsing community's PRs and ensure they are reviewed
-- Ensuring security fixes by merging bump of Dependabot
-- Ensuring and follow [pre-release work related to the new Meilisearch version](./meilisearch-pre-release-work.md)
-- Merge regularly Dependabot update to avoid outdated dependencies. We try to do it before releasing a new version of the integration.
+- Browsing community PRs and ensuring they are reviewed
+- Ensuring security fixes by merging Dependabot dependency bumps
+- Ensuring and following [pre-release work related to the new Meilisearch version](./meilisearch-pre-release-work.md)
+- Merging Dependabot updates regularly to avoid outdated dependencies. We try to do it before releasing a new version of the integration.
 
 ## External contributors
 
@@ -110,7 +103,7 @@ They have the `Collaborator` badge and rights. So whenever you interact with one
 
 Here is the list of the external collaborators that help us:
 
-- **[@ahmednfwela](https://github.com/ahmednfwela)**: [`meilisearch-flutter`](https://github.com/meilisearch/meilisearch-flutter), [`meilisearch-dart`](https://github.com/meilisearch/meilisearch-dart), [`meilisearch-dotnet`](https://github.com/meilisearch/meilisearch-dotnet)
+- **[@ahmednfwela](https://github.com/ahmednfwela)**: [`meilisearch-dart`](https://github.com/meilisearch/meilisearch-dart), [`meilisearch-dotnet`](https://github.com/meilisearch/meilisearch-dotnet)
 - **[@mmachatschek](https://github.com/mmachatschek)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`laravel/scout`](https://github.com/laravel/scout)
 - **[@norkunas](https://github.com/norkunas)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`meilisearch-symfony`](https://github.com/meilisearch/meilisearch-symfony)
 - **[@sanders41](https://github.com/sanders41)**: [`meilisearch-python`](https://github.com/meilisearch/meilisearch-python), [`docs-scraper`](https://github.com/meilisearch/docs-scraper)
@@ -122,28 +115,28 @@ Here is the list of the external collaborators that help us:
 
 ### How are the tiers organized?
 
-The method used is mainly manual and subjective, using previously collected data from the [telemetry](https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html) and Github to generate the groups.
+The method used is mainly manual and subjective, using previously collected data from the [telemetry](https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html) and GitHub to generate the groups.
 
-Only 3 tiers were defined, but this number may change in the future, and this guide will be updated accordindgly.
+Only 3 tiers were defined, but this number may change in the future, and this guide will be updated accordingly.
 
 ### Is it possible for an SDK to move up a level?
 
 Yes, fully possible! Especially if the team detects that more users are interested in and using it.
-Whenever a anomaly is detected, a change can be submitted to the `integration-guides` and the groups will be modified to better manage the team's time. The reassessment of the tiers will be carried out every release cycle (8 weeks).
+Whenever an anomaly is detected, a change can be submitted to the `integration-guides` and the groups will be modified to better manage the team's time. The reassessment of the tiers will be carried out every release cycle (8 weeks).
 
-The other way around is also valid. A SDK can move to less important tiers. :shipit:
+The other way around is also valid. An SDK can move to less important tiers. :shipit:
 
 ### Why are SDKs present in a particular tier?
 
-In general, because those SDKs have more and the most active users. By "active users," it means more activity in the repository, like contributions, watching (GitHub watchers), stargazers (GitHub stars), and forks (GitHub clones).
+In general, because those SDKs have more and the most active users. By "active users," we mean more activity in the repository, like contributions, watching (GitHub watchers), stargazers (GitHub stars), and forks (GitHub clones).
 
-Besides GitHub data, we track the importance of integration by constantly watching the data sent through the [telemetry](https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html). Note that data is ANONYMOUS, but we know the used client by looking at the `User-Agent`/`X-Meilisearch-Client` headers.
+Besides GitHub data, we track the importance of integrations by constantly watching the data sent through the [telemetry](https://docs.meilisearch.com/learn/what_is_meilisearch/telemetry.html). Note that data is ANONYMOUS, but we know the used client by looking at the `User-Agent`/`X-Meilisearch-Client` headers.
 We also give more weight when we know a particular SDK has more Meilisearch Cloud customers.
 
 PS: Other principles that are not written here may be used to move SDKs around if the team thinks it is relevant.
 
 ### When will the new features from a new Meilisearch release be released in the integrations?
 
-#1 integrations are up to date with the latest version of Meilisearch in the coming week of the [Meilisearch release](https://github.com/meilisearch/meilisearch/releases).
+#1 integrations are up to date with the latest version of Meilisearch within the first week following the [Meilisearch release](https://github.com/meilisearch/meilisearch/releases).
 
 For other tiers, the features have to be implemented by the community. Issues are present in the related integration repositories. Once the PR is ready, the maintainers of the repository review and merge it to integrate it into the next integration release.
