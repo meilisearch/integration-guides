@@ -71,19 +71,12 @@ Kubernetes Chart | #2 | @brunoocasali |
 | | |
 Dart | #3 | @brunoocasali |
 Rust | #3 | @curquiza |
-Gatsby | #3 | @brunoocasali |
 Firebase | #3 | @brunoocasali |
-Flutter | #3 | @brunoocasali |
 Swift | #3 | @curquiza |
 Symfony | #3 | @brunoocasali |
 Mini-dashboard | #3 | @curquiza |
-Angular | #3 | @curquiza |
-React | #3 | @curquiza |
-Vue | #3 | @curquiza |
 | | |
-docs-searchbar.js | Deprecated | @curquiza |
 docs-scraper | Deprecated | @brunoocasali |
-meilisearch-migration | Deprecated | @curquiza |
 
 
 ## Internal maintainers
@@ -110,7 +103,7 @@ They have the `Collaborator` badge and rights. So whenever you interact with one
 
 Here is the list of the external collaborators that help us:
 
-- **[@ahmednfwela](https://github.com/ahmednfwela)**: [`meilisearch-flutter`](https://github.com/meilisearch/meilisearch-flutter), [`meilisearch-dart`](https://github.com/meilisearch/meilisearch-dart), [`meilisearch-dotnet`](https://github.com/meilisearch/meilisearch-dotnet)
+- **[@ahmednfwela](https://github.com/ahmednfwela)**: [`meilisearch-dart`](https://github.com/meilisearch/meilisearch-dart), [`meilisearch-dotnet`](https://github.com/meilisearch/meilisearch-dotnet)
 - **[@mmachatschek](https://github.com/mmachatschek)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`laravel/scout`](https://github.com/laravel/scout)
 - **[@norkunas](https://github.com/norkunas)**: [`meilisearch-php`](https://github.com/meilisearch/meilisearch-php), [`meilisearch-symfony`](https://github.com/meilisearch/meilisearch-symfony)
 - **[@sanders41](https://github.com/sanders41)**: [`meilisearch-python`](https://github.com/meilisearch/meilisearch-python), [`docs-scraper`](https://github.com/meilisearch/docs-scraper)
